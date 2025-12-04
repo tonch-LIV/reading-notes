@@ -1,6 +1,6 @@
 # reading-notes
 ### Growth Mindset
-When faced with tasks or events of uncertainty or unknown to oneself, but curious to root their origin; that's what copmes to mind regarding growth mindset.</br>
+When faced with tasks or events of uncertainty or unknown to oneself, but curious to root their origin; that's what comes to mind regarding growth mindset.</br>
 Always being open to hearing, seeing, doing, and learning overall; regardless of new subjects or refreshing old material.</br>
 All this to allow oneself to learn and grow from obstacles and challenges that weren't comfortable tackling or easily known before.</br>
 
