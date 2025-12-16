@@ -1,6 +1,6 @@
-# Learning Markdown
+# 102-Read_01
 
-## 102-Reading_01
+## Learning Markdown
 
 1. Markdown is a formatting language used on elements in plaintext text documents.
 2. A reason to use Markdown is because it’s *lightweight*, *portable*, and *independent*; it can be used to cater to different needs and create different types of documents.

@@ -1,4 +1,6 @@
-# Git intro
+# 102_Read_03
+
+## Git intro
 
 1. What is Version Control?
     - A system that records & tracks changes and allows one to re-visit previous revisions of a file/set of files.
@@ -7,6 +9,7 @@
 3. What is the command to track and stage files?
     - `git add []` followed by the file name tracks a singular file
     - `git add *` tracks all files in repository
+        - Remember **ACP**; **A**dd > **C**ommit > **P**ush
 4. What is the command to take a snapshot of your changed files?
     - `git commit -a` commits a snapshot of all modifications to tracked files
 5. What is the command to send your changed files to Github?

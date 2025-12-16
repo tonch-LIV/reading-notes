@@ -1,11 +1,13 @@
-# The Coder's Computer
+# 102_Read_02
 
-## Choosing a Text Editor summary
+## The Coder's Computer
+
+### Choosing a Text Editor summary
 
 A text editor is a helpful tool used to format text when writing code. Choosing a “good” one is all about preference over features present in one versus another.
 
-The list of notable features is expansive, but a few important ones revolve around making the process of writing “easier” through extensions, syntax highlighting, code completion, etc.
-As simple and basic as they may be, a good starting point would be to use the text editor that should come pre-installed with your computer’s OS & explore a few others to get a feel of what you need and what you prefer.
+The list of notable features is expansive, but a few important ones revolve around making the process of writing “easier” through extensions, syntax highlighting, code completion, etc.  
+As simple and basic as they may be, a good starting point would be to use the text editor that should come pre-installed with your computer’s OS & explore a few others to get a feel of what you need and what you prefer.  
 Integrated Development Environments (IDEs) exist in the world of text editors, but add more features such as being a file manager, a compiler, debugger all bundled together in one.
 
 Once you begin writing code, make sure to use proper organization and naming conventions (root / branch directories and extension file types).
