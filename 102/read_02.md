@@ -12,6 +12,8 @@ Integrated Development Environments (IDEs) exist in the world of text editors, b
 
 Once you begin writing code, make sure to use proper organization and naming conventions (root / branch directories and extension file types).
 
+## Answer
+
 1. Four important features to look for in a text editor are code completion, syntax highlighting, themes, and extensions.
 2.  
     1. `pwd` - print working directory; tells you the current directory you are in/viewing
