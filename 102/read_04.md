@@ -1,5 +1,15 @@
 # 102_Read_04
 
+- [Wireframe & Design](#wireframe--design)
+  - [Tools / Resources](#tools--resources)
+  - [Making a wireframe in 6 steps](#making-a-wireframe-in-6-steps)
+  - [Key Principles](#key-principles)
+- [Mozilla HTML Basics](#mozilla-html-basics)
+  - [Docs](#docs)
+  - [Elements](#elements)
+- [Semantics](#semantics)
+- [Answer](#answer)
+
 ## Wireframe & Design
 
 When talking about wireframing, it's easy to compare the practice akin to a *storyboard* used in movies or shows.  
@@ -13,13 +23,11 @@ How you make a wireframe is a personal choice; some might benefit from ways othe
 
 ### Tools / Resources
 
- [comment: add reference links to sites.]: #
-
 - Pen & paper (plus examples).
-- InVision: great for collabaration & feedback.
-- UXPin: easy to build and use prototypes right in web browser.
-- Wireframe.cc: digital pen and paper right in web browser.
-- Balsamiq: simple design elements that focus on user flow.
+- [InVision](https://in-vision.webflow.io/): great for collabaration & feedback.
+- [UXPin](https://www.uxpin.com/wireframing): easy to build and use prototypes right in web browser.
+- [Wireframe.cc](https://wireframe.cc/): digital pen and paper right in web browser.
+- [Balsamiq](https://balsamiq.com/): simple design elements that focus on user flow.
 
 ### Making a wireframe in 6 steps
 
@@ -37,11 +45,11 @@ A good wireframe does the heavy lifting of allowing a user to experience and lea
 
 ## Mozilla HTML Basics
 
-**HTML** stands for **H**ypertext **T**ransfer **M**arkup **L**anguage and is used across the world wide web to build websites and format their content. Elements are used to wrap around text content and define its formatting throughout the structure of a site. Most, but not all, elements have an opening and closing tag (i.e. `<html>content</html>)`.
+**HTML** stands for **H**ypertext **T**ransfer **M**arkup **L**anguage and is used across the world wide web to build websites and format their content. Elements are used to wrap around text content and define its formatting throughout the structure of a site. Most, but not all, elements have an opening and closing tag (i.e. `<html>content</html>`).
 
 ### Docs
 
-Through the use of links, HTML documents are connected to each other, resulting in the world wide web. Websites are further enhanced by the use of other tools/languages like **CSS** for styling and presentation, and **Javascript** for behavior, responsive elements and functionality.
+Through the use of links, HTML documents are connected to each other, resulting in the world wide web. Websites are further enhanced by the use of other tools/languages like **[CSS](read_05)** for styling and presentation, and **[Javascript](read_06)** for behavior, responsive elements and functionality.
 
 ### Elements
 
@@ -56,7 +64,7 @@ The meaning of a piece of code. What effect does running/including a certain pie
 1. What is HTML and why do we use it?
     - HTML stands for Hypertext Transfer Markup Language and is used across the world wide web to build websites and format their content.
 2. What are the 3 main parts of an HTML element?
-    - The three main parts of an HTML element are the tags (< >), the name of the element within, and closing tags (</ >)
+    - The three main parts of an HTML element are the opening tags (`< >`), the name of the element within, and closing tags (`</ >`)
 3. What is it called when you give an element extra information?
     - attributes
 4. What is a semantic element?

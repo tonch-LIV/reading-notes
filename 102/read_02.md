@@ -2,7 +2,10 @@
 
 ## The Coder's Computer
 
-### Choosing a Text Editor summary
+- [Choosing a Text Editor Summary](#choosing-a-text-editor-summary)
+- [Answer](#answer)
+
+### Choosing a Text Editor Summary
 
 A text editor is a helpful tool used to format text when writing code. Choosing a “good” one is all about preference over features present in one versus another.
 

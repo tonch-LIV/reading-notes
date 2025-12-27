@@ -1,5 +1,12 @@
 # 102_Read_05
 
+- [CSS](#css)
+  - [Adding CSS](#adding-css)
+  - [Color](#color)
+  - [Reference](#reference)
+- [Myers Web Reset Stylesheet](#myers-web-reset-stylesheet)
+- [Answer](#answer)
+
 ## CSS
 
 **C**ascading **S**tyle **S**heet.  
@@ -15,7 +22,7 @@ CSS can be directly applied within the HTML doc for a singularly unique HTML pag
 
 ### Color
 
-Color can be specified by name, hex value (0x0000), rgb value (0,0,0), or HSL(A) value (0,0,0,0).
+[Color](https://www.w3schools.com/colors/colors_picker.asp?colorhex=009B77) can be specified by name, hex value `#000000`, rgb value `rgb(0,0,0)`, or HSL(A) value `hsl(0,0,0,0)`.
 
 ### Reference
 
@@ -25,7 +32,7 @@ Any syntax error will invalidate the entire rule, which will then be ignored by 
 
 A reference to be used with the goal of reducing inconsistencies in commonly used elements across websites. "... a starting point... it should be tweaked, edited, extended, and otherwise tuned... "
 
-## Asnwer
+## Answer
 
 1. What is the purpose of CSS?
     - To personalize how sites are designed and presented on a browser.

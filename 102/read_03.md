@@ -1,6 +1,10 @@
 # 102_Read_03
 
-## Git intro - Answer
+## Git intro
+
+- [Answer](#answer)
+
+## Answer
 
 1. What is Version Control?
     - A system that records & tracks changes and allows one to re-visit previous revisions of a file/set of files.
