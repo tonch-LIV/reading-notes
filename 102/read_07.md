@@ -62,7 +62,7 @@ If you were to invoke a function with incorrect parameters; missing value(s) wit
 
 #### Arrow Functions
 
-Introduced in later revicions of ES6[link], arrows `=>` allow for the use of shorter function syntax.
+Introduced in later revicions of [ES6](https://www.w3schools.com/js/js_es6.asp), arrows `=>` allow for the use of shorter function syntax.
 
 #### Local Variables
 
