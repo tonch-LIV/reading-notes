@@ -26,9 +26,9 @@ JavaScript is well known to include many control structures like conditionals, l
 
 ## Functions
 
-### W3 Schools
+### W3 Schools + MDN
 
-Functions are fundamental program building blocks, that are often reusable, and are executed when "called/invoked" to perform a particular task.  
+Functions are similar to a procedure; steps that peform a task or calculation. Takes input and returns output. They are fundamental program building blocks, that are often reusable, and are executed when "called/invoked" to perform a particular task. Must be defined in oreder to be called.  
 
 ``` js
 function pair(a, b) {
@@ -40,7 +40,8 @@ would return whatever numbers would be substituted for "a" and "b" when calling 
 
 #### Structure
 
-`function` is the keyword that defines all functions. The structure is as follows `function functionName() {}`. naming rules for functions are the same as for variables[link]. optional parameters go inside `()` and the code to be executed would go between `{}`.  
+`function` is the keyword that defines all functions. The structure is as follows `function functionName() {}`. naming rules for functions are the same as for [variables](/https://tonch-liv.github.io/reading-notes/102/read_06#variables
+b). optional parameters go inside `()` and the code to be executed would go between `{}`.  
 Since functions allow for reusable blocks of code, they allow for better organization and ultimately, efficiency in creating and executing code.
 
 #### Invocation
@@ -89,8 +90,6 @@ We use,
 ```js
 let distance = "the library is " + toMiles(5) + " miles away.";
 ```
-
-### MDN
 
 ## Operators
 
@@ -169,6 +168,8 @@ Additional comparison operators are,
 **note: `=>` is the notation used for [Arrow functions](#arrow-functions)*
 
 ### Logical operators
+
+Return a `true` or `false` statement per expression statement.
 
 |Operator |Description         |
 |---------|--------------------|
