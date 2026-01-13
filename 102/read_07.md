@@ -2,14 +2,13 @@
 
 - [Control Flow](#control-flow)
 - [Functions](#functions)
-  - [W3 Schools](#w3-schools)
+  - [W3 + MDN](#w3-schools--mdn)
     - [Structure](#structure)
     - [Invocation](#invocation)
     - [Arrow Functions](#arrow-functions)
     - [Local Variables](#local-variables)
     - [Parameters vs Arguments](#parameters-vs-arguments)
     - [Functions as Variables](#functions-as-variables)
-  - [MDN](#mdn)
 - [Operators](#operators)
   - [Assignment](#assignment)
   - [Arithmetic](#arithmetic)
@@ -40,8 +39,7 @@ would return whatever numbers would be substituted for "a" and "b" when calling 
 
 #### Structure
 
-`function` is the keyword that defines all functions. The structure is as follows `function functionName() {}`. naming rules for functions are the same as for [variables](/https://tonch-liv.github.io/reading-notes/102/read_06#variables
-b). optional parameters go inside `()` and the code to be executed would go between `{}`.  
+`function` is the keyword that defines all functions. The structure is as follows `function functionName() {}`. naming rules for functions are the same as for [variables](/read_06.md#variables); optional parameters go inside `()` and the code to be executed would go between `{}`.  
 Since functions allow for reusable blocks of code, they allow for better organization and ultimately, efficiency in creating and executing code.
 
 #### Invocation
@@ -118,8 +116,6 @@ Other assignment operators include,
 |^=       |x ^= f()  |x = x ^ f()     |
 |\|=      |x \|= f() |x = x \| f()    |
 |&&=      |x &&= f() |x && (x = f())  |
-|
-|
 
 ### Arithmetic
 
@@ -198,7 +194,7 @@ If the value has more the 32 bits, their most significant bits (leftmost) will b
     - Control flow regards to the order in which code is executed once run.
 2. What is a JavaScript function?
     - Blocks of code which you can reuse by calling/invoking them and have them output different results based on the parameters given.
-3. What does it mean to invoke - or call - a function?
+3. What does it mean to invoke/call a function?
     - Invoking/calling refers to the act of recalling the function in different places throughout the script/code.
 4. What are the parenthesis () for when you define a function?
     - The parenthesis are the optional parameters operator. you can list placeholder values within them when you define the function.
