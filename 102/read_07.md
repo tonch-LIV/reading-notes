@@ -76,7 +76,7 @@ Parameters are the names listed in the function definition, while arguments are 
 #### Functions as Variables
 
 In all types of formulas, assignments, and calculations; functions can be used as variables. Reduces the amount of lines written.  
-Instead of,
+Instead of,h
 
 ```js
 let a = toMiles(5);
