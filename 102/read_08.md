@@ -135,6 +135,6 @@ Avoid infinite loops by ensuring condition eventually becomes `false`.
 2. Why would we use a loop while coding?
     - When we want a task to repeat until a condition is met; either correct/expected result or attempts made.
 3. When does a `for` loop stop executing?
-    - a `for` loop stops executing when when the condition is evaluated to be `false`, therby breaking/ending the loop.
+    - a `for` loop stops executing when when the condition is evaluated to be `false`, thereby breaking/ending the loop. Usually after a set number of attempts.
 4. How many times will a while loop execute?
-    - Executes so long as the condition is evaluyated to be `true`.
+    - Executes so long as the condition is evaluated to be `true`/ Until a condition is met.
