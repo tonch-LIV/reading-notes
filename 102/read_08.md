@@ -1,8 +1,11 @@
 # 102_Read_08
 
 - [Expressions and Operators](#expressions-and-operators)
-  - [Comparison](#comparison)
   - [Assignment](#assignment)
+    - [Assigning to properties](#assigning-to-properties)
+    - [Destructuring](#destructuring)
+    - [Evaluation and nesting](#evaluation-and-nesting)
+  - [Comparison](#comparison)
 - [Loops](#loops)
   - [for statements](#for-statements)
   - [while statements](#while-statements)
@@ -68,8 +71,70 @@ Compares the operands on both sides ofthe operator and returns a logical vlaue d
 
 ## Loops
 
+When a task is expected to repeat until an expected outcome or a limit of attempts is made. Different iteration statements that are available can be found in the Javascript [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide). Loops, regardless of which type, do practically the same thing, with the same goal in mind; to complete the loop (unless the loop repeats ad infinitum or does not run, essentially broken). Only differing in ways to start and end the loop.
+
+The most coomon loops being:
+
+- [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)
+- [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#while_statement)
+
+including others such as:
+
+- [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#do...while_statement)
+- [for...in](#)
+- [for...of](#)
+- [labeled](#)
+- [break](#)
+- [continue](#)
+
 ### for statements
+
+Repeats until a specified condition evaluates to false, breaking the loop. Operates very similar to how a for loop would for Java and C.
+
+The structure of a `for` statement is as follows:
+
+``` js
+for (initialization; condition; afterthought)
+  statement
+```
+
+with the steps being:
+
+1. The `initialization` (if any) is executed.
+Starting one (or more) counters for the loop, which can be as intricate or complex as needed. Variables can also be declared here.
+2. The `condition` is evaluated.
+If true, the loop statements execute. If not, loop stops/doesn't run. Assumed true if ommitted from statement.
+3. The `statement` executes. Multiple statements can be executed using [block statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block) `{ }` to group statements together.
+4. `afterthought` is executed, if present.
+5. Returns to step 2.
 
 ### while statements
 
+Executes statement so long as condition evaluates to `true`.  
+The structure of a `while` statement looks as such:
+
+``` js
+while (condition)
+  statement
+```
+
+When/if `condition` becomes `false`, the `statement` stops executing and control passes to statement *after* the loop.  
+
+1. The `condition` is tested before `statement` is executed.  
+    - If `true`, `statement` is executed and `condition` is tested again.  
+    - If `false`, loop exection does not happen and control continues to statement after `while` statement.
+
+Block statement `{ }` can be used to group multiple statements wished to execute.
+
+Avoid infinite loops by ensuring condition eventually becomes `false`.
+
 ## Answers
+
+1. What is an expression in JavaScript?
+    - a shorthand chosen to represent something else. i.e. `x = 7`, `x` represents `7`.
+2. Why would we use a loop while coding?
+    - When we want a task to repeat until a condition is met; either correct/expected result or attempts made.
+3. When does a `for` loop stop executing?
+    - a `for` loop stops executing when when the condition is evaluated to be `false`, therby breaking/ending the loop.
+4. How many times will a while loop execute?
+    - Executes so long as the condition is evaluyated to be `true`.
