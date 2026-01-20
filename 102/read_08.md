@@ -81,11 +81,11 @@ The most coomon loops being:
 including others such as:
 
 - [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#do...while_statement)
-- [for...in](#)
-- [for...of](#)
-- [labeled](#)
-- [break](#)
-- [continue](#)
+- [for...in]()
+- [for...of]()
+- [labeled]()
+- [break]()
+- [continue]()
 
 ### for statements
 
