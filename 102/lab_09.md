@@ -40,9 +40,44 @@ Use items such as:
 7. Behavioral Questions
     - Demonstrating commitment and preparedness to the position based on past examples and/or experiences.
 
+- Future Links...
+-
+-
+-
+
 ## Professional Competencies Review
 
+### Post 102
 
+Strengths:
+
+- Growth Mindset - 
+- Teamwork
+- Quality
+
+Growth Areas
+
+- Leadership
+- Business Acumen
+- Craft
+
+### Pre 102 
+
+Class 01 Basis:  
+"Strengths
+
+    Communication - pays attention to word structure and sentence flow to compile clear, concise, and effective communication. On receiving end, attentive to speaker or writer to best understand communication as intended by the originator.
+    Craft - Use of the right tools for the right job to ensure desire outcomes.
+    Quality - Takes pride in having applied knowledge to real-world instances with above average proficiency. Careful with 'shortcuts', will use in appropriate times; as they may in deed help lighten load, but at the potential cost of something else.
+
+ 
+
+Growth
+
+    Business - customer needs & business ops should be first consideration in the grand scheme.
+    Leadership - can be confident in personally having learned something, but lacks confidence in teaching others, plus the responsibility of their outcome.
+    Growth Mindset - passive vs. active; can fall victim to fixed mindset/hubris
+"
 
 ## Linkedin
 
