@@ -22,11 +22,12 @@ Name is [Antonio Garcia Pardo](https://github.com/tonch-LIV). I am expanding my 
 
 |102                             |201                             |                                 |
 |--------------------------------|--------------------------------|---------------------------------|
-|- [Class 1 Reading](102/read_01)|- [Class 1 Reading](201/read_01)|- [Class 9 Reading](201/read_09) |
+|- [Class 1 Reading](102/read_01)|- [Class 1 Reading](201/read_01)|                                 |
 |- [Class 2 Reading](102/read_02)|- [Class 2 Reading](201/read_02)|- [Class 10 Reading](201/read_10)|
 |- [Class 3 Reading](102/read_03)|- [Class 3 Reading](201/read_03)|- [Class 11 Reading](201/read_11)|
 |- [Class 4 Reading](102/read_04)|- [Class 4 Reading](201/read_04)|- [Class 12 Reading](201/read_12)|
 |- [Class 5 Reading](102/read_05)|- [Class 5 Reading](201/read_05)|- [Class 13 Reading](201/read_13)|
 |- [Class 6 Reading](102/read_06)|- [Class 6 Reading](201/read_06)|- [Class 14 Reading](201/read_14)|
 |- [Class 7 Reading](102/read_07)|- [Class 7 Reading](201/read_07)|- [Class 15 Reading](201/read_15)|
-|- [Class 8 Reading](102/read_08)|- [Class 8 Reading](201/read_08)|-                                |
+|- [Class 8 Reading](102/read_08)|- [Class 8 Reading](201/read_08)|                                 |
+|- [Lab 9 Notes](102/lab_09.md)  |- [Class 9 Reading](201/read_09)|                                 |
