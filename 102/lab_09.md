@@ -51,7 +51,7 @@ Use items such as:
 
 Strengths:
 
-- Growth Mindset - 
+- Growth Mindset -
 - Teamwork
 - Quality
 
@@ -61,7 +61,7 @@ Growth Areas
 - Business Acumen
 - Craft
 
-### Pre 102 
+### Pre 102
 
 Class 01 Basis:  
 "Strengths
@@ -69,8 +69,6 @@ Class 01 Basis:
     Communication - pays attention to word structure and sentence flow to compile clear, concise, and effective communication. On receiving end, attentive to speaker or writer to best understand communication as intended by the originator.
     Craft - Use of the right tools for the right job to ensure desire outcomes.
     Quality - Takes pride in having applied knowledge to real-world instances with above average proficiency. Careful with 'shortcuts', will use in appropriate times; as they may in deed help lighten load, but at the potential cost of something else.
-
- 
 
 Growth
 
@@ -81,8 +79,8 @@ Growth
 
 ## Linkedin
 
-
+Followed steps on slideshow.
 
 ## Resume
 
-
+Have linked resume to [Canvas](https://canvas.instructure.com/about/120197759) profile
