@@ -30,4 +30,8 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 |- [Class 6 Reading](102/read_06)      |- [Class 6 Reading](201/read_06) |- [Class 14 Reading](201/read_14)  |
 |- [Class 7 Reading](102/read_07)      |- [Class 7 Reading](201/read_07) |- [Class 15 Reading](201/read_15)  |
 |- [Class 8 Reading](102/read_08)      |- [Class 8 Reading](201/read_08) |                                   |
-|- [Lab 9 Notes](102/lab_09.md)        |- [Class 9 Reading](201/read_09) |                                   |
+|- [Lab 9 Notes](102/lab_09.md)        |- [Class 9 Reading](201/read_09) |                                   |  
+
+| 301 - Intermediate Software development  | 401 - Advanced Software Development  |
+|------------------------------------------|--------------------------------------|
+|-                                         |-                                     |
