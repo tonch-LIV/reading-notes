@@ -34,4 +34,4 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 
 | 301 - Intermediate Software development  | 401 - Advanced Software Development  |
 |------------------------------------------|--------------------------------------|
-|-                                         |-                                     |
+|- [Class 1 Reading](301/read_01)          |- [Class 1 Reading](401/read_01)      |
