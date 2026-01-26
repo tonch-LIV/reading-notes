@@ -1,5 +1,7 @@
 # reading-notes
 
+Name is [Antonio Garcia Pardo](https://github.com/tonch-LIV). I am continously in the process of expanding my skill set and knowledge reportoire in efforts to increase my hiring potential and further career prospects. I enjoy reading a good book, camping or just driving out in the woods, and working out; I recently started doing more cardio, so I'll be running around the neighborhood or hiking outdoors. I have an interest in IT infrastructure, networking, and troubleshooting or tinkering around with stuff. This page serves as the main page that houses links for readings done in respective courses about material learned and techniques in demonstration.
+
 ## Growth Mindset
 
 When faced with tasks or events of uncertainty or unknown to oneself, but curious to root their origin; that's what comes to mind regarding growth mindset.\
@@ -11,8 +13,6 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 - <ins>Ask</ins> questions and <ins>Clarify</ins>
 - Scale <sub>down</sub> or scale <sup>up</sup> after grasping concepts and are looking to learn further.
 - Use **Resources** to cement knowledge; whether it be peers or other materials. Be ***open minded*** to different approaches.
-
-Name is [Antonio Garcia Pardo](https://github.com/tonch-LIV). I am expanding my skill set and knowledge reportoire in efforts to increase my hiring potential and further career prospects. I enjoy reading a good book, camping or just driving out in the woods, and working out; I recently started doing more cardio, so I'll be running around the neighborhood or hiking outdoors. I have an interest in IT infrastructure, networking, and troubleshooting or tinkering around with stuff.
 
 ---
 
