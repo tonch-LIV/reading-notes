@@ -1,17 +1,17 @@
 # 201_Read_01
 
 - [Getting Started]
-  - [Website Design and Process]
-  - [JavaScript Basics]
-  - [Answers.1]
-- [Intro to HTML]
-  - [Document Structure]
-  - [Metadata]
-  - [Answers.2]
-- [Misc.]
-  - [Designing a site]
-  - [Semantics]
-  - [What is JavaScript?]
+  - [Website Design and Process](#website-design-and-process)
+  - [JavaScript Basics](#javascript-basics)
+  - [Answers.1](#answers1)
+- [Intro to HTML](#intro-to-html)
+  - [Document Structure](#document-structure)
+  - [Metadata](#metadata)
+  - [Answers.2](#answers2)
+- [Miscellaneous](#miscellaneous)
+  - [Designing a site](#designing-a-site)
+  - [Semantics](#semantics)
+  - [What is JavaScript?](#what-is-javascript)
 
 ## Getting Started
 
