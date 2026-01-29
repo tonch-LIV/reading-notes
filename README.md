@@ -18,7 +18,8 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 
 ## Table of Contents
 
-[Reflections](/reflections.md)
+- [Reflections](/reflections.md)
+- [Prompt Engineering](/prompt_engineering.md)
 
 | 102 - Intro to Software Development  | 201 - Foundations of            | Software Development              |
 |--------------------------------------|---------------------------------|-----------------------------------|
