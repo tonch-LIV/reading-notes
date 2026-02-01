@@ -32,6 +32,31 @@ For the user to be able to engage with the site, create input, and receive outpu
 - [Publishing](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website) -  
 Like a book, once you polish the content, its format, and are ready to share with others; you make it public and allow others to find it if you are looking for.
 
+### How the Web Works
+
+Restaurant analogy, uses similar terms although used differently.
+
+- Client - The computer, terminal, whatever the vehicle interfacing with the network/server. You making the food order.
+- Server - the chef, the one that has the dishes you are going to order and eat.
+- Network connection - This would be the waiter/waitress, they are the connection between client and server, whether it be wired, wireless, optical, nfc, etc.
+- TCP/IP - The language between you, waiter, and server. you communicate with each other about the plates, portions, ingredients and other requests.
+- DNS - The names of the dishes vs just listing out ingredients, measurements, recipe, etc.
+- HTTP - This would tie in TCP/IP and DNS; all three are protocols and coexist in the OSI / DoD model; in our analogy, HTTP would be like the portion size or taste profile of the dish we've ordered... HTTPS would be like cooking at home where you know the recipe is safe and no one tampered with it.
+- Misc files - This would be all the other stuff that make the restaurant what it is and sets it apart from all the other restaurants like it; decor, reputation, theme, menu, you name it (CSS, JS, content, etc.).
+
+#### Quick run through
+
+1. When you got to a restaurant, you either view the menu or know what you want. You speak with the wait staff and tell them the name of the dish. This is you speaking the same language (TCP/IP) through your network connection while typing the URL/name of the site into the search bar.
+2. The waiter takes your order and relays to the chef. the chef knows the recipe just by name of the dish. This is the chef resolving a DNS query from the the client through the network connection. Included in the order is the HTTP request.
+3. The chef approves the order, cooks it, and starts sending out the courses (apps, entree, etc) through the waiter to the client.
+4. Client receives order and eats.
+
+#### Networking terms explained (view definitions in ___A+/N+_link_here)
+
+DNS - Domain Name System
+Packets - Layer 3
+[HTTP](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works#http_basics) - HyperText Transfer Protocol; GET, HTTP/2 200
+
 ### Website Design and Process
 
 ### JavaScript Basics
