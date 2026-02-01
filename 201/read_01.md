@@ -75,15 +75,36 @@ JavaScript essentially uses values/elements already on the page, does some sort 
 ### Answers.1
 
 1. Compose a short poem describing how HTTP sends data between computers.
-    - Poem
+
+>"Clients pick up the phone to make a call,  
+>“Hey Server, send your page and all!”  
+>Through a Network Connection, off it goes,  
+>Riding on TCP/IP boats.  
+>
+>A stop by DNS to say,  
+>“Where does that Server live today?”  
+>Then Packets, small and neat,  
+>Carry data down the street.  
+>
+>The HTTP message replies, polite and plain,  
+>“Please send index.html again.”  
+>The Server smiles, “Here you are!”  
+>And sends it back from afar.  
+>
+>So every page you click to see,  
+>Travels the world, digitally."  
+
 2. Describe how HTML, CSS, and JS files are “parsed” in the browser.
-    - To be "parsed" means,
+    - First, HTML is downloaded/received from server.  
+    - CSS is found and loaded.  
+    - CSS and HTML combine and layout of site is rebuilt.  
+    - JavaScript comes in and adds functionality
 3. How can you find images to add to a Website?
-    - Images can be found
+    - Images can be found and added locally by linking local path or by by linking to external site where it's hosted.
 4. How do you create a String vs a Number in JavaScript?
-    - Strings, ;Numbers
+    - Strings are surrounded by quotes ('5' or "83"), ; Numbers are standalone, no quotes.
 5. What is a Variable and why are they important in JavaScript?
-    - Variables
+    - Variables are shorthand names given to blocks of code, strings of text, or references to be used later throughtout the file in various places.
 
 ## Intro to HTML
 
