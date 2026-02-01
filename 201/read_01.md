@@ -70,6 +70,8 @@ Choose a background color/theme palette. Choose some images. Choose a font.
 
 ### JavaScript Basics
 
+JavaScript essentially uses values/elements already on the page, does some sort of operation with those values, then returns an output depending on what the operation was, and that result itself can also be used later on if needed in another operation.
+
 ### Answers.1
 
 1. Compose a short poem describing how HTTP sends data between computers.
