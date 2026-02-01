@@ -1,6 +1,6 @@
 # 201_Read_01
 
-- [Getting Started]
+- [Getting Started](#getting-started)
   - [Website Design and Process](#website-design-and-process)
   - [JavaScript Basics](#javascript-basics)
   - [Answers.1](#answers1)
@@ -14,6 +14,23 @@
   - [What is JavaScript?](#what-is-javascript)
 
 ## Getting Started
+
+[Links](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website) to various tutorials, such as:
+
+- [Plannning the layout of a website](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/What_will_your_website_look_like) -  
+It's important to have a vision or goal of how you want the website to look, so you have something to strive for as you build it.
+
+- [Adding the Content](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content) -  
+How to use HTML to add structure as you incorporate elements and add content.
+
+- [Styling](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content) -  
+How to use CSS to add flair, color, and design elements to the structure (HTML).
+
+- [Interactive elements](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity) -  
+For the user to be able to engage with the site, create input, and receive output; we use JavaScript.
+
+- [Publishing](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website) -  
+Like a book, once you polish the content, its format, and are ready to share with others; you make it public and allow others to find it if you are looking for.
 
 ### Website Design and Process
 
