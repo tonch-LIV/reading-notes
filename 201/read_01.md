@@ -112,14 +112,45 @@ HTML is the structure, the skeletal frame of a website. Through the use of seman
 
 ### Getting Started with HTML
 
-An HTML element consists of an opening tag, attribute (if needed), content, closing tag (if called for). HTML offers a basic outline, it is up to the developer how intricate and detailed the site should be, as it pertains to the goal/mission/purpose of the site.
+An HTML element consists of an opening tag, attribute(s) (if needed), content, closing tag (if called for). HTML offers a basic outline, it is up to the developer how intricate and detailed the site should be; as it pertains to the goal/mission/purpose of the site.
 
 Elements can be placed within each other (nested).
-Elements that don't follow the basic outline of opening tag, content, closing tag are referred to as **void** elements and "close" within the opening tag, with or without the closing forward slash `/`.
+Elements that don't follow the basic outline of opening tag, content, closing tag are referred to as **void** elements and "close" within the opening tag, with or without the closing forward slash `/` (varies per html to xml compatibility).
 
 Attributes are compounded onto elements and modify the contents of the element.
 
 ### Document Structure
+
+`<header>` - Thin section across the top of the page with logo and or heading. Can also be used within `<article>` or `<section>`.  
+`<nav>` - Links to additional pages, also remains atop of the page.  
+`<main>` - contains most of the important content of the page. Should be used once per page and within the `<body>`.  
+`<article>` - section of content that's related to the main content, but can stand on its's own.  
+`<section>` - groups together a single part of a website, in relation to its contents.  
+`<footer>` - Thin section across the bottom of the page, known to contain copyright, notices, contact info, and the sort.  
+
+non-semantic elements exist for when you as the developer want to group items together that fall into other semantic elements.  
+`<div>` - block level  
+`<span>` - inline  
+
+Line break `<br>`, can be used nested within `<p>` elements to maintain a firm structure.  
+Horizontal rule `<hr>` adds a dividing line; used outside elements.  
+
+#### Information Architecture
+
+Past planning the layout and structure of a single webpage, is to consider how one would approach structuring a website with multiple pages.  
+
+1. It is good to keep in mind which elements will remain consistent across the various number of pages, such as:
+    - Header
+        - Title and Logo
+        - Site Language selector
+    - Navigation Menu
+    - Footer
+        - Copyright notice
+        - Link to terms and conditions, contact info, and accessibility policy
+2. Then, back to pen(pencil?) and paper. Sketch a rough draft with no major detail or content to have an ide of the layout of major stuff.
+3. Make a list of all other elements that will be local to each individual page.
+4. Sort and organize into groups or how they will be divided in similar pages.
+5. Sketch a sitemap, which will show the flow/navigation between each page.
 
 ### Metadata
 
