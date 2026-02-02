@@ -154,34 +154,44 @@ Past planning the layout and structure of a single webpage, is to consider how o
 
 ### Metadata
 
+Metadata is information located in the `<head>` of the HTML file and contains information that is not displayed on the main content are of the browser when the page is loaded.  
+
+Elements found in the `<head>` range from the page `<title>`, `<meta>` for adding context, linking to CSS `<link>` or JavaScript `<script>` (although standard practice to put JS link in the footer or with `defer` attribute to allow HTML to load before JS.), or setting the language of the site.
+
 ### Answers.2
 
 1. What is an HTML attribute?
-    - An attribute is
+    - An attribute is added information added to an element, specifically in the opening tag.
 2. Describe the anatomy of an HTML element.
-    - An element consist of
+    - An element consist of opening tag, attribute (if needed), content, and closing tag (if called for).
 3. What is the difference between `<article>` and `<section>` element tags?
-    - `<article>` ;`<section>`
+    - `<article>` can stand on its own, but stiil related to main content ;`<section>` groups together parts of a site per relevance.
 4. What elements does a “typical” website include?
-    - includes
+    - includes `<html>`, `<head>`, `<body>`, `<main>`, `<header>`, `<footer>`, plus a few others
 5. How does metadata influence Search Engine Optimization?
     - Influences SEO by
 6. How is the `<meta>` HTML tag used when specifying metadata?
-    - Used
+    - Used to add context, whether specifying language, character set, or linking to CSS/JS.
 
 ## Miscellaneous
 
 ### Designing a site
 
 1. What is the first step to designing a Website?
+    - Figure out the goal of making a website will be.
 2. What is the most important question to answer when designing a Website?
+    - What are you hoping to accomplish?
 
 ### Semantics
 
 1. Why should you use an `<h1>` element over a `<span>` element to display a top level heading?
+    - It is implied that an `<h1>` tag will format the content as a top level heading, where as a `<span>` is catered for more general use.
 2. What are the benefits of using semantic tags in our HTML?
+    - A semantic element gives the text it wraps around the meaning of what it will do.
 
 ### What is JavaScript?
 
 1. Describe 2 things that require JavaScript in the Browser?
+    - Defined running order and Browser APIs
 2. How can you add JavaScript to an HTML document?
+    - `<script>` element
