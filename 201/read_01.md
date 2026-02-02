@@ -108,6 +108,17 @@ JavaScript essentially uses values/elements already on the page, does some sort 
 
 ## Intro to HTML
 
+HTML is the structure, the skeletal frame of a website. Through the use of semantics, you know what use the content is for and where it should go.
+
+### Getting Started with HTML
+
+An HTML element consists of an opening tag, attribute (if needed), content, closing tag (if called for). HTML offers a basic outline, it is up to the developer how intricate and detailed the site should be, as it pertains to the goal/mission/purpose of the site.
+
+Elements can be placed within each other (nested).
+Elements that don't follow the basic outline of opening tag, content, closing tag are referred to as **void** elements and "close" within the opening tag, with or without the closing forward slash `/`.
+
+Attributes are compounded onto elements and modify the contents of the element.
+
 ### Document Structure
 
 ### Metadata
