@@ -76,23 +76,23 @@ JavaScript essentially uses values/elements already on the page, does some sort 
 
 1. Compose a short poem describing how HTTP sends data between computers.
 
->"Clients pick up the phone to make a call,  
->“Hey Server, send your page and all!”  
->Through a Network Connection, off it goes,  
->Riding on TCP/IP boats.  
->
->A stop by DNS to say,  
->“Where does that Server live today?”  
->Then Packets, small and neat,  
->Carry data down the street.  
->
->The HTTP message replies, polite and plain,  
->“Please send index.html again.”  
->The Server smiles, “Here you are!”  
->And sends it back from afar.  
->
->So every page you click to see,  
->Travels the world, digitally."  
+    >"Clients pick up the phone to make a call,  
+    >“Hey Server, send your page and all!”  
+    >Through a Network Connection, off it goes,  
+    >Riding on TCP/IP boats.  
+    >
+    >A stop by DNS to say,  
+    >“Where does that Server live today?”  
+    >Then Packets, small and neat,  
+    >Carry data down the street.  
+    >
+    >The HTTP message replies, polite and plain,  
+    >“Please send index.html again.”  
+    >The Server smiles, “Here you are!”  
+    >And sends it back from afar.  
+    >
+    >So every page you click to see,  
+    >Travels the world, digitally."  
 
 2. Describe how HTML, CSS, and JS files are “parsed” in the browser.
     - First, HTML is downloaded/received from server.  
