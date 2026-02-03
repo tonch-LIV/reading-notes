@@ -11,6 +11,8 @@
 - [Review - git commits](#review---git-commits)
 - [Things I want to know more about](#things-i-want-to-know-more-about)
 
+These topics matters because it's vital to understand how HTML, CSS, and JS interact and with eachother and what can each individually do.  
+
 ## Intro to HTML
 
 [Links](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content) to tutorials and challenges.
@@ -114,6 +116,19 @@ Through the use of APIs, we as developers are able to further add functionality 
 
 ## Review - git commits
 
-[This topic matters because]
+Keep messages short and sweet; the more straight to the point, the better while still including relevant info.  
+A clean log is a better log to review.  
+Might be a good idea to have a format / style as to how to write commit messages and what to include in them.  
 
 ## Things I want to know more about
+
+- Using correct quote (block and inline) format with cite.  
+- Practice use of `<abbr>`.  
+- Different ways to markup code snippets.  
+
+- Practice styling based on state or location of elements.  
+- Play with functions within CSS.  
+
+- DOM and expanding on js function/content manipulation.
+
+- git branches and merges.

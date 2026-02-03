@@ -15,7 +15,7 @@
 
 ## Getting Started
 
-This topic matters because...
+This topic matters because its important to know not only how to do something (build a site), but also why the site is being built.  
 
 [Links](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website) to various tutorials, such as:
 
