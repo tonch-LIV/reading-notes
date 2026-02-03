@@ -60,7 +60,8 @@ Various elements can be used to represent computer code, such as:
 
 ### How is CSS structured
 
-CSS can be used one of three ways. Best practice is to link an external `.css` file within `<head>` element using th `<link>` element, but you may also choose to write out all the rules used on that one page in the `<head>` element with the `<style>` element. Last choice is if you want to style just one, single element, you may choose to style it by using the `<style>` attribute in the opening tag. A benefit of linking an external style sheet is that one sheet can be used for multiple pages, if need be.  
+CSS can be used one of three ways.  
+Best practice is to link an external `.css` file within `<head>` element using th `<link>` element, but you may also choose to write out all the rules used on that one page in the `<head>` element with the `<style>` element. Last choice is if you want to style just one, single element, you may choose to style it by using the `<style>` attribute in the opening tag. A benefit of linking an external style sheet is that one sheet can be used for multiple pages, if need be.  
 
 Various selectors exist that dictate which HTML element will be style, such as:
 
@@ -89,16 +90,27 @@ Shorthand properties save keystrokes as they allow to set various values within 
 
 ### JavaScript basics
 
+Through the use of APIs, we as developers are able to further add functionality to a website and as users, are allowed to interact and manipulate various parts of the site, browser, and programming environment. APIs are built on top of the existing JS language. Usually coupled with Events, which are just that, things that happen within the browser. An event is an indicator for something to start running or happen.  
+
 1. What data type is a sequence of text enclosed in single quote marks?
+    - string
 2. List 4 types of JavaScript operators.
+    - Arithmetic, assignment, comparison, logical.
 3. Describe a real world Problem you could solve with a Function.
+    - Washing dishes..? if there are dishes in the sink, begin washing them. Soap up sponge or brush, scrub, rinse, and set to dry.
 
 ### Making decisions in code - conditionals
 
-1. An `if` statement checks a __ and if it evaluates to ___, then the code block will execute.
+1. An `if` statement checks a **condition** and if it evaluates to **true**, then the code block will execute.
 2. What is the use of an `else if`?
+    - When there is more than two choices; not black or white choice; a yes or no answer.
 3. List 3 different types of comparison operators.
+    - Greater than or less than `>` `<`
+    - Strictly equal or not equal `===` `!==`
+    - Less than/greater than or equal to `<=` `>=`.
 4. What is the difference between the logical operator `&&` and `||`?
+    - `&&` AND, combines expressions and both must be `true` for entire expression to be true.
+    - `||` OR, combines expressions and at least one must be `true`.
 
 ## Review - git commits
 

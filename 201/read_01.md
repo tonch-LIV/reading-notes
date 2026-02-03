@@ -15,6 +15,8 @@
 
 ## Getting Started
 
+This topic matters because...
+
 [Links](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website) to various tutorials, such as:
 
 - [Plannning the layout of a website](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/What_will_your_website_look_like) -  
@@ -195,3 +197,5 @@ Elements found in the `<head>` range from the page `<title>`, `<meta>` for addin
     - Defined running order and Browser APIs
 2. How can you add JavaScript to an HTML document?
     - `<script>` element
+
+## Things I want to know more about
