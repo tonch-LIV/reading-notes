@@ -60,12 +60,30 @@ Various elements can be used to represent computer code, such as:
 
 ### How is CSS structured
 
+CSS can be used one of three ways. Best practice is to link an external `.css` file within `<head>` element using th `<link>` element, but you may also choose to write out all the rules used on that one page in the `<head>` element with the `<style>` element. Last choice is if you want to style just one, single element, you may choose to style it by using the `<style>` attribute in the opening tag. A benefit of linking an external style sheet is that one sheet can be used for multiple pages, if need be.  
+
+Various selectors exist that dictate which HTML element will be style, such as:
+
+- `*` - Universal, everything on the HTML file will be styled with the following rule.
+- `(specific element)` - style all elements of the same type (paragraphs, headings, etc.).
+- `.class_name` - elements with specific `<class>` attribute will be style appropriately, adding unique name after period.
+- styling based on location in file or state of element.
+
+Functions can also be used in CSS rules to further add and modify the styling of an element/selector.  
+
+Shorthand properties save keystrokes as they allow to set various values within one line.  
+
 1. What are ways we can apply CSS to our HTML?
+    - Linking externally, writing internally or inline.
 2. Why should we avoid using inline styles?
+    - Bad practice and makes editing more difficult.
 3. Review the block of code below and answer the following questions:
     - What is representing the selector?
+        - `<h2>`
     - Which components are the CSS declarations?
+        - the code inside`{}`, `color: black;` is one declaration and `padding: 5px;` is the second declaration.
     - Which components are considered properties?
+        - the characteristic that is going to edited. `color` or `padding`.
 
 ## Learn JS
 
