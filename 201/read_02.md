@@ -13,14 +13,48 @@
 
 ## Intro to HTML
 
+[Links](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content) to tutorials and challenges.
+
 ### Text Fundamentals
+
+Headings and paragraphs exist in most pieces of writing and exist to give readable content structure and be able to easily discern different sections of what is being read.  
+
+Paragraphs are wrapped in `<p>` elements.  
+Headings stand out by being wrapped in `<h#>` elements. Replacing the number sign (#) with the corresponding number (1-6).  
+
+Having a structured site allows the user to easily scan the page for relevant content. Also, useful for search indexes to be able to pull content and categorize important keywords. Increasingly helpful for screen readers and accessibility software. Useful when utilizing CSS/JS to target specific elements.  
+
+Semantics are key to have, as their inclusion allows a developer to know what an element is expected to do/output. Easier on the developer as well as it saves keystrokes for not having to style individual/generic elements (`<span>` or `<div>`) to match desired styling/format.
 
 ### Adv. Text Formatting
 
+Blockquotes are specified by using the `<blockquote>` element and citing the source with the `cite` attribute.  
+Inline quotes are done very similar, they however use the `<q>` element within the parent element, whereas the `<blockquote>` element is the parent element. Also citing as an attribute in the opening tag.  
+
+`<abbr>` is used to represent abbreviations or acronyms.  
+
+To represent contact information, the `<address>` element is used to wrap content.  
+
+Superscript and subscript is represented by `<sup>` and `<sub>` respectively.
+
+Time and date is specified with the `<time>` element.
+
+Various elements can be used to represent computer code, such as:
+
+- `<code>` - for generic snippets.
+- `<pre>` - retains text format as seen in text editor, keeps indents, line breaks, and other whitespace.
+- `<var>` - used for variable names.
+- `<kbd>` - for input entered into PC.
+- `<samp>` - for the output of a computer program.
+
 1. Why is it important to use semantic elements in our HTML?
+    - Important to use semantics to have an idea what the code will be used for, for accessibility compatibility and ease of use, and to make the developers life easier.
 2. How many levels of headings are there in HTML?
+    - 6 levels of headings, try not to use them all and keep the hierarchy order in mind when using.
 3. What are some uses for the `<sup>` and `<sub>` elements?
+    - Formulas, numbers, dates, math in general.
 4. When using the `<abbr>` element, what attribute must be added to provide the full expansion of the term?
+    - `title`.
 
 ## Learn CSS
 
