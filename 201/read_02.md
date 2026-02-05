@@ -1,5 +1,6 @@
 # 201_Read_02
 
+- [These Topics Matter Because...](#these-topics-matters-because)
 - [Intro to HTML](#intro-to-html)
   - [Text Fundamentals](#text-fundamentals)
   - [Adv. Text Formatting](#adv-text-formatting)
@@ -9,9 +10,11 @@
   - [JavaScript basics](#javascript-basics)
   - [Making decisions in code - conditionals](#making-decisions-in-code---conditionals)
 - [Review - git commits](#review---git-commits)
-- [Things I want to know more about](#things-i-want-to-know-more-about)
+- [Things I Want To Know More About](#things-i-want-to-know-more-about)
 
-These topics matters because it's vital to understand how HTML, CSS, and JS interact and with eachother and what can each individually do.  
+## These Topics Matters Because
+
+it's vital to understand how HTML, CSS, and JS interact and with eachother and what can each individually do.  
 
 ## Intro to HTML
 
@@ -120,7 +123,7 @@ Keep messages short and sweet; the more straight to the point, the better while 
 A clean log is a better log to review.  
 Might be a good idea to have a format / style as to how to write commit messages and what to include in them.  
 
-## Things I want to know more about
+## Things I Want To Know More About
 
 - Using correct quote (block and inline) format with cite.  
 - Practice use of `<abbr>`.  
