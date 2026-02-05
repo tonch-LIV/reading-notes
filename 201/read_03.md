@@ -27,7 +27,7 @@ Various attributes can be added to the opening `<ol>` tag, such as:
 
 - `compact` - followed with boolean; deprecated, should use CSS instead to give same styling.
 - `start` - gives the ability to change starting number, rather than defaulting to 1, 2, 3, etc.
-- `type` - changes from numbers to other value types like letters or roman numerals (upper/lower).
+- `type` or `list-style-type` rule - changes from numbers to other value types like letters or roman numerals (upper/lower).
 
 Able to be nested with `<ul>` or vice versa as needed/desired.  
 DOM interface, `HTMLOListElement`
@@ -44,9 +44,13 @@ DOM Interface is `HTMLUListElement`.
 ### Answers.1
 
 1. When should you use an unordered list in your HTML document?
+    - When the order of the list items does not matter
 2. How do you change the bullet style of unordered list items?
+    - by using CSS rule `list-style-type`
 3. When should you use an ordered list vs an unorder list in your HTML document?
+    - Ordered list for listing out steps or specific order of things, uordered when there is no need for specific order.
 4. Describe two ways you can change the numbers on list items provided by an ordered list?
+    - by using `start` attribute to change starting number or `type` attribute/`list-style-type` rule to change to letters or roman numerals.
 
 ## Learn CSS
 
