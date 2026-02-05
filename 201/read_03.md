@@ -17,9 +17,29 @@
 
 ## Learn HTML
 
+Provides baseline info on cohesion between structure(HTML), design(CSS), and functionality(JavaScript) in regards to websites and the web in general.  
+Brief rundown on elements and tags with various [links](https://developer.mozilla.org/en-US/docs/Web/HTML) to dive deeper and explore more specialized topics.
+
 ### Ordered Lists
 
+Ordered lists are defined with the `<ol>` tag as the parent and `<li>` as the nested/child tag for individual list items.  
+Various attributes can be added to the opening `<ol>` tag, such as:
+
+- `compact` - followed with boolean; deprecated, should use CSS instead to give same styling.
+- `start` - gives the ability to change starting number, rather than defaulting to 1, 2, 3, etc.
+- `type` - changes from numbers to other value types like letters or roman numerals (upper/lower).
+
+Able to be nested with `<ul>` or vice versa as needed/desired.  
+DOM interface, `HTMLOListElement`
+
 ### Unordered Lists
+
+Unordered lists are specified with `<ul>` as the parent element and much like `<ol>`, `<li>` for the list items.
+
+Shares the `compact` attribute like `<ol>` as well as suggestion to use CSS.  
+`type` which is also deprecated and replaced with `list-style-type` CSS styling, differs as we are given choice for `circle`, `disc`, `square`, and (if the browser supports it, `triangle`.  
+
+DOM Interface is `HTMLUListElement`.  
 
 ### Answers.1
 
