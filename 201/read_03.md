@@ -43,13 +43,13 @@ DOM Interface is `HTMLUListElement`.
 
 ### Answers.1
 
-1. When should you use an unordered list in your HTML document?
+1. When should you use an `unordered list` in your HTML document?
     - When the order of the list items does not matter
-2. How do you change the bullet style of unordered list items?
+2. How do you change the `bullet style` of unordered list items?
     - by using CSS rule `list-style-type`
-3. When should you use an ordered list vs an unorder list in your HTML document?
+3. When should you use an `ordered list` vs an `unorder list` in your HTML document?
     - Ordered list for listing out steps or specific order of things, uordered when there is no need for specific order.
-4. Describe two ways you can change the numbers on list items provided by an ordered list?
+4. Describe two ways you can change the numbers on `list items` provided by an ordered list?
     - by using `start` attribute to change starting number or `type` attribute/`list-style-type` rule to change to letters or roman numerals.
 
 ## Learn CSS
@@ -57,6 +57,9 @@ DOM Interface is `HTMLUListElement`.
 ### The Box Model
 
 ### Answers.2
+
+1. Describe the CSS properties of `margin` and `padding` as characters in a story. What is their role in a story titled: “The Box Model”?
+2. List and describe the four parts of an HTML elements box as referred to by the `box model`.
 
 ## Learn JS
 
@@ -70,11 +73,11 @@ DOM Interface is `HTMLUListElement`.
 
 ### Answers.3
 
-1. What data types can you store inside of an Array?
-2. Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
+1. What `data types` can you store inside of an `array`?
+2. Is the `people` array a valid JavaScript array? If so, how can I access the values stored? If not, why?
 3. List five shorthand operators for assignment in JavaScript and describe what they do.
-4. Read the code below and evaluate the last expression and explain what the result would be and why.
+4. Read the code below and evaluate the last `expression` and explain what the result would be and why.
 5. Describe a real world example of when a conditional statement should be used in a JavaScript program.
-6. Give an example of when a Loop is useful in JavaScript.
+6. Give an example of when a `loop` is useful in JavaScript.
 
 ## Things I Want To Know More About
