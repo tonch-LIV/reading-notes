@@ -6,6 +6,8 @@
   - [Answers.1](#answers1)
 - [Learn CSS](#learn-css)
   - [The Box Model](#the-box-model)
+    - [Inner and Outer Display Types](#inner-and-outer-display-types)
+      - [Block and Inline Boxes](#block-and-inline-boxes)
   - [Answers.2](#answers2)
 - [Learn JS](#learn-js)
   - [Arrays](#arrays)
@@ -54,12 +56,32 @@ DOM Interface is `HTMLUListElement`.
 
 ## Learn CSS
 
+Tells what CSS is and does.  
+Provides [links](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics) for tutorials and challenges.
+
 ### The Box Model
+
+The Box Model tells us to think of everything that CSS styles (content, padding, border, and margin) as having box around it and should allow us to better visualize it and therefore have more control over styling. (seen through browser dev tools/inspect element option)
+
+#### Inner and Outer Display Types
+
+##### Block and Inline Boxes
+
+**Outer display** types refers to the behavior of the "box" and how it behaves with it's surroundings (other boxes) and the flow of the site.  
+Are values set in the `display` property for inner and outer display types. Is the default setting for behavior.  
+
+- `block` display type boxes break into new lines, dimensions (`width` and `height` are respected), and padding, margin, and border values effect other elements in their placements.
+- `inline` display type boxes do not break into new lines, dimensions, padding and borders (top and bottom) do not effect other elements, left and right padding, margin, and borders will effect elements on the same line.
+  - `<a>`, `<span>`, `<em>`, and `<strong>` elements use `inline` display type by default.  
+
+**Inner display** type controls how elements are organized within the box, changed through CSS rule of `display: flex;`
 
 ### Answers.2
 
 1. Describe the CSS properties of `margin` and `padding` as characters in a story. What is their role in a story titled: “The Box Model”?
+    - Padding and Margin, always together, but never in direct contact. The border stands between them. Padding's job is to keep the contents on the inside in place from touching the border, and margin's job is to keep other elements from getting near the border.
 2. List and describe the four parts of an HTML elements box as referred to by the `box model`.
+    - content is the text or images enclosed within the element, padding is the distance the content is from the border, border makes a perimeter around the content and padding, margin is the distance on the outside from other elements.
 
 ## Learn JS
 
