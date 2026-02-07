@@ -96,10 +96,17 @@ Are values set in the `display` property for inner and outer display types. Is t
 ### Answers.3
 
 1. What `data types` can you store inside of an `array`?
+    - mixed values; numbers, strings, null, Boolean, objects, comparison.
 2. Is the `people` array a valid JavaScript array? If so, how can I access the values stored? If not, why?
+    - es, valid nested array; people[_][_]
 3. List five shorthand operators for assignment in JavaScript and describe what they do.
+    - `+`, `-`, `*`, `/`, `%`
 4. Read the code below and evaluate the last `expression` and explain what the result would be and why.
-5. Describe a real world example of when a conditional statement should be used in a JavaScript program.
+    - checking to see if it is raining, then deciding to get an umbrella
+Example of when a loop is useful in JavaScript
+5. Describe a real world example of when a `conditional` statement should be used in a JavaScript program.
+    - checking to see if it is raining, then deciding to get an umbrella
 6. Give an example of when a `loop` is useful in JavaScript.
+    - hamering a nail until it is flattened on the wood.
 
 ## Things I Want To Know More About
