@@ -127,9 +127,9 @@ recap of [read_07](/102/read_07.md) and [read_08](/102/read_08.md) from 102 cour
 
 ```js
 if (condition) {
-	// code that will execute if condition is true
+ // code that will execute if condition is true
 } else {
-	// other code if not true
+ // other code if not true
 }
 ```
 
@@ -159,6 +159,6 @@ Example of when a loop is useful in JavaScript
 
 ## Things I Want To Know More About
 
-- DOM interface HTML(OL/UL)istElement and [global attributes](#https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes) that apply.
+- DOM interface HTML(OL/UL)istElement and [global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes) that apply.
 - outer and inner display types as well as block and inline.
 -properties/arguments `.____`.
