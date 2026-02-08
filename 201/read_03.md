@@ -119,7 +119,7 @@ Other properties/arguments include:
 
 ### Operators and Expressions
 
-recap of [read_07](/102/read_07.md) and [read_08](/102/read_08.md) from 102 course and tables stored therein.
+recap of [read_07](reading-notes/102/read_07.md) and [read_08](reading-notes/102/read_08.md) from 102 course and tables stored therein.
 
 ### Conditionals
 
@@ -139,7 +139,7 @@ if (condition) {
 
 ### Loops
 
-started on [read_08](/102/read_08.md).
+started on [read_08](reading-notes/102/read_08.md).
 
 ### Answers.3
 
