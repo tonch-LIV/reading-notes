@@ -87,26 +87,78 @@ Are values set in the `display` property for inner and outer display types. Is t
 
 ### Arrays
 
+A way to store (and add or remove) multiple, individual values under a single variable with the ability to call upon them, individually at a later date; a container that is able to hold a list of sorts.  
+
+Through the use of properties, `.___` we are able to interpret and use that data/values within arrays through various ways.  
+
+Items within the array are bale to be called upon individually through the use of their index number; starting at `0` for the first item, then 1, 2, 3, and so on.  
+`arrayName[#]`  
+
+To re-assign, you would call the array and number of the index you are wanting to change, then using the assignment operator, assign the new value.  
+`arrayName[#] = newValue`  
+
+Nested arrays are also referred to as multidimensional arrays. Accessing nested values is quite straightforward, should you follow the syntax format.  
+
+```js
+layered = [dog, tree, [15, car, shoe]];
+ layered[2][1];
+```
+
+would return with value `car`.  
+
+Other properties/arguments include:
+
+- The `.indexOf()` argument allows you to find out what the index number is for a certain value/item.
+- `.push()` adds item(s) to the end of an array. No feedback is given so verify with the `console.log()` or some other kind function that displays visual.
+- `unshift()` puts new additions to the from of the list.  
+- `pop()` removes the last item of an array.  
+- `shift()` removes the first item.
+- or `splice()` removes a specific item based on array index number.
+- `for... of` statement to access everything within the array.
+- and many more such as, `map()`, `filter()` to return specific values, `split()` / `toString()` to convert raw text data into usable array values, `join()` to do the opposite.
+
 ### Operators and Expressions
+
+recap of [read_07](/102/read_07.md) and [read_08](/102/read_08.md) from 102 course and tables stored therein.
 
 ### Conditionals
 
+`if... else`, the most common conditional statement in javascript.  
+
+```js
+if (condition) {
+	// code that will execute if condition is true
+} else {
+	// other code if not true
+}
+```
+
+`else if` is used when there are more than two choices; maybe(s) vs a yes or no situation.  
+
+`switch` statements are another option also; they're also used with instances of multiple choices, but with simpler syntax. They find the a code that matches the value.
+
 ### Loops
+
+started on [read_08](/102/read_08.md).
 
 ### Answers.3
 
 1. What `data types` can you store inside of an `array`?
     - mixed values; numbers, strings, null, Boolean, objects, comparison.
 2. Is the `people` array a valid JavaScript array? If so, how can I access the values stored? If not, why?
-    - es, valid nested array; people[_][_]
+    - yes, valid nested array; people[_][_]
 3. List five shorthand operators for assignment in JavaScript and describe what they do.
-    - `+`, `-`, `*`, `/`, `%`
+    - `+=` assigns and assigns, `-=` suntracts and assigns, `*=` multiplies and assigns, `/=` divides and assigns, `%=`
 4. Read the code below and evaluate the last `expression` and explain what the result would be and why.
-    - checking to see if it is raining, then deciding to get an umbrella
+    - `a + c = 10 + false(zero) = 10 + 'dog' = "10dog'.
 Example of when a loop is useful in JavaScript
 5. Describe a real world example of when a `conditional` statement should be used in a JavaScript program.
     - checking to see if it is raining, then deciding to get an umbrella
 6. Give an example of when a `loop` is useful in JavaScript.
-    - hamering a nail until it is flattened on the wood.
+    - when you want a block of code to repeat without needing to manually type out various implementations, when you want the code to repeat for a specific number of times or until a condition is met.
 
 ## Things I Want To Know More About
+
+- DOM interface HTML(OL/UL)istElement and [global attributes](#https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes) that apply.
+- outer and inner display types as well as block and inline.
+-properties/arguments `.____`.
