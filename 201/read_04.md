@@ -7,7 +7,15 @@
     - [Answers.1](#answers1)
 - [CSS Layout](#css-layout)
   - [Normal Flow](#normal-flow)
+    - [Default Behavior](#default-behavior)
+    - [Overriding Normal Flow](#overriding-normal-flow)
   - [Positioning](#positioning)
+    - []()
+    - []()
+    - []()
+    - []()
+    - []()
+  - [Answers.2](#answers2)
 - [Learn JS](#learn-js)
   - [Functions](#functions)
 - [Misc.](#misc---6-reasons-for-pair-programming)
@@ -55,15 +63,62 @@ More information on how requests for sites are made with the use of [web servers
 
 ## CSS Layout
 
-### Normal Flow
+Landing page for tutorials and [challenges](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout)
 
-### Positioning
+Having the layout in mind when designing a page allows one as a developer to control the positioning and be prepared for how different elements will interact with each other, different resolutions, and window sizes.
+
+### [Normal Flow](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction)
+
+#### Default Behavior
+
+- If no CSS characteristics have been applied to change behavior, normal flow is the default. Ensuring that elements and content displayed on a site are easily readable, before modifying, is a good starting point.
+- Block-level elements adjust the dimensions as needed per the content that it is holding and fills the available inline space of the parent element it is in. It occupies its own line and makes new elements after it, start on a new line.
+- Inline-level elements only take up as mush room as the content requires and accommodates other elements within that same line (unless their isn't space left within the parent element, in which case they do move into a new line).
+- By using CSS, you may make inline elements behave like block-level elements through the property-value pair of `display: block;` or `display: inline-block`.
+  - Margin collapsing - when two elements' margins are touching, it forces the smaller of the two unto a new line.
+
+#### Overriding Normal Flow
+
+Methods to override normal flow are as follows,
+
+- Changing the `display` property - values include `block`, `inline`, `inline-block`.
+  - `grid` or `flexbox`
+- `float` - allows `block` elements (`<p>`, `<img>`, etc.) to wrap around other elements.
+- `position` - control where boxes are placed in relation to other boxes.
+  - `static` - default
+  - `fixed` - keeps "box" in same spot in viewport.
+
+### [Positioning](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning)
+
+Changes the behavior pf elements by taking them out of normal flow.  
+
+####
+
+####
+
+####
+
+####
+
+####
+
+### Answers.2
 
 1. What is meant by “normal flow”?
+    - default positioning and styling; before CSS.
 2. What are a few differences between block-level and inline elements?
+    - Block - takes full width of line and starts on new line. `<p>`, `<h#>`.
+    - Inline - places elements side-by-side, not new line; content only takes up space. `<a>`, `<span>`, `<strong>`.
 3. ___ positioning is the default for every html element.
+    - Static, stays in normal flow; not affected by top, left, bottom.
 4. Name a few advantages to using absolute positioning on an element.
+    - useful for overlays, tool tips; collapsible menu '|||' (rotated 90 deg).
+    - displays over other content as you scroll; think, layered.
 5. What is a key difference between fixed positioning and absolute positioning?
+    - Absolute = moves with the page or its container. In relation to parent element. Removed from normal flow. defaults to `<body>` for relative.
+      - "place where I want!"
+    - Fixed = stays fixed to the screen (viewport) when you scroll. "goes where you go".
+      -Relative - ...
 
 ## Learn JS
 
