@@ -10,11 +10,11 @@
     - [Default Behavior](#default-behavior)
     - [Overriding Normal Flow](#overriding-normal-flow)
   - [Positioning](#positioning)
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
+    - [Static](#static)
+    - [Relative](#relative)
+    - [Absolute](#absolute)
+    - [Fixed](#fixed)
+    - [Sticky](#sticky)
   - [Answers.2](#answers2)
 - [Learn JS](#learn-js)
   - [Functions](#functions)
@@ -90,17 +90,47 @@ Methods to override normal flow are as follows,
 
 ### [Positioning](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning)
 
-Changes the behavior pf elements by taking them out of normal flow.  
+Changes the behavior of elements by taking them out of normal flow, expands on overriding, through the use of the `position` property in CSS.  
 
-####
+#### Static
 
-####
+Default, every element begins with. no need to state/define/write out in CSS, but looks like `position: static;` within CSS rule.
 
-####
+#### Relative
 
-####
+We define `relative` as the value for the `position` property, then expand on it (and the following positions henceforth) with the `top`, `bottom`, `left`, and `right` properties.  
+For `relative`, think opposite of the property you define. As in, if define `top`, it will be pushed down by the measurement specified, or pushed from the "top". `left`, it will pushed to the right or pushed from the "left", and so on.
 
-####
+#### Absolute
+
+Again defined as the value for the `position` property. `absolute` elements no loger exist within the normal flow, the space they once took is tken/filled in by the surrounfing elements and it sits within its own layer.  
+Think in terms of pop-ups, dialogue boxes, etc.
+
+The way this value moves the element is the "opposite" of `relative`, in a way. The units of measurement dictate the distance the element should sit from the parent elements sides.  
+
+- (postioned element's win over non-positioned elements.)  
+
+Z-index refres to z-axis and controls the "stacking" order of the elements. The higher/ positive value, the more to the top/background; the lower/negative value, the more to the background.
+
+#### Fixed
+
+Places the element relative to the viewport of the browser; very similar to absoulte (relative to the nearest ancestor element).  
+
+Persistent elements in same location, regardless of where you scroll or go on the site.
+
+```css
+selector {
+    position: fixed;
+    top: 0;
+```
+
+The above CSS snippet makes the `<h1>` element stick to the top of the screen and removes it form normal flow.
+
+#### Sticky
+
+Combination of `relative` and `fixed`. Element is positioned relatively to a certain point, then becomes `fixed`.  
+
+Think moving Row headers that become superceeded by relevant headers per section.
 
 ### Answers.2
 
