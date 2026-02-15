@@ -30,6 +30,8 @@
 
 This is important because...  
 
+Both positioning and functions, play a vital and crucial role to building well designed sites.
+
 ## Learn HTML
 
 Houses links for [tutorials](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content#tutorials_and_challenges) and other challenges.
