@@ -4,7 +4,7 @@
   - [Creating Hyperlinks](#creating-hyperlinks)
     - [Paths](#paths)
     - [Attributes](#attributes)
-    - [Answers.1](#answers1)
+  - [Answers.1](#answers1)
 - [CSS Layout](#css-layout)
   - [Normal Flow](#normal-flow)
     - [Default Behavior](#default-behavior)
@@ -18,6 +18,13 @@
   - [Answers.2](#answers2)
 - [Learn JS](#learn-js)
   - [Functions](#functions)
+    - [Function](#functions)
+    - [Where's the Fun(ction) at?](#wheres-the-function-at)
+    - [Browser Built-in](#browser-built-in)
+    - [Functions vs. Methods](#functions-vs-methods)
+    - [Invocation](#invocation)
+    - [Parameters](#parameters)
+    - [Scope and Conficts](#scope-and-conflicts)
 - [Misc.](#misc---6-reasons-for-pair-programming)
 - [Things I want to know more about](#things-i-want-to-know-more-about)
 
@@ -52,7 +59,7 @@ More information on how requests for sites are made with the use of [web servers
 - by using the `target` attribute and setting it to "_blank", it points the browser to open the link clicked on in a new tab, rather than on the same page.
 - email links are created using the `<a>` element, with an `href` attribute, and `mailto:` followed by the email address within the `href` attribute. Leaving `mailto:` blank opens a equally blank, new outgoing email window from which you may add the info as the user wishes.
 
-#### Answers.1
+### Answers.1
 
 1. To create a basic link, we wrap text or other content inside what element?
     - `<a>` or anchor tag.
@@ -150,15 +157,71 @@ Think moving Row headers that become superceeded by relevant headers per section
     - Fixed = stays fixed to the screen (viewport) when you scroll. "goes where you go".
       -Relative - ...
 
-## Learn JS
+## [Learn JS](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting)
+
+Landing page with links to tutorials and [challenges](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting#prerequisites) aimed at teaching the essentials and provide foundation for further learning.
 
 ### Functions
 
+A storage mechanism for code that does a single task, which you may invoke and use at a later time.
+
+#### Where's the Fun(ction) at?
+
+Everywhere. They're used to make developing easier and keeping developers sane (..attempt).
+
+#### Browser Built-in
+
+Functions can be used to manipulate,
+
+- Text - through the use of `replace()`
+- Arrays - `join()` to combine contents in array into single array.
+- Numbers - `random()` to create random numbers
+
+Many are built-in and ready to use, even though they might not be written in javascript (C++/lower level language browser is built on or through APIs).
+
+#### Functions vs. Methods
+
+Functions are methods, when written to be part of an object.  
+Custom functions are just that, functions written specifically for the task at hand.  
+
+#### Invocation
+
+The process of running the actual function is called, invoking. To invoke a function, you specify the function name followed by a pair of parentheses (and any arguments, if appropriate), then a semi-colon.  
+
+Being able to call other functions within a function (should they be globally accessible) is a trait.  
+
+#### Parameters
+
+Not all functions do, but there some that require parameters to be specified in order to complete it's job. parameters go within the parentheses. There are also functions that expect a parameter(s) to be specified, but when they aren't; they adopt a default behavior.
+
+#### Anonymous & Arrow
+
+Anonymous functions have no name and expect a function to be its parameter (function expression).  
+
+- `addEventlistener()` - runs code after an event/action from the user.
+
+Rather than using the `function` keyword; arrow functions are specified through the use of `=>`.
+
+#### Scope and Conflicts
+
+To avoid conflicting variable names and possible malicious actions from external scripts; two separate scopes exist. The local scope that says, variable defined within a function can only be recalled within that specific function call. The global scope is from where you may pull from throughout the entire script and within other functions. Local can called upon from only that instance, global can be called from every instance.
+
+- (avoid using `var` as it can mess with the scope considerations.)
+
+### Answers.3
+
 1. Describe the difference between a function declaration and a function invocation.
+    - declaring involves outlining what code will be run; invocating is the actual process of running it when called.
 2. What is the difference between a parameter and an argument?
+    - parameter - a placeholder; usually a variable that will fill in where input with contents of variable
+    - argument - an actual value plugged in for the function;
 
 ## Misc. - 6 Reasons for Pair Programming
 
 1. Pick 2 benefits to pair programming and reflect on how these benefits could help you on your coding journey.
+    - collaboration allows peer review, feedback, different perspectives/styles to merge, allows opportunity to improve code quality and production efficiency
 
 ## Things I want to know more about
+
+- Positioning and best use case scenarios
+- function manipulation
