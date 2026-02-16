@@ -6,10 +6,13 @@
     - [Assets and Licensing](#assets-and-licensing)
     - [Annotating](#annotating)
     - [Background Images](#background-images)
-  - [Common Images Types / Choosing Formats](#common-images-types--choosing-formats)
-    - []()
-    - []()
   - [Answers.1](#answers1)
+  - [Common Images Types / Choosing Formats](#common-images-types--choosing-formats)
+    - [File Types](#file-types)
+    - [File Type Details](#file-type-details)
+    - [Choosing a Format](#choosing-a-format)
+    - [Providing Fallbacks](#providing-fallbacks)
+  - [Answers.2](#answers2)
 
 ## [HTML Media](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content)
 
@@ -127,3 +130,30 @@ Landing page for tutorials and [challenges](https://developer.mozilla.org/en-US/
 Keep in mind contrast and user legibility and experience when choosing color(s).
 
 Every element in HTML can have color applied to it. Through CSS properties, the developer is given more granular control over how color is added.
+
+### Styling Text Elements
+
+#### What's Involved?
+
+The two main properties used to style content with CSS are,
+
+- font style - fonts, bold, size, italics, and all other alike.
+- text layout styles - spacing, alignment, etc.
+
+#### Fonts
+
+`font-family` is the property and for the value, either a browser-built in one or an embedded one that was linked in the html file's `<head>` tag.  
+Hundred of additional elements, properties, and [values](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals#other_properties_worth_looking_at) exist.
+
+### Answers.2
+
+1. Describe the difference between foreground and background colors of an HTML element, pretend you are talking to someone with no technical knowledge.
+    - Foregorund is usually whatyou rad or actually viewing, the background is ehat the content sits on and provides a decent contrast for legibility.
+2. Your friend asks you to give his colorless blog website a touch up. How would you use color to give his blog some character?
+    - add color to differing sections (heading elements one color, backfround a different color), add images.
+3. What should you consider when choosing fonts for an HTML document?
+    - compatability with al browsers.
+4. What do font-size, font-weight, and font-style do to HTML text elements?
+    - they are a font-style change in direction.
+5. Describe two ways you could add spacing around the characters displayed in an h1 element.
+    - space in between words and from the element border.
