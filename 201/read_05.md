@@ -118,8 +118,12 @@ Bitmap file (`.bmp`), microsoft icon (`.ico` / `.cur`), tagged image file format
 5. What image type would you use to display a screenshot on your website and why?
     - .png or .webp, betterclarity and compression.
 
-## Learn CSS
+## [Learn CSS](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics)
+
+Landing page for tutorials and [challenges](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics#tutorials_and_challenges).
 
 ### Using Color
 
-### Styling Text Elements
+Keep in mind contrast and user legibility and experience when choosing color(s).
+
+Every element in HTML can have color applied to it. Through CSS properties, the developer is given more granular control over how color is added.
