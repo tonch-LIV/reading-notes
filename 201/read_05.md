@@ -54,17 +54,42 @@ Images can also be linked by using CSS (`background-image` property and the like
 
 Most commonly used on the web are as follows:
 
-- APNG - animated portable network graphics; lossless animation, lower performance than AVIF or WebP; `.apng` `.png`.
-- AVIF - AV1 image file format; high performance choice for images and animated images, better compression than JPEG and PNG, should include fallbacks; `.avif`.
-- GIF - graphics interchange format; good choice for animated images, not lossless like PNG, and WebP and AVIF recommended for animations; `.gif`
-- JPEG - joint photographic expert group image; most popular, but lower standard than others; `.jpg`, `.jpeg`, `.jfif`, `.pjpeg`, `.pjp`.
-- PNG - portable network graphics; preffered over jpeg as it is more precise at reproducing image, also useful for transparency/layering, still lacking in compression and reproduction to WebP and AVIF though; `.png`.
-- SVG - scalable vector graphics; for accurate size representation of elements, diagrams, icons, r other math generated items; `svg`.
-- WebP - web picture format; should probably be top choice for both, still and animated images, much better compression, better color depths, and more, edges over AVIF due to compatibility; `.webp`.  
+- **APNG** - animated portable network graphics; lossless animation, lower performance than AVIF or WebP; `.apng` `.png`.
+- **AVIF** - AV1 image file format; high performance choice for images and animated images, better compression than JPEG and PNG, should include fallbacks; `.avif`.
+- **GIF** - graphics interchange format; good choice for animated images, not lossless like PNG, and WebP and AVIF recommended for animations; `.gif`
+- **JPEG** - joint photographic expert group image; most popular, but lower standard than others; `.jpg`, `.jpeg`, `.jfif`, `.pjpeg`, `.pjp`.
+- **PNG** - portable network graphics; preffered over jpeg as it is more precise at reproducing image, also useful for transparency/layering, still lacking in compression and reproduction to WebP and AVIF though; `.png`.
+- **SVG** - scalable vector graphics; for accurate size representation of elements, diagrams, icons, r other math generated items; `svg`.
+- **WebP** - web picture format; should probably be top choice for both, still and animated images, much better compression, better color depths, and more, edges over AVIF due to compatibility; `.webp`.  
 
-Bitmap file (`.bmp`), Microsoft icon (`.ico` / `.cur`), tagged image file format (`.tif` / `.tiff`) are also other file formats, albeit less used dude to being less supported across different browsers.
+Bitmap file (`.bmp`), microsoft icon (`.ico` / `.cur`), tagged image file format (`.tif` / `.tiff`) are also other file formats, albeit less used dude to being less supported across different browsers.
 
 #### File Type Details
+
+*bpc*, or bits per component = how color components are represented by bits.  
+*bit depth* = how each pixel is represented in memory by total number of bits.
+
+- **APNG** - extends on PNG to add support for animation; very similar to GIF, but with better support for various color depths; lossless compression; CC-BY-SA 3.0 license.
+
+- **AVIF** - AV1 bitstreams wrapped in HEIF; lossy compared to JPG/PNG, at similar compression, and better compression than WebP; offers lossless, alpha channel, HDR, and wide color Gamut; Royalty free.h
+
+- **BMP** - seen more on windows and rarely in web apps /content; supports several compression algos; microsoft open specification promise.
+
+- **GIF** - one of two to be supported by HTM; losslessly compresses 8-bit indexed color graphics; popular, although inferior to PNG/APNG; Open, LZW expired patent.
+
+- **ICO** - for microsoft desktop icons, designed by Microsoft; can store multiple images/icon; pairs nicely with BMP (rather than PNG or others); no licensing??
+
+- **JPEG** - lossy; most widely used format; actually JFIF (JPEG File Interchange Format); expired patents.
+
+- **PNG** - lossless; higher efficiency and color depths than GIF; W3C, all Rights Reserved.
+
+- **SVG** - specifies image content by drawing shapes, lines, and adding colors, etc. W3C, All Rights Reserved
+
+- **TIFF** - for scanned photos/files, (can be multiple per file); weaker compression, includes plenty metadata; not supported my majority of browser's; No licensing required, no patents, check with libraries being used.
+
+- **WebP** - lossy and lossless compression; supports animation(s); modern support, but not historical, provide fallback (JPEG/PNG); Open spurce, no licensing.
+
+- **XBM** - another first to be supported on the web; deprecated, should be avoided for secuiryt concerns; open source.
 
 #### Choosing a Format
 
