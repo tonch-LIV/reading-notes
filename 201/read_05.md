@@ -93,6 +93,14 @@ Bitmap file (`.bmp`), microsoft icon (`.ico` / `.cur`), tagged image file format
 
 #### Choosing a Format
 
+- Photos - pair well with lossy compression; JPEG offering better compatibility, but better compression through WebP. Standard practice to use both and use JPEG as the fallback.
+
+- Icons - lossless to avoid skimping on details from size; PNG better choice, although can be used as fallback if want to go WebP route.
+
+- Screenshot - lossless; PNG, but can be WebP as well.
+
+- Diagrams, drawing, charts, etc. - lossless; should be SVG or PNG at minimum.
+
 #### Providing Fallbacks
 
 ### Answers.1
