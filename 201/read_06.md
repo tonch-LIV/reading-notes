@@ -142,7 +142,7 @@ Node is an all-encompassing term, as every object is a node of some sort or anot
 
 A `Document` interface refers to a document containing HTML, then extended upon by HTML-specific features.
 
-### SVG DOM
+### [SVG DOM](https://developer.mozilla.org/en-US/docs/Web/API/SVG_API)
 
 Also falls under `Document` interface, under SVG specific features.
 
