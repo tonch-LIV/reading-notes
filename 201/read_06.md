@@ -16,6 +16,7 @@
   - [Primitive Values & Object References](#primitive-values--object-references)
 
 This topic maters because...  
+Through the use of DOM; we, the developers are able to manipulate elements and add more dynamic elements to our site/document. Knowing what DOM entails and how to incorporate it into existing projects is vital to using it.
 
 ## [JavaScript Object Basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics#object_basics)
 
