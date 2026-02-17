@@ -8,6 +8,8 @@
   - [Problem Domain](#problem-domain)
   - [Primitive Values & Object References](#primitive-values--object-references)
 
+This topic maters because...  
+
 ## JavaScript Object Basics
 
 ### Answers.1
@@ -41,3 +43,5 @@ const dog = {
 ### Problem Domain
 
 ### Primitive Values & Object References
+
+## Things I Want To Know More About

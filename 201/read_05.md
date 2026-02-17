@@ -6,13 +6,22 @@
     - [Assets and Licensing](#assets-and-licensing)
     - [Annotating](#annotating)
     - [Background Images](#background-images)
-  - [Answers.1](#answers1)
+    - [Answers.1](#answers1)
   - [Common Images Types / Choosing Formats](#common-images-types--choosing-formats)
     - [File Types](#file-types)
     - [File Type Details](#file-type-details)
     - [Choosing a Format](#choosing-a-format)
     - [Providing Fallbacks](#providing-fallbacks)
+- [Learn CSS](#learn-css)
+  - [Using Color](#using-color)
+  - [Styling text Elements](#styling-text-elements)
+    - [What's Involved?](#whats-involved)
+    - [Fonts](#fonts)
   - [Answers.2](#answers2)
+- [Things I Want To Know More About](#things-i-want-to-know-more-about)
+
+This topic matters because...  
+It's important to know which file to use for different use case scenarios to draw out the best possible resoultion or compatability. When linking images, as basic as it may seem, it's important to know the syntax to use, lest the links should break, and best practices. Images, as well as font styling, both play a big role into making pages pop and stand out amongst each other.
 
 ## [HTML Media](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content)
 
@@ -108,7 +117,7 @@ Bitmap file (`.bmp`), microsoft icon (`.ico` / `.cur`), tagged image file format
 
 `<picture>` provides opportunity to supply fallbacks, whereas `<img>` does not. `<picture>` is the parent element and `<source>` is the actual element that links to the image (with the `srcset` attribute).
 
-### Answers.1
+#### Answers.1
 
 1. What is a real world use case for the alt attribute being used in a website?
     - for screenreaders and other accessibility tools.
@@ -157,3 +166,8 @@ Hundred of additional elements, properties, and [values](https://developer.mozil
     - they are a font-style change in direction.
 5. Describe two ways you could add spacing around the characters displayed in an h1 element.
     - space in between words and from the element border.
+
+## Things I Want To Know More About
+
+- Being more aware / being able to distinguish the differences between different file types used out in the wild.
+- License use per instance.
