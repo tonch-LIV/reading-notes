@@ -1,7 +1,14 @@
 # 201_Read_06
 
 - [JavaScript Object Basics](#javascript-object-basics)
-  -[Answers.1](#answers1)]
+  - [Object Basics](#object-basics)
+  - [Dot notation](#dot-notation)
+  - [Bracket Notation](#bracket-notation)
+  - [Object Members](#object-members)
+  - [What is "this"?](#what-is-this)
+  - [Constructors Intro](#constructors-intro)
+  - [It's Been Objects all along](#its-been-objects-all-along)
+  - [Answers.1](#answers1)
 - [Intro to the DOM](#intro-to-the-dom)
   - [Answers.2](#answers2)
 - [Save & Review](#save--review)
@@ -10,15 +17,93 @@
 
 This topic maters because...  
 
-## JavaScript Object Basics
+## [JavaScript Object Basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics#object_basics)
+
+### Object Basics
+
+Much like an `array`, an `object` is a collection of related data. Objects can house multiple variables and/or functions, which change names to properties and methods, respectively, when found inside objects.
+
+Objects syntax is not all that different from what we've been using from variables/arrays; we define the name of the object (whether `let` or `const`), then curly braces `{}` house the data. Once inside, its much like CSS syntax, `members` on the left, separated by a colon `:`, then `values` on the right; each name-value pair being separated by a comma `,`.
+
+```js
+const objectName = {
+  member1Name: member1Value,
+  member2Name: member2Value,
+  member3Name: member3Value,
+};
+```
+
+Data types include, but not limited to; functions (methods), and arrays and numbers (properties).  
+
+**Object Literal** - when a function inside of an object omits the keyword (function) in its definition/declaration.
+
+### Dot notation
+
+`objectName.item` is the syntax used to access properties or methods within an object. The preferred method. Nesting an object within an object is also valid syntax.
+
+```js
+let objectName = {
+  propertyObject: {
+  property: value
+    }
+}
+```
+
+The syntax would just be expanded upon, adding the nested object name to the chain. `objectName.propertyObject.property;`. Be sure to properly update any necessary invocations.
+
+### Bracket Notation
+
+Much like Dot notation and visually similar to syntax for an array; is a method to invoke an objects properties. Using the previous sample code, it would look something like, `objectName["propertObject"]["property"]`. Mostly usable for trying to access an object property contained within a variable; dot notation would not work for this.
+
+### Object Members
+
+You are able to update the value(s) of an object property through the use of the assignment operator, `objectName["property"] = "newValue";` or `objectName.property = newValue;` and similarly to create new properties also.
+
+### What is "this"?
+
+`this` is a keyword to specify upon the current object which the code should reference to execute code. Allowing the same definition to work across multiple objects.
+
+### Constructors Intro
+
+Essentially a template for object literals with the ability to create new objects in the future.
+
+```js
+function objectName(property1, property2) {
+  this.property1 = value1;
+  this.property2 = value2;
+}
+```
+
+and to create/add new objects we would use the keyword `new`, like so;
+
+```js
+const variable1 = new objectName2(value1, value2);
+const variable2 = new objectName2(value1, value2);
+```
+
+### It's Been Objects all along
+
+Objects are an integral part to javascript and very prominent when using APIs.
+
+`Array`  
+`Math`  
+`String`  
+`Document`  
+
+Although, not all create object instances, and may require instantiation.
 
 ### Answers.1
 
 1. How would you describe an object to a non-technical friend you grew up with?
+    - Objects hold data, related to specific topic or subject.
 2. What are some advantages to creating object literals?
+    - shorter syntax, more data consolidated together, efficient when wanting to identify individual items by name.
 3. How do objects differ from arrays?
+    - we access by property, rather than index number.
 4. Give an example for when you would need to use bracket notation to access an object’s property instead of dot notation.
+    - when value is held within a variable, not accessible through dot notation.
 5. Evaluate the code below. What does the term this refer to and what is the advantage to using this?
+    - In this specific snippet, `this.` refers to `dog`. reusable and adaptable per object used in.
 
 ```js
 const dog = {
