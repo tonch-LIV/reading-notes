@@ -116,12 +116,42 @@ const dog = {
 }
 ```
 
-## Intro to the DOM
+## [Intro to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+
+**Document Object Model**  
+
+### Concepts and Usage
+
+Uses the structure of a document to connect to scripts and/or programming languages, through the use of the objects derived from the document.  
+Objects are derived from nodes, which in turn are derived from branches. Using DOM, we are able to access parts of the tree to modify structure, style, or content as needed.
+
+DOM is a collection of various APIs working together. The DOM tree is a visual representation of how the document is viewed, parsed, then displayed.  
+Without DOM, javaScript would not know what to do with documents, since DOM is used to access the document and its elements.
+
+DOM is a web API, independent, not integrated into anyone language, thus can be built for any language.
+
+By using the inline `<script>` tag or other means for using javascript, you are automatically and immediately using the DOM.
+
+### DOM Interfaces
+
+[List](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#dom_interfaces) of interfaces defined in DOM specs.
+
+Node is an all-encompassing term, as every object is a node of some sort or another.
+
+### [HTML DOM](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API)
+
+A `Document` interface refers to a document containing HTML, then extended upon by HTML-specific features.
+
+### SVG DOM
+
+Also falls under `Document` interface, under SVG specific features.
 
 ### Answers.2
 
 1. What is the DOM?
+    - Document Object Model, A collection of APIs used to access and manipulate the structure and elements therein.
 2. Briefly describe the relationship between the DOM and JavaScript.
+    - JavaScript uses DOM to access and manipulate the structure and elements.
 
 ## Save & Review
 
@@ -130,3 +160,5 @@ const dog = {
 ### Primitive Values & Object References
 
 ## Things I Want To Know More About
+
+- Building function using the DOM
