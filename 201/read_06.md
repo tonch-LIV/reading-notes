@@ -34,7 +34,7 @@ const objectName = {
 };
 ```
 
-Data types include, but not limited to; functions (methods), and arrays and numbers (properties).  
+Data types include, but not limited to; functions (methods), and variable, arrays, and/or numbers (properties).  
 
 **Object Literal** - when a function inside of an object omits the keyword (function) in its definition/declaration.
 
@@ -98,11 +98,13 @@ Although, not all create object instances, and may require instantiation.
 1. How would you describe an object to a non-technical friend you grew up with?
     - Objects hold data, related to specific topic or subject.
 2. What are some advantages to creating object literals?
-    - shorter syntax, more data consolidated together, efficient when wanting to identify individual items by name.
+    - shorter syntax, more data consolidated together, efficient when wanting to identify individual items by name. Can store functions, whereas arrays cannot.
 3. How do objects differ from arrays?
     - we access by property, rather than index number.
 4. Give an example for when you would need to use bracket notation to access an object’s property instead of dot notation.
     - when value is held within a variable, not accessible through dot notation.
+    - when property name has spaces.
+    - or starts with number.
 5. Evaluate the code below. What does the term this refer to and what is the advantage to using this?
     - In this specific snippet, `this.` refers to `dog`. reusable and adaptable per object used in.
 
@@ -151,8 +153,9 @@ Also falls under `Document` interface, under SVG specific features.
 
 1. What is the DOM?
     - Document Object Model, A collection of APIs used to access and manipulate the structure and elements therein.
+    - Representation of HTML page that JavaScript can interact with. Every tag/element becomes an object. How Javascript sees the web page.
 2. Briefly describe the relationship between the DOM and JavaScript.
-    - JavaScript uses DOM to access and manipulate the structure and elements.
+    - JavaScript uses DOM to access and manipulate the structure and elements. Respond to user action.
 
 ## Save & Review
 
