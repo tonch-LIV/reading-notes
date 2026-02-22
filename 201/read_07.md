@@ -1,6 +1,7 @@
 # 201_Read_07
 
 - [Domain Modeling](#domain-modeling)
+  - [Building a Domain Model](#building-a-domain-model)
 - [Table Basics](#table-basics)
 - [Introducing Constructors](#introducing-constructors)
 - [Object Prototypes Using a Constructor](#object-prototypes-using-a-constructor)
@@ -9,9 +10,19 @@
 
 This Topic Matters Because...
 
-## Domain Modeling
+## [Domain Modeling](https://www.thoughtworks.com/en-us/insights/blog/agile-project-management/domain-modeling-what-you-need-to-know-before-coding)
+
+Concepts or objects which are interconnected with one another through behavior, vocabulary, etc. and are visually represented.
+
+### Building a Domain Model
+
+Through building a domain model, it aids in the creation process of a project by defining the encompassing entities/classes, as well as their associations between each other.  
+
+**Entities** and/or **Classes** are anything and everything that is unique within the content and easily identifiable against others of its kind or of a different kind. What defines an entity/class can be as complicated or simple as it needs to be (i.e. apples to apples, or apples to oranges). Similarly, is their relationships with each other; entities can be of the same kind and related (apples == apples), may be related through association ((apples && oranges) == grow on trees), and so on for other associations.  
+At a certain point, once enough detail is added in through attributes and properties, we migrate to a Class Diagram.
 
 1. Explain why we need domain modeling.
+    - We need domain modeling to better understand what we are building and how we'll build the content within in relation to each other.
 
 ## Table Basics
 
