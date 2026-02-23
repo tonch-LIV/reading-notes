@@ -53,10 +53,14 @@ Know when to use tables and when to not use them as they may hinder accessibilit
     - Headers use the `<th>` element to define the start of rows or columns. Also wrapped around by `<tr>`.
     - `rowspan` and `colspan` attributes allow cells to span multiple units.
 
-## Introducing Constructors
+## [Introducing Constructors](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics#introducing_constructors)
+
+A sort of template when using `object literals`; [read_06](201\read_06.md).
 
 1. What is a constructor and what are some advantages to using it?
+    - a template for `object literals`; it defines the 'structure' of the `object` and can create new `property:value` pairs.
 2. How does the term `this` differ when used in an object literal versus when used in a constructor?
+    - "bind `this` to the new object, so you can refer to `this` in your constructor code".
 
 ## Object Prototypes Using a Constructor
 
