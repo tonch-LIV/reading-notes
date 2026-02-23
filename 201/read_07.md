@@ -3,6 +3,7 @@
 - [Domain Modeling](#domain-modeling)
   - [Building a Domain Model](#building-a-domain-model)
 - [Table Basics](#table-basics)
+  - [Creating a Table](#creating-a-table)
 - [Introducing Constructors](#introducing-constructors)
 - [Object Prototypes Using a Constructor](#object-prototypes-using-a-constructor)
 - [Table Adv Features & Accessibility](#table-adv-features--accessibility)
@@ -22,12 +23,35 @@ Through building a domain model, it aids in the creation process of a project by
 At a certain point, once enough detail is added in through attributes and properties, we migrate to a Class Diagram.
 
 1. Explain why we need domain modeling.
-    - We need domain modeling to better understand what we are building and how we'll build the content within in relation to each other.
+    - We need domain modeling to better understand what we are building and how we'll build the content within, in relation to each other and the structure as a whole.
 
-## Table Basics
+## [Table Basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics#what_is_a_table)
+
+A table is made of rows and columns, built to structure sets of data in a quick and easy to read manner.  
+Accessibility tools also have the ability to access and interpret the data of tables when well implemented and structured.  
+Tables also greatly benefit from styling! Stylistic choices allow the user to quickly discern between different data sets and categories.  
+    - Links to table [css](https://github.com/mdn/learning-area/blob/main/html/tables/basic/minimal-table.css) and to HTML [template](https://github.com/mdn/learning-area/blob/main/html/tables/basic/blank-template.html).
+
+Know when to use tables and when to not use them as they may hinder accessibility tools, increase markup tag creation and muddle html structure.
+
+### Creating a Table
+
+`<table>` and the closing `</table>` tags are the encompassing tags for table content.
+
+- Cells are defined by the use of `<td>` (table data).
+- Rows use the `<tr>` element and wrap around `<td>` elements to define table rows.
+- Headers use the `<th>` element to define the start of rows or columns. Also wrapped around by `<tr>`.
+  - headers are useful because, easier to differentiate between other simple cells/data.
+  - use of the `scope` attribute allows headers to be associated with the data in corresponding row/column.
+- `rowspan` and `colspan` attributes allow cells to span multiple units.
+- By using the `<colgroup>` and `<col>`elements, we the developers are able to select/target columns and treat them as one.
 
 1. Why should tables not be used for page layouts?
+    - For structuring data in an easy to see manner.
 2. List and describe 3 different semantic HTML elements used in an HTML `<table>`.
+    - Rows use the `<tr>` element and wrap around `<td>` elements to define table rows.
+    - Headers use the `<th>` element to define the start of rows or columns. Also wrapped around by `<tr>`.
+    - `rowspan` and `colspan` attributes allow cells to span multiple units.
 
 ## Introducing Constructors
 
