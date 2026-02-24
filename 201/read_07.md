@@ -2,14 +2,18 @@
 
 - [Domain Modeling](#domain-modeling)
   - [Building a Domain Model](#building-a-domain-model)
+  - [Answers.1](#answers1)
 - [Table Basics](#table-basics)
   - [Creating a Table](#creating-a-table)
+  - [Answers.2](#answers2)
 - [Introducing Constructors](#introducing-constructors)
+  - [Answers.3](#answers3)
 - [Object Prototypes Using a Constructor](#object-prototypes-using-a-constructor)
   - [Functional Instantiation](#functional-instantiation)
     - [with Shared Methods](#with-shared-methods)
   - [Object.create](#objectcreate)
   - [Prototypal Instantiation](#prototypal-instantiation)
+  - [Answers.4](#answers4)
 - [Table Adv Features & Accessibility](#table-adv-features--accessibility)
 - [Things I Want To Know More About](#things-i-want-to-know-more-about)
 
@@ -26,6 +30,8 @@ Through building a domain model, it aids in the creation process of a project by
 
 **Entities** and/or **Classes** are anything and everything that is unique within the content and easily identifiable against others of its kind or of a different kind. What defines an entity/class can be as complicated or simple as it needs to be (i.e. apples to apples, or apples to oranges). Similarly, is their relationships with each other; entities can be of the same kind and related (apples == apples), may be related through association ((apples && oranges) == grow on trees), and so on for other associations.  
 At a certain point, once enough detail is added in through attributes and properties, we migrate to a Class Diagram.
+
+### Answers.1
 
 1. Explain why we need domain modeling.
     - We need domain modeling to better understand what we are building and how we'll build the content within, in relation to each other and the structure as a whole.
@@ -51,6 +57,8 @@ Know when to use tables and when to not use them as they may hinder accessibilit
 - `rowspan` and `colspan` attributes allow cells to span multiple units.
 - By using the `<colgroup>` and `<col>`elements, we the developers are able to select/target columns and treat them as one.
 
+### Answers.2
+
 1. Why should tables not be used for page layouts?
     - For structuring data in an easy to see manner.
 2. List and describe 3 different semantic HTML elements used in an HTML `<table>`.
@@ -61,6 +69,8 @@ Know when to use tables and when to not use them as they may hinder accessibilit
 ## [Introducing Constructors](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics#introducing_constructors)
 
 A sort of template when using `object literals`; [read_06](201\read_06.md).
+
+### Answers.3
 
 1. What is a constructor and what are some advantages to using it?
     - a template for `object literals`; it defines the 'structure' of the `object` and can create new `property:value` pairs.
@@ -108,6 +118,8 @@ A common feature built in to javaScript, that deals with having to manage an ent
 A `prototype` property is something that every `function` in javaScript has, `object.prototype.method`.
 
 The `new` keyword works in tandem with the `this` keyword during the creation of an `object`.
+
+### Answers.4
 
 1. Explain prototypes and inheritance via an analogy from your previous work experience.  
 (NOTE: This is a very common front end developer interview question)
