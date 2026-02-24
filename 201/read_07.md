@@ -13,7 +13,8 @@
 - [Table Adv Features & Accessibility](#table-adv-features--accessibility)
 - [Things I Want To Know More About](#things-i-want-to-know-more-about)
 
-This Topic Matters Because...
+This Topic Matters Because...  
+Knowing how to properly structure code, through the use of HTML elements like `<table>` or JavaScript tools like `objects`, `constructor functions`, and/or `prototypes is vital to having a well written project that is not redundant where it does not need to be and is clearly legible and easy to follow.
 
 ## [Domain Modeling](https://www.thoughtworks.com/en-us/insights/blog/agile-project-management/domain-modeling-what-you-need-to-know-before-coding)
 
@@ -116,4 +117,15 @@ The `new` keyword works in tandem with the `this` keyword during the creation of
 
 ## Table Adv Features & Accessibility
 
+A well built out table is easily interpreted by most* screen readers.  
+In addition to column/row headers, there are many other elements that exist solely for marking up table content, such as:
+
+- `<caption>` - nested within `<table>` and right after the opening tag for best placement. Provides a brief description regarding the contents of the table.
+- `<thead>`, `<tbody>`, and `<tfoot>` - much like their non-table counterparts for an HTML document; provide structure to the build of the table. No visual enhancements and mainly useful when applying styling.
+- `scope` - *covered up above*
+- `id` / `headers` - attributes that function similarly to `scope` by creating associations between plain cells and header cells.
+
 ## Things I Want To Know More About
+
+- Practicing building tables
+  - `constructor`s and `prototype`s in action
