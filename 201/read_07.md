@@ -34,7 +34,8 @@ At a certain point, once enough detail is added in through attributes and proper
 ### Answers.1
 
 1. Explain why we need domain modeling.
-    - We need domain modeling to better understand what we are building and how we'll build the content within, in relation to each other and the structure as a whole.
+    - We need domain modeling to better understand (the problem domain..) what we are building and how we'll build the content within, in relation to each other and the structure as a whole.
+      - reduces bugs, confusion, and code writing ans re-writes.
 
 ## [Table Basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics#what_is_a_table)
 
@@ -60,9 +61,10 @@ Know when to use tables and when to not use them as they may hinder accessibilit
 ### Answers.2
 
 1. Why should tables not be used for page layouts?
-    - For structuring data in an easy to see manner.
+    - should be used for structuring data in an easy to see manner; not for page layouts, because they hurt accessibility, readability, and maintanence.
+    - mixes structure with presentation.
 2. List and describe 3 different semantic HTML elements used in an HTML `<table>`.
-    - Rows use the `<tr>` element and wrap around `<td>` elements to define table rows.
+    - Rows use the `<tr>` element and wrap around `<td>` elements to define table data.
     - Headers use the `<th>` element to define the start of rows or columns. Also wrapped around by `<tr>`.
     - `rowspan` and `colspan` attributes allow cells to span multiple units.
 
@@ -73,9 +75,10 @@ A sort of template when using `object literals`; [read_06](201\read_06.md).
 ### Answers.3
 
 1. What is a constructor and what are some advantages to using it?
-    - a template for `object literals`; it defines the 'structure' of the `object` and can create new `property:value` pairs.
+    - a special fucntion that serves as a template for `object literals` and the `properties` and `shared methods`; it defines the "structure" of the `object` and can create new `property:value` pairs.
 2. How does the term `this` differ when used in an object literal versus when used in a constructor?
-    - "bind `this` to the new object, so you can refer to `this` in your constructor code".
+    - Using `this` in an `object` ties it to the `object` in reference. In a `constructor`, refers to a new `object` being created.
+      - "bind `this` to the new object, so you can refer to `this` in your constructor code".
 
 ## [Object Prototypes Using a Constructor](https://fireship.dev/beginners-guide-to-javascript-prototype)
 
@@ -114,7 +117,7 @@ Combining all three methods, Instantiation with Shared methods and Object.create
 
 ### Prototypal Instantiation
 
-A common feature built in to javaScript, that deals with having to manage an entirely separate `object` in order to shared `method`s across different instances.  
+A common feature built in to javaScript, that deals with having to manage an entirely separate `object` in order to share `method`s across different instances.  
 A `prototype` property is something that every `function` in javaScript has, `object.prototype.method`.
 
 The `new` keyword works in tandem with the `this` keyword during the creation of an `object`.
@@ -139,5 +142,7 @@ In addition to column/row headers, there are many other elements that exist sole
 
 ## Things I Want To Know More About
 
-- Practicing building tables
+- Practicing 
+  - building tables
   - `constructor`s and `prototype`s in action
+  - using `Object.create`
