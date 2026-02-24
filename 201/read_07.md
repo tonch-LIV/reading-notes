@@ -6,6 +6,10 @@
   - [Creating a Table](#creating-a-table)
 - [Introducing Constructors](#introducing-constructors)
 - [Object Prototypes Using a Constructor](#object-prototypes-using-a-constructor)
+  - [Functional Instantiation](#functional-instantiation)
+    - [with Shared Methods](#with-shared-methods)
+  - [Object.create](#objectcreate)
+  - [Prototypal Instantiation](#prototypal-instantiation)
 - [Table Adv Features & Accessibility](#table-adv-features--accessibility)
 - [Things I Want To Know More About](#things-i-want-to-know-more-about)
 
@@ -62,9 +66,53 @@ A sort of template when using `object literals`; [read_06](201\read_06.md).
 2. How does the term `this` differ when used in an object literal versus when used in a constructor?
     - "bind `this` to the new object, so you can refer to `this` in your constructor code".
 
-## Object Prototypes Using a Constructor
+## [Object Prototypes Using a Constructor](https://fireship.dev/beginners-guide-to-javascript-prototype)
 
-1. Explain prototypes and inheritance via an analogy from your previous work experience. (NOTE: This is a very common front end developer interview question)
+### Functional Instantiation
+
+When an `object` is built (as a function) with the future in mind to be re-used with differing values per key, this process of invoking the template to create a new `object` is referred to as `functional instantiation`; The function itself is a `constructor function`.
+
+#### with Shared Methods
+
+Instead of rebuilding/copy&paste methods used within the constructor for each new instance; the methods are moved to their own object and referenced by the other objects as needed. This prevents the wasting of memory and the existence of large objects.
+
+### `Object.create`
+
+A failsafe. `Object.create` - as it's name implies; allows the creation of an `object` that will refer to another `object`; should a lookup of an object fail.
+In other words, if a call to an `object` key/value pair does not exist; `Object.create` will link it to am object that should have the corresponding data.  
+
+```js
+const uncleLeo = {
+  bald: true,
+  age: 35,
+  likesFastCars: true
+}
+
+const me = Object.create(uncleLeo)
+child.name = 'James'
+child.age = 3
+
+console.log(me.name) // James
+console.log(me.age) // 3
+console.log(me.heritage) // true
+```
+
+In this example, the `object` `me` does not contain the `key/value` pair which the `console.log()` function is calling for; however, `Object.create()` has essentially linked `me` to the `uncleLeo` object from which it may index the `likesFastCars` value and output `true` to the log.
+
+Combining all three methods, Instantiation with Shared methods and Object.create, allows for cleaner code.
+
+### Prototypal Instantiation
+
+A common feature built in to javaScript, that deals with having to manage an entirely separate `object` in order to shared `method`s across different instances.  
+A `prototype` property is something that every `function` in javaScript has, `object.prototype.method`.
+
+The `new` keyword works in tandem with the `this` keyword during the creation of an `object`.
+
+1. Explain prototypes and inheritance via an analogy from your previous work experience.  
+(NOTE: This is a very common front end developer interview question)
+    - `prototypes` are a built in property into all functions that allows the sharing of methods across all instances of a function.
+    - `inheritance` is moving up the ladder and being able to retrieve data that an object may not have.
+    - Quite literally being left something as inheritance (besides money) that you can use to refence and answer questions. A family tree, historical record, employee manual, knowledge book/playbook
 
 ## Table Adv Features & Accessibility
 
