@@ -142,7 +142,7 @@ In addition to column/row headers, there are many other elements that exist sole
 
 ## Things I Want To Know More About
 
-- Practicing 
+- Practicing
   - building tables
   - `constructor`s and `prototype`s in action
   - using `Object.create`
