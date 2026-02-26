@@ -4,15 +4,22 @@
 - [CSS Layout - Flexbox](#css-layout---flexbox)
 - [Learn CSS - Layout](#learn-css---layout)
 
-## Learn CSS - Flexbox
+## [Learn CSS - Flexbox](https://web.dev/learn/css/flexbox/)
 
 1. Flexbox is designed for one-dimensional content. Explain what this means.
+    - Meant o be and best used for organizing and structuring a design layout for items of varying sizes and building a best placement for all those items
 2. Explain the difference between the main axis and cross axis.
+    - "...  main axis is the one set by your flex-direction property." depending if the `property is set to `row` or `column`, the value will affect items in a horizontal or vertical aspect, respectively.
 3. How can using certain properties of flexbox negatively impact accessibility?
+    - modifying content with properties that impact either visual order or logical order will impact the flow, as logical is the approach of many screen readers. Testing should be doe to account for possible overlooked instances of accessibility mismanagement / misconfiguring.
 
-## CSS Layout - Flexbox
+## [CSS Layout - Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox#flex-flow_shorthand)
 
 1. What are some advantages of using flexbox over float?
+    - vertical centering of content in relating to parentContainer.
+    - children characteristics are shared (width x height) with no relation to parent available.
+    - columns in a multiple-column layout adopt same height even if they contain a different amount of content.
 2. How does this topic connect with your long term goals?
+    - This topic aligns with long-term goal of and if, i were to work in a position that required attention and front house development and the what the client(s) engage with. Would allow me to better cater the needs and wants of the many who would interact with the program.
 
 ## Learn CSS - Layout
