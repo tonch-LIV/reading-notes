@@ -1,6 +1,17 @@
 # 201_Read_08
 
 - [Learn CSS - Flexbox](#learn-css---flexbox)
+        - [Main Axis and Cross Axis](#main-axis-and-cross-axis)
+        - [Flex Container](#flex-container)
+            - [Controlling Direction Inside](#controlling-direction-inside)
+            - [Wrapping Items](#wrapping-items)
+            - [Controlling Space Inside Item](#controlling-space-inside-item)
+            - [Item Reorder](#item-reorder)
+        - [Alignment Overview](#alignment-overview)
+            - [Space Distribution on Main](#space-distribution-on-main)
+            - [Distribution on Cross](#distribution-on-cross)
+            - [Alignment on Cross Axis](#alignment-on-cross-axis)
+        - [Answers.1](#answers1)
 - [CSS Layout - Flexbox](#css-layout---flexbox)
 - [Learn CSS - Layout](#learn-css---layout)
 - [Things I want to Know More About](#things-i-want-to-know-more-about)
@@ -9,12 +20,100 @@ This Topic Matters because...
 
 ## [Learn CSS - Flexbox](https://web.dev/learn/css/flexbox/)
 
+A layout model intended to be used for one dimensional content; for creating an optimal layout for items of varying sizes by providing flexible boundaries of display.  
+
+- Through flexbox, the developer has the ability to display items as a row (horizontally) or a column (vertically), and aligning them within either.  
+- Items in a flex container are single line / grouped `inline` by default, but may extend or `wrap` to additional lines.  
+- Items can become "bigger" by distributing space inside the item, in relation to the space or their parent element container.  
+- The items will respect the writing mode / logical order of the document, even when re-ordered differently visually.
+
+### Main Axis and Cross Axis
+
+Both main axis and cross axis direction will be determined by the value of the `flex-direction` property.  
+
+- When set to `row`, the main axis goes horizontal, left-to-right; at this time, the cross axis will default to vertical, up-and-down.  
+- When `flex-direction` is set to `column`, the main axis will be vertical, top-to-bottom, and the cross axis will go left-to-right.  
+
+### Flex Container
+
+To create a "flex container", we specify the `display` property of the parent container as `flex`. By doing this, we essentially open up the accompanying `property: value` rules to modify the layout.
+
+The initial / default values (nothing else specified, but `display: flex`) entail that items will display as a row (horizontally), will NOT wrap, will not change in in size within their container, and their fixed positioning will be at the start of the container (top-left).
+
+#### Controlling Direction Inside
+
+Items inside the container reference the main axis and move as a group. However, items can be moved individually or as a group, in relation to the cross axis.  
+
+To begin modifying the orientation or flow of items, we create a new property of `flex-direction`. `row` being the default setting, does not need to be specified, but changing the value to `column` will change the way the items arrange themselves from horizontal to vertical.
+
+We can append `reverse` to either `row` or `column` and the order will change to being displayed backwards (think 1, 2, 3, 4 to 4, 3, 2, 1). This should be done carefully as it affects accessibility tools such as screen readers or navigating content through the keyboard; which operate of the logical order, not visual.
+
+#### Wrapping Items
+
+Default value for `flex-wrap` is `nowrap`, meaning that items that do not fit within the confines of a resized parent container will 'overflow' / disappear from view. This is remedied by changing the value to `wrap`; although items will move to 'a new line' below the first item(s) that fit, but remain relative to their `flex-direction` setting. This is known as creating multiple **flex-lines**.
+
+`flex-flow` is a shorthand property that controls both `flex-direction` and `flex-flow`, followed by the values you so desire.
+
+#### Controlling Space Inside Item
+
+Like mentioned before; the default starting position of items with solely `flex-direction` is at the top left, if items do not occupy the entirety of the available space, they remain fixed, they do not grow to fill the void. They respect their content sizes.  
+
+This can be modified with a rule `flex-grow` or `flex-shrink`; values of `0` means they do not change, `1` means they grow or shrink, respectively. `flex-basis: auto` indicates item in their natural dimensions.  
+
+`flex-auto` will force items to disregard their individual sizes and make them a consistent size.
+
+#### Item Reorder
+
+The `order` property allows items to be rearranged from their natural order, dictated by the `flex-direction` property. 
+(***\*Using this property leads to similar problems as `row-reverse` and `column-reverse` and should not be used as a quick fix rather than being fixed by editing the HTML file!***)  
+
+### Alignment Overview
+
+**The following properties for aligning items and distributing space between items are shared with the Grid Layout as well.  
+
+#### Space Distribution on Main
+
+Properties begin with `justify` on main.  
+
+- `justify-content` - initial value is `flex-start`. Items placed on left/start of container, with any empty space not occupied by items on the right.
+        - `flex-end` - items placed on the right/end of container.
+        - `space-between` - distributes space evenly between items and edges of container (think margin walls).
+
+When working with the `flex-direction` of `column`, add `height` or `block-size` to ensure there is plenty of space to distribute for items.
+
+#### Distribution on Cross
+
+Properties begin with `align`.  
+
+- `align-content` - uses same values as `justify-content`. Although, initial value is `stretch` rather than `flex-start`.
+        - don't forget about `height` or `block-size`.
+
+(**`place-content`** - a shorthand for both `justify` and `align` with either one or two values. Single value will apply to both axes; otherwise it's `align-content`, then `justify-content`.)
+
+#### Alignment on Cross Axis
+
+Space available for alignment will depend on height of container, or flex line in case of wrapped items.
+
+- `align-self` - for a single item; same initial value, `stretch`. property is added to items rather than container.
+- `align-item` - aligns all items as a group and should be added to container.
+
+- Other values include,
+        - `flex-start`
+        - `flex-end`
+        - `center`
+        - `stretch`
+        - `baseline`
+
+**To achieve centering of items in a container vertically and horizontally, a simple combination of `justify-content: center` and `align-items: center` will take care of that.**
+
+### Answers.1
+
 1. Flexbox is designed for one-dimensional content. Explain what this means.
-    - Meant to be and best used for organizing and structuring a design layout for items of varying sizes and building a best placement for all those items. Organizes things one direction at a time;  main -> cross. but not both at a same time; for both, we would refer to grid.
+    - Meant to be and best used for organizing and structuring a design layout for items of varying sizes and building a best placement for all those items on a website horixontally and vertically.
 2. Explain the difference between the main axis and cross axis.
-    - "...  main axis is the one set by your flex-direction property." depending if the `property/value` is set to `row` or `column`, the value will affect items in a horizontal or vertical aspect, respectively.
+    - Does not change, what changes is our perception / the structuring of the container. When `flex-direction` is set to `row`(default), the main axis is horixontal / left-to-right. When set to `column`, the main axis is vertical / top-to-bottom.
 3. How can using certain properties of flexbox negatively impact accessibility?
-    - modifying content with properties that impact either visual order or logical order will impact the flow, as logical is the approach of many screen readers; screen readers parse by HTML order rather than visually how it's displayed. Testing should be doe to account for possible overlooked instances of accessibility mismanagement / misconfiguring.
+    - modifying content with `property: value` pairs that impact either visual order or logical order will impact the flow, as logical is the approach of many screen readers. Testing should be done to account for possible overlooked instances of accessibility mismanagement / misconfiguring.
 
 ## [CSS Layout - Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox#flex-flow_shorthand)
 
