@@ -13,6 +13,16 @@
             - [Alignment on Cross Axis](#alignment-on-cross-axis)
         - [Answers.1](#answers1)
 - [CSS Layout - Flexbox](#css-layout---flexbox)
+        - [Flex Boxes](#flex-boxes)
+            - [To Column or To Row?](#to-column-or-to-row)
+            - [Wrapped](#wrapped)
+            - [flex-flow Shorthand](#flex-flow-shorthand)
+        - [Sizing Flex items](#short-vs-long)
+            - [Short vs Long](#short-vs-long)
+        - [Horizontal vs Vertical Alignment](#horizontal-vs-vertical-alignment)
+        - [Item Order](#item-order)
+        - [Nesting the Flex](#nesting-the-flex)
+        - [Answers.2](#answers2)
 - [Learn CSS - Layout](#learn-css---layout)
 - [Things I want to Know More About](#things-i-want-to-know-more-about)
 
@@ -64,12 +74,12 @@ This can be modified with a rule `flex-grow` or `flex-shrink`; values of `0` mea
 
 #### Item Reorder
 
-The `order` property allows items to be rearranged from their natural order, dictated by the `flex-direction` property. 
-(***\*Using this property leads to similar problems as `row-reverse` and `column-reverse` and should not be used as a quick fix rather than being fixed by editing the HTML file!***)  
+The `order` property allows items to be rearranged from their natural order, dictated by the `flex-direction` property.  
+***(\*Using this property leads to similar problems as `row-reverse` and `column-reverse` and should not be used as a quick fix rather than being fixed by editing the HTML file!)***
 
 ### Alignment Overview
 
-**The following properties for aligning items and distributing space between items are shared with the Grid Layout as well.  
+**The following properties for aligning items and distributing space between items are shared with the Grid Layout as well.**
 
 #### Space Distribution on Main
 
@@ -115,7 +125,60 @@ Space available for alignment will depend on height of container, or flex line i
 3. How can using certain properties of flexbox negatively impact accessibility?
     - modifying content with `property: value` pairs that impact either visual order or logical order will impact the flow, as logical is the approach of many screen readers. Testing should be done to account for possible overlooked instances of accessibility mismanagement / misconfiguring.
 
-## [CSS Layout - Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox#flex-flow_shorthand)
+## [CSS Layout - Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox)
+
+Called `flex`, because items expand (or shrink) to fill / accommodate space given.  
+It is used for centering relative to the parent, equally distributing space available to the children elements, among other finite detailing around the layout.
+
+### Flex Boxes
+
+We enable flexbox to the parent element, so that the children will receive the effects of the rules applied.  
+The main rule is `display: flex`. The container / parent element is now operating as a pseudo block level element in relation to how other elements and itself behave with each other. Although, we could append `inline` to the `flex` value and have it behave as an inline element.. The items within are called flex items.  
+
+#### To Column or To Row?
+
+The `flex-direction` is the property that dictates the flow / direction the main axis runs along. The value `row` reads left-to-right and `column` goes top-to-bottom.
+
+#### Wrapped
+
+Children that exceed the dimensions of the parent overflow, that is to say that they continue past the intended viewport. The `flex-wrap: wrap` rule is intended to remedy this situation and 'move' overflowed items down onto a new line.
+
+#### flex-flow Shorthand
+
+Meant to be utilized as a combination / replacement ruleset for `direction` and `wrap`, `flex-flow` will structure both with either one or two values; one for both or two for `direction` and `wrap` respectively.
+
+### Sizing Flex items
+
+- The `flex` property dictates how much space that is available each child / flex item will occupy in relations to the other items.
+        - `1` - a value that will each divide the space evenly after considering margin and padding.
+
+#### Short vs Long
+
+Using the `flex` shorthand we combine the use of three different properties; `flex-grow`, `flex-shrink`, and `flex-basis`.
+
+### Horizontal vs Vertical Alignment
+
+- `align-items: center` to center based on the cross axis.
+        - `normal` is the default (`stretch`). stretches items to fill parent container in direction set by `flex-direction`
+        - `center` will allow the items to keep their respective dimensions and center along cross axis.
+- `align-self`: applys and overrides for individual items.  
+
+- `justify-content: space-around` to space the items evenly throughout the main axis.
+        - `normal` is also default (`start`). items will sit at beginning of main axis.
+        - `end` / `flex-end` will position them at the end of the main axis.
+        - `center` is also a valid alternative for `justify-content`; positions items at center of main axis.
+        - `space-between` is very similar to `space-around` other that it puts items at the very edge, to the border of the parent container.
+
+### Item Order
+
+We are able to manipulate the order of items from their natural, logical order using the `order` property; the default is `0`.  
+The lower the order value, the sooner it will appear visually / get moved forward
+
+### Nesting the Flex
+
+Very much valid to specify children of a container, as parent for other elements.
+
+### Answers.2
 
 1. What are some advantages of using flexbox over float?
     - vertical centering of content in relating to parentContainer.
