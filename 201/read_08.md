@@ -27,6 +27,7 @@
 - [Things I want to Know More About](#things-i-want-to-know-more-about)
 
 This Topic Matters because...  
+It's vital to know how items will interact with each other and in relation to the parent conatiner to ensure the most optimal and cleanest layout for the user and provide a suitable experience fitting of the project.
 
 ## [Learn CSS - Flexbox](https://web.dev/learn/css/flexbox/)
 
@@ -190,3 +191,5 @@ Very much valid to specify children of a container, as parent for other elements
 ## Learn CSS - Layout
 
 ## Things I want to Know More About
+
+Use case of flexbox, grid and regular (block, inline, absoulute, etc.); when it's beneficial to combine and when ypu shouldn't.
