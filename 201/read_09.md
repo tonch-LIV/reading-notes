@@ -79,7 +79,7 @@ Flexibility can equal complexity; forms come in all shapes and sizes and its you
 1. Why are forms so important in web development?
     - Forms allow for user interaction and data input/transmission, as well as manipulating/adding to data sets.
 2. When designing a form, what are some key things to keep in mind when it comes to user experience?
-    - can be a friend / augmented with accessibility tools; to be thrpughful in design and implementation; and to not nest forms within each other.
+    - can be a friend / augmented with accessibility tools; to be thoughtful in design and implementation; and to not nest forms within each other.
 3. List 5 form elements and explain their importance.
     - `<form>` - without it, no form
     - `<label>` - provides context on what the are is for, usually input.
@@ -128,11 +128,13 @@ Events exist far and wide outside of JavaScript; many programming languages cate
 1. How would you describe events to a non-technical friend?
     - events are... events! things that happen and you watch, hear, read about, etc. Similar to loops?
 2. When using the `addEventListener()` method, what 2 arguments will you need to provide?
-    - the action/event we are listening for and a function for what we want to happen afterwards.
+    - the action/event we are listening for and a (callback) function for what we want to happen afterwards.
 3. Describe the event object. Why is the target within the event object useful?
     - event objects are parameters passed into the event handler itself and provide "extra features and info". `.target() is useful because, it references the element that the event occurred in.
 4. What is the difference between event bubbling and event capturing?
     - bubbling associates event listening and executing with nested/container elements and capturing... only with that specific element.
+    - bubbling moves up from event element up to parents; capturing from parents down to nested element.
+    - javaScript
 
 ## [HTML5 Input Types](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/HTML5_input_types)
 
