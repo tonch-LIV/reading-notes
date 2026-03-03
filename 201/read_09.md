@@ -7,9 +7,14 @@
   - [Web Form Structure](#web-form-structure)
     - [Form Elements / Controls](#form-elements--controls)
   - [Answers.1](#answers1)
+
 - [Learn JS](#learn-js)
   - [Events Intro](#events-intro)
+    - [Using `addEventListener()`](#using-addeventlistener)
+    - [Event Objects](#event-objects)
+    - [Default Behavior](#default-behavior)
   - [Answers.2](#answers2)
+
 - [HTML5 Input Types](#html5-input-types)
 - [Events Reference and Listings](#event-reference-and-listings)
 - [Things I Want To Know More About](#things-i-want-to-know-more-about)
@@ -82,19 +87,58 @@ Flexibility can equal complexity; forms come in all shapes and sizes and its you
     - `<button>` - a way for the user to interact with the form; can select from choices or be used to submit.
     - `<textarea>` - another form to input data, this can be a single line or a multi-line, adaptable text box.
 
-## [Learn JS]
+## [Learn JS](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting)
 
-### [Events Intro]
+Landing page for learning the essentials of the core language. Provides [links](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting#tutorials_and_challenges) for readings, tutorials, and challenges.
+
+### [Events Intro](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events)
+
+Events are changes or... well, events that happen in a system, program, application that are recognized and accounted for to allow subsequent changes to happen. When an 'event' occurs, the system creates a signal, which in turn provides an opportunity for an action (code) to occur (run/execute).  
+
+Many different type of events exist and can be tied to a single element, various elements, The entire HTML file, or the entire browser window. View the [event index](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events#event_index) for a comprehensive list of all the types of events that may occur.  
+
+An **event listener** is what is used to react to events and allow changes to occur. An **event handler** is a function that responds from the event listener and respond in kind. This process is known as **registering an event handler**.
+
+#### Using `addEventListener()`
+
+A method appended to objects that can execute events. Parameters include what event to expect and 'listen' for, and a function of some sort to invoke after the event is registered. The function can be built globally and just referenced by name within the parameters, rather than built in.
+
+Handlers can be removed just as easy as added, `removeEventListener()`. Can improve execution and writing efficiency, as well as allowing a button (or other element/control) to do different things depending on circumstances and environment. Likewise, one event may have multiple 'event listeners' / multiple handler functions executing at same time.  
+
+`addEventListener()` is the go-to method, but there are a few different methods such as, *event handler properties* (`onClick` or something similar after `on`, and then appended to a named function) and *inline event handlers*, which are not recommended at all and considered bad practice.
+
+Disadvantages include, but not limited to; not being able to  add multiple listeners for one event, can become unmanageable, inefficient, and easily illegible from mixing HTML and JavaScript in the same file.
+
+#### Event Objects
+
+Parameter specified in the event handler function that is inherited directly into event handlers themselves. Usual naming schemes will be, the event object then the property referencing the element the event took place. `eventObject.property`.  
+
+Choose a name you can easily reference inside the event handler function; `e`, `evt`, and `event` are most common.  
+The [Event](https://developer.mozilla.org/en-US/docs/Web/API/Event) reference page contains a list of properties and methods available for use.
+
+#### Default Behavior
+
+Through data validation features, we as the developer, are able to plan and account for when the input is not as expected and therefore preventing the standard behavior and events.  
+`preventDefault()` is the function we'd call upon when input does not fit where we expected a certain value or other input.  
+
+Events exist far and wide outside of JavaScript; many programming languages cater to some sort of event model and each is different. [Node.js](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs) and [WebExtensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions) are two examples of many others.
 
 ### Answers.2
 
 1. How would you describe events to a non-technical friend?
-2. When using the addEventListener() method, what 2 arguments will you need to provide?
+    - events are... events! things that happen and you watch, hear, read about, etc. Similar to loops?
+2. When using the `addEventListener()` method, what 2 arguments will you need to provide?
+    - the action/event we are listening for and a function for what we want to happen afterwards.
 3. Describe the event object. Why is the target within the event object useful?
+    - event objects are parameters passed into the event handler itself and provide "extra features and info". `.target() is useful because, it references the element that the event occurred in.
 4. What is the difference between event bubbling and event capturing?
+    - bubbling associates event listening and executing with nested/container elements and capturing... only with that specific element.
 
-## [HTML5 Input Types]
+## [HTML5 Input Types](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/HTML5_input_types)
 
-## [Event Reference and Listings]
+## [Event Reference and Listings](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events)
 
 ## Things I Want To Know More About
+
+Event objects
+preventDefault() creation (loop like?)
