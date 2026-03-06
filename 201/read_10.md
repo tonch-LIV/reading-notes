@@ -12,6 +12,7 @@
 - [CSS Buggin](#css-buggin)
 
 This topic matters because...  
+it is important to know how to fix something, but more importantly, how to begin investigating what went wrong and what tools to use that might help troubleshoot.  
 
 ## [Where Did We Go Wrong (w/ JavaScript)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong)
 
@@ -42,9 +43,18 @@ Missing parenthesis, semicolon, colon, curly braces, quotes or other punctuation
 3. How will this topic continue to influence your long term goals?
     - by being more methodical and systematic in my troubleshooting
 
-## Debugging JavaScript
+## [Debugging JavaScript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools#the_javascript_debugger)
+
+Used to identify problems that would prevent code from executing by setting breakpoints and through watching the value of variables as they run.  
+
+- **Watch expressions**: show added variables.
+- **Breakpoints**: pause execution expressions.
+- **Call stack**: shows code that was executed to get to current line.
+- **Scopes**: Shows visible values throughout code structure.
 
 ### JavaScript Console
+
+Provides immediate response by allowing the execution of chosen lines of code at will from file currently loaded in browser. Also helpful in reporting errors encountered as browser tries to load and run the file.
 
 ### Answers.2
 
@@ -52,10 +62,15 @@ Missing parenthesis, semicolon, colon, curly braces, quotes or other punctuation
     - allows us to pause the code while its running to inspect whats its happening step-by-step.
 2. Define what a breakpoint is.
     - a marker placed on code to stop it fom running any further
-      - Identify logic erros, understand flow, inspect variables.
+      - Identify logic errors, understand flow, inspect variables.
 3. What is the call stack?
     - how js keeps track of function calls; last in -> first out
 
 ## HTML Bugs
 
 ## CSS Buggin
+
+## Things I Want To Know More About
+
+- practice with the debugger/sources
+- the other tabs under inspect
