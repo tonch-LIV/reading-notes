@@ -13,7 +13,12 @@
   - [Animations](#animations)
   - [Tutorials](#tutorials)
   - [Answers.2](#answers2)
-- [Unresponsice HTML Images](#unresponsive-html-images)
+- [Responsive HTML Images](#responsive-html-images)
+  - [Creating Responsive Images](#creating-responsive-images)
+    - [Different Sizes](#different-sizes)
+    - [Different Resolutions](#different-resolutions)
+    - [Art Direction](#art-direction)
+  - [Answers.3](#answers3)
 
 ## [HTML A/V](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio)
 
@@ -172,7 +177,84 @@ Children properties include;
     - Flexbox is more like strips (whether horizontal or vert), where as grid is more like a chessboard / check pattern.
 2. Grid container, grid item, and grid line are a few important terms to understand when using Grid. Please describe these terms in a few sentences.
     - Container: The parent element where `display: grid is defined.
-    - Item: The children item to which the grid properties affect. 
+    - Item: The children item to which the grid properties affect.
     - Line: The dividing line (horizontal or vert) between line, track, area.
 
-## Unresponsive HTML Images
+## [Responsive HTML Images](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images)
+
+Images that adapt to different screen sizes, resolutions, are able to fit and be viewed in the browser's viewport it is displayed on etc.  
+
+### Creating Responsive Images
+
+Two main ways of catering images to different browser sizes. Resolution switching with different image sizes or with same size image, but different resolutions.  
+
+(**\*Note**: Using the JavaScript console in the browser and typing in, `document.querySelector('html').clientWidth`, will allow us to know what the browser's viewport  is currently set at.)  
+
+(**\*Note**: Best practice to include, `<meta name="viewport" content="width=device-width">` within the `<head>` of an HTML file to force any browser to conform to actual viewport width.)
+
+#### Different Sizes
+
+Provides same image at different size that will display depending on browser viewport through the use of `srcset` and `sizes` attributes for `<img>`. Syntax looks as such,  
+
+```html
+<img
+  srcset="placeholder_480w.jpg 480w, placeholder_800w.jpg 800w"
+  sizes="(width <= 600px) 480px,
+         800px"
+  src="placeholder_800w.jpg"
+  alt="placeholder image" 
+/>
+```
+
+In the **`srcset`** attribute, we include the set of images for the browser to choose from, separated by a comma. Each image is followed by the unit measurement of the size that the image is.  
+
+In **`sizes`** we specify the conditions by which to make the selection of the image.  
+In the example, `(width <= 600px) 480px, 800px`, is practically saying,  
+'when the browser viewport is less than or equal to 600px, choose the 480px image defined above; any other time (when viewport is bigger), choose the 600px image'.  
+
+#### Different Resolutions
+
+This method caters to the resolution of the screen being displayed.
+
+```html
+<img
+  srcset="placeholder_320w.jpg, placeholder_480w.jpg 1.5x, placeholder_640w.jpg 2x"
+  src="placeholder_640w.jpg"
+  alt="placeholder image" 
+/>
+```
+
+```css
+img {
+  width: 320px;
+}
+```
+
+In this example, instead of following the image filename with a unit size, it is followed by 'x-descriptors'. The browser will automatically register the resolution of the currently displayed and chooses the best fit.
+
+#### Art Direction
+
+Using the `<picture>` element, we are also able to change the image to account for different display sizes (usually cropped images).  
+
+The `<picture>` element is a container that wraps around `<img>` and we are able to provide different sources; syntax is very similar to how the `<video>` element operates.  
+
+```html
+<picture>
+  <source media="(width < 800px)" srcset="placeholder_480w_close_portrait.jpg" />
+  <source media="(width >= 800px)" srcset="placeholder_800w.jpg" />
+  <img src="placeholder_800w.jpg" alt="Waves" />
+</picture>
+```
+
+Very similar also to displaying [images of different sizes](#different-sizes); we include conditions from which to make a choice on which image to choose. In this instance however, it is done within the `media` attribute.
+
+### Answers.3
+
+1. Besides making a site visually appealing across different screen sizes, why should developers make images responsive?
+    - make appealing, but also fit the media within confines of the viewport, rather than stretch, shrink, or cut.
+2. Define the following `<img>` attributes `srcset` and `sizes`. Write an example of how they are used.
+    - `srcset`: provides the different choices to choose from with dimensions/descriptors.
+    - `sizes`: where the conditions for how the choice and which choice will be made are defined.
+    - examples up above.
+3. How is `srcset` more helpful for responsive images than CSS or JavaScript?
+    - `srcset` is more useful than CSS in relation to making responsive images, because in the process of loading the webpage, it provides opportunity for the pre-loader to choose the adequately suited image for the browser's viewport.
