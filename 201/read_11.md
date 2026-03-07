@@ -19,6 +19,13 @@
     - [Different Resolutions](#different-resolutions)
     - [Art Direction](#art-direction)
   - [Answers.3](#answers3)
+- [HTML Images](#html-images)
+- [Embedding](#embedding)
+- [Things I Want To Know More About](#things-i-want-to-know-more-about)
+
+This is important because...  
+as a developer, its important to know how to add image, audio, and video elements to a site in order to provide an engaging experience for the user, as well as knowing how to adapt for varying displays and resolutions and provide fallback/redundancy if needed.  
+Being able to style with CSS grid is a yet another tool along side Flexbox and regular displayb properties to structure page content.
 
 ## [HTML A/V](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio)
 
@@ -258,3 +265,12 @@ Very similar also to displaying [images of different sizes](#different-sizes); w
     - examples up above.
 3. How is `srcset` more helpful for responsive images than CSS or JavaScript?
     - `srcset` is more useful than CSS in relation to making responsive images, because in the process of loading the webpage, it provides opportunity for the pre-loader to choose the adequately suited image for the browser's viewport.
+
+## [HTML Images](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images)
+
+## [Embedding](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies)
+
+## Things I Want To Know More About
+
+- practice using grid
+- practice audio, video, and image synatx and creation 
