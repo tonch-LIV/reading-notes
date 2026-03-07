@@ -79,6 +79,17 @@ Differs in space taken up, less than a video since there is no visual; does not 
 
 ### Answers.1
 
+1. Explain how the ability to use video and audio on the web has evolved since the early 2000s.
+    - Used to be done through plugins which had secuiryt concerns; nowadays its done through integarted html elements.
+2. Describe the use of the `src` and `controls` attributes in the `<video>` element.
+    - `src` points to the url or location of the video, whereas `controls` includes the controls for playback.
+3. Why is it important to have fallback content inside the `<video>` element?
+    - Not all browsers support the same formats and codecs.
+4. Write a very short story where `<audio>` and `<video>` are characters.
+    - two friends perform shows in houses across the city. The city is called the web and the house is the browser.  
+    One friend performs his tale in a narrator fashion; sits in a chair, turns off the lights, provides blindfolds for the guests, and reads his story. The second friend has a stage, lights, props, outfits, and puts on a show for all to see.  
+    The stories they perform at the each house vary and could be in any of the various languages and/or genres, it is up to the both of them to decide which show to put on for the guests and for the guests to decide on which night/house to attend the show.
+
 ## Grid Guide
 
 ## Unresponsive HTML Images
