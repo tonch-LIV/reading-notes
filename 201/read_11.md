@@ -7,6 +7,12 @@
     - [Video Text Tracks](#video-text-tracks)
   - [Answers.1](#answers1)
 - [Grid Guide](#grid-guide)
+  - [Key Terms](#key-terms)
+  - [Properties](#properties)
+  - [Special Units, Values, & Functions](#special-units-values--functions)
+  - [Animations](#animations)
+  - [Tutorials](#tutorials)
+  - [Answers.2](#answers2)
 - [Unresponsice HTML Images](#unresponsive-html-images)
 
 ## [HTML A/V](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio)
@@ -90,6 +96,83 @@ Differs in space taken up, less than a video since there is no visual; does not 
     One friend performs his tale in a narrator fashion; sits in a chair, turns off the lights, provides blindfolds for the guests, and reads his story. The second friend has a stage, lights, props, outfits, and puts on a show for all to see.  
     The stories they perform at the each house vary and could be in any of the various languages and/or genres, it is up to the both of them to decide which show to put on for the guests and for the guests to decide on which night/house to attend the show.
 
-## Grid Guide
+## [Grid Guide](https://css-tricks.com/complete-guide-css-grid-layout/)
+
+### Key Terms
+
+- Container: The *direct* parent of encompassed grid items. Where `display: grid` is applied.
+- Item: Children elements of container. Elements directly affected by changes grid properties.
+- Line: Column or row lines which make up structure of grid.
+- Track: Space divided by adjacent lines (either col or row).
+- Area: Space in regard between lines (4).
+- Cell: Individual space between lines (2).
+
+### Properties
+
+Parent properties include;
+
+- `display`:
+- `grid-template-*`:
+- `grid-template`:
+- `grid-template-areas`:
+- `grid`:
+- `justify-items`:
+- `align-items`:
+- `place-items`:
+- `justify-content`:
+- `align-content`:
+- `place-content`:
+- `grid-auto-*`:
+- `grid-auto-flow`:
+- `gap`:
+
+Children properties include;
+
+- `grid-column-*`:
+  - `grid-row-*`:
+- `grid-column`:
+  - `grid-row`:
+- `grid-area`:
+- `justify-self`:
+- `align-self`:
+- `place-self`:
+
+### Special Units, Values, & Functions
+
+- `fr` unit
+  - `fr`: fractional unit, in regards to remaining space.
+
+- Keyword Values
+  - `min-content`: the smallest dimensions content will conform to.
+  - `max-content`: the complete and true size of the content.
+  - `auto`: superseded by `fr`.
+
+- sizing Functions
+  - `fit-content`: uses as much space available; never less than min/max-content.
+  - `max()`: CSS function; 2 arguments; returns largest.
+  - `min()`: " "; returns smallest.
+  - `minmax()`: " "; defines grid tracks by allowing growth/shrink based on values.
+
+- `repeat()`: saves typing/keystrokes.
+  - `auto-fill`: as many columns possible on a row (even if empty).
+  - `auto-fit`: " ", prefers expanding columns to fill space rather than adding empty ones.
+
+### Animations
+
+`gap`, `row-gap`, and `column-gap` through length, percentage, or calculation.  
+(only implementation in tested browsers)  
+
+`grid-template-columns`, `grid-template-rows` by a list of lengths. percentages, or calculations.
+
+### [Tutorials](https://css-tricks.com/complete-guide-css-grid-layout/#aa-tutorials-videos)
+
+### Answers.2
+
+1. How does Grid layout differ from Flex?
+    - Flexbox is more like strips (whether horizontal or vert), where as grid is more like a chessboard / check pattern.
+2. Grid container, grid item, and grid line are a few important terms to understand when using Grid. Please describe these terms in a few sentences.
+    - Container: The parent element where `display: grid is defined.
+    - Item: The children item to which the grid properties affect. 
+    - Line: The dividing line (horizontal or vert) between line, track, area.
 
 ## Unresponsive HTML Images
