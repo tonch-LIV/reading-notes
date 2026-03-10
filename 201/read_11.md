@@ -123,7 +123,7 @@ Differs in space taken up, less than a video since there is no visual; does not 
 
 Parent properties include;
 
-- `display`:
+- `display`: power switch to enable `: grid`
 - `grid-template-*`:
 - `grid-template`:
 - `grid-template-areas`:
@@ -142,11 +142,11 @@ Children properties include;
 
 - `grid-column-*`:
   - `grid-row-*`:
-- `grid-column`:
-  - `grid-row`:
+- `grid-column`: specifies where a grid item starts and ends across columns.
+  - `grid-row`: specifies start and end rows.
 - `grid-area`:
-- `justify-self`:
-- `align-self`:
+- `justify-self`: the way an item aligns horizontally inside its own gird cell; overrides `justify-item`
+- `align-self`: where the item sits in the column; verical
 - `place-self`:
 
 ### Special Units, Values, & Functions
