@@ -90,7 +90,7 @@ For when simply hearing the audio is not possible, for whichever reason, interna
 
 WebVTT format writes text files linked to the metadata of a video such as time in video, to keep the text synched.
 
-### `<audio>` element
+### `<audio>` Element
 
 Works in same manner as `<video>` element.  
 Differs in space taken up, less than a video since there is no visual; does not need / support `width` / `height`.  
@@ -98,7 +98,7 @@ Differs in space taken up, less than a video since there is no visual; does not 
 ### Answers.1
 
 1. Explain how the ability to use video and audio on the web has evolved since the early 2000s.
-    - Used to be done through plugins which had secuiryt concerns; nowadays its done through integarted html elements.
+    - Used to be done through plugins which had security concerns; nowadays its done through integarted html elements.
 2. Describe the use of the `src` and `controls` attributes in the `<video>` element.
     - `src` points to the url or location of the video, whereas `controls` includes the controls for playback.
 3. Why is it important to have fallback content inside the `<video>` element?
