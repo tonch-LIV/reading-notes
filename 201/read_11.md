@@ -144,7 +144,8 @@ Children properties include;
   - `grid-row-*`:
 - `grid-column`: specifies where a grid item starts and ends across columns.
   - `grid-row`: specifies start and end rows.
-- `grid-area`:
+- `grid-area`: place a grid item within specific rows and columns; shorthand property that can define four grid positions at once.
+  - row start / column start / row end / column end
 - `justify-self`: the way an item aligns horizontally inside its own gird cell; overrides `justify-item`
 - `align-self`: where the item sits in the column; verical
 - `place-self`:
