@@ -18,11 +18,11 @@ This is important because..
 ### Answers.1
 
 1. What does the `<canvas>` allow a developer to achieve?
-    - Draw 2D graphs using javascript,
+    - Draw 2D graphs using javascript; holds a variety of data/visuals.
 2. What is the importance of the closing `</canvas>` tag?
-    - not self closing; if browser doesn’t support the `<canvas>` element, content within element is fallback content that will display, most modern browsers support element.
+    - not self closing; if browser doesn’t support the `<canvas>` element, content within element is fallback content that will display, most modern browsers support element; needed to avoid rendering/layout issues.
 3. Explain what the `getContext()` method does.
-    - one argument defines type of content.
+    - one argument defines type of content; tells browser what kind of visual you'll represent from data.
 
 ## [Chart.js](https://www.chartjs.org/docs/latest/)
 
@@ -30,6 +30,8 @@ This is important because..
 
 1. What is Chart.js and how it can be brought into your project?
     - most popular (per GitHub), provides many commonly used styles and types of charts plus other features; directly with built-in typings compatible with js or through external packages.
+    - Library of ready set tools to build clean visual data representations.
+    - chart.js, CDN, added in `script` element on top of page, can be downloaded.
 2. List 3 different Chart types you can create using Chart.js.
     - area, bar, and line.
 
@@ -41,6 +43,7 @@ This is important because..
     - visually easier to look at illustration rather than number data set.
 2. How could Chart.js aid your previously created applications visually?
     - its a plugin that enables easy creation of all kinds of charts/graphs.
+    - in fish bicuits, trends could be observed on days most sold and which location sells the most.
 
 ## [Drawing Shapes - Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
 
