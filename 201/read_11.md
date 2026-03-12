@@ -274,4 +274,4 @@ Very similar also to displaying [images of different sizes](#different-sizes); w
 ## Things I Want To Know More About
 
 - practice using grid
-- practice audio, video, and image synatx and creation 
+- practice audio, video, and image synatx and creation
