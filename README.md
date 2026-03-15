@@ -21,7 +21,7 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 - [Reflections](/reflections.md)
 - [Prompt Engineering](/prompt_engineering.md)
 
-| 102 - Intro to Software Development  | 201 - Foundations               | of Software Development           |
+| 102 - Intro to Software Development  |                 201 - Foundations of Software Development           |
 |--------------------------------------|---------------------------------|-----------------------------------|
 |- [Class 1 Reading](102/read_01)      |- [Class 1 Reading](201/read_01) |                                   |
 |- [Class 2 Reading](102/read_02)      |- [Class 2 Reading](201/read_02) |- [Class 10 Reading](201/read_10)  |
