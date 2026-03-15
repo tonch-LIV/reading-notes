@@ -7,13 +7,18 @@
 - [Chart.js](#chartjs)
   - [Answers.2](#answers2)
 - [Animated Charts](#animated-charts)
+  - [Line](#line-chart)
+  - [Pie](#pie-chart)
+  - [Bar](#bar-chart)
   - [Answers.3](#answers3)
 - [Drawing Shapes - Canvas](#drawing-shapes---canvas)
 - [Styles & Colors - Canvas API](#styles--colors---canvas-api)
 - [Text - Canvas API](#text---canvas-api)
 - [Things I Want To Know More About](#things-i-want-to-know-more-about)
 
-This is important because..  
+This is important because...  
+adding charts is a good tool to use and incorporate into the the structure of a website to enage the users attention and break up blocks of text and raw data when present.  
+Knowing how to add charts is equally important, becasue then we are given the knowledge to modify and customize charts as needed.
 
 ## [JavaScript Canvas](https://www.javascripttutorial.net/web-apis/javascript-canvas/)
 
@@ -84,6 +89,103 @@ Chart.js works well and adapts to large datasets, reduces toll taken on DOM tree
 
 ## [Animated Charts](https://webdesignerdepot.com/easily-create-stunning-animated-charts-with-chart-js/)
 
+Superior method to visually display data over raw datasets, regardless of table stylings done. Much easier and faster at representing data trends visually.  
+
+Chart.js simplifies the creation process. A method of linking to working fileset is through direct download and then linking in `<head>` element through `<script>` element.  
+
+`<canvas>` element is added to html file with `id`, `width`, `height` attributes so Chart.js knows where chart will generate.
+
+### Line Chart  
+
+```html
+<canvas id="lineChart" width="600" height="400"></canvas>
+```
+
+(**from here, reading includes JS through `<script>` tags within html, but can also / should also be done through external JS file.**)  
+
+A variable is created that will contain the linked `id`, as well as the context for what kind of chart will be created (2D, Line).  
+
+```js
+var lineChart = document.getElementById('lineChart').getContext('2d');
+new Chart(lineChart).Line(buyerData);
+```
+
+We continue with creating/plugging in the data. This example will use an object containing labels and the dataset. This object's placement will go above our previous variable.
+
+```js
+var lineData = {
+ labels : ["January","February","March","April","May","June"],
+ datasets : [
+  {
+   fillColor : "rgba(172,194,132,0.4)",
+   strokeColor : "#ACC26D",
+   pointColor : "#fff",
+   pointStrokeColor : "#9DB86D",
+   data : [203,156,99,251,305,247]
+  }
+ ]
+}
+```
+
+### Pie Chart
+
+Similar steps are taken for a pie chart; only swapping in  
+`new Chart(countries).Pie(pieData, pieOptions);` rather than `.Line` and the dataset definition as well as the options for the chart,  
+
+```js
+var pieData = [
+ {
+  value: 20,
+  color:"#878BB6"
+ },
+ {
+  value : 40,
+  color : "#4ACAB4"
+ },
+ {
+  value : 10,
+  color : "#FF8153"
+ },
+ {
+  value : 30,
+  color : "#FFEA88"
+ }
+];
+
+var pieOptions = {
+ segmentShowStroke : false,     // remove stroke from segments
+ animateScale : true       //  animate scale of pie so it zooms out from nothing
+}
+```
+
+### Bar Chart
+
+As for a bar chart; similarities are shared with a line chart. Although, again we define `.Bar` in  
+`var income = document.getElementById("income").getContext("2d");
+new Chart(income).Bar(barData);`.  
+The data set definitions is largely the same,  
+
+```js
+var barData = {
+ labels : ["January","February","March","April","May","June"],
+ datasets : [
+  {
+   fillColor : "#48A497",
+   strokeColor : "#48A4D1",
+   data : [456,479,324,569,702,600]
+  },
+  {
+   fillColor : "rgba(73,188,170,0.4)",
+   strokeColor : "rgba(72,174,209,0.4)",
+   data : [364,504,605,400,345,320]
+  }
+
+ ]
+}
+```
+
+**Plenty more examples and options to choose and learn from founf in the [documentation](https://www.chartjs.org/docs/).**
+
 ### Answers.3
 
 1. What are some advantages to displaying data via a chart over a table?
@@ -99,3 +201,6 @@ Chart.js works well and adapts to large datasets, reduces toll taken on DOM tree
 ## [Text - Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text)
 
 ## Things I Want To Know More About
+
+- chart options
+- declaration / definition structure
