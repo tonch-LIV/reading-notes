@@ -21,17 +21,17 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 - [Reflections](/reflections.md)
 - [Prompt Engineering](/prompt_engineering.md)
 
-| 102 - Intro to Software Development  |                 201 - Foundations of Software Development           |
-|--------------------------------------|---------------------------------------------------------------------|
-|- [Class 1 Reading](102/read_01)      |- [Class 1 Reading](201/read_01)  - [Class 10 Reading](201/read_10)  |
-|- [Class 2 Reading](102/read_02)      |- [Class 2 Reading](201/read_02)  - [Class 11 Reading](201/read_11)  |
-|- [Class 3 Reading](102/read_03)      |- [Class 3 Reading](201/read_03)                                     |
-|- [Class 4 Reading](102/read_04)      |- [Class 4 Reading](201/read_04)                                     |
-|- [Class 5 Reading](102/read_05)      |- [Class 5 Reading](201/read_05)  - [Class 12 Reading](201/read_12)  |
-|- [Class 6 Reading](102/read_06)      |- [Class 6 Reading](201/read_06)  - [Class 13 Reading](201/read_13)  |
-|- [Class 7 Reading](102/read_07)      |- [Class 7 Reading](201/read_07)                                     |
-|- [Class 8 Reading](102/read_08)      |- [Class 8 Reading](201/read_08)  - [Class 14 Reading](201/read_14)  |
-|- [Lab 9 Notes](102/lab_09.md)        |- [Class 9 Reading](201/read_09)  - [Class 15 Reading](201/read_15)  |  
+| 102 - Intro to Software Development  |                 201 - Foundations of Software Development             |
+|--------------------------------------|-----------------------------------------------------------------------|
+|- [Class 1 Reading](102/read_01)      |- [Class 1 Reading](201/read_01) __ - [Class 10 Reading](201/read_10)  |
+|- [Class 2 Reading](102/read_02)      |- [Class 2 Reading](201/read_02) __ - [Class 11 Reading](201/read_11)  |
+|- [Class 3 Reading](102/read_03)      |- [Class 3 Reading](201/read_03)                                       |
+|- [Class 4 Reading](102/read_04)      |- [Class 4 Reading](201/read_04)                                       |
+|- [Class 5 Reading](102/read_05)      |- [Class 5 Reading](201/read_05) __ - [Class 12 Reading](201/read_12)  |
+|- [Class 6 Reading](102/read_06)      |- [Class 6 Reading](201/read_06) __ - [Class 13 Reading](201/read_13)  |
+|- [Class 7 Reading](102/read_07)      |- [Class 7 Reading](201/read_07) __                                    |
+|- [Class 8 Reading](102/read_08)      |- [Class 8 Reading](201/read_08) __ - [Class 14 Reading](201/read_14)  |
+|- [Lab 9 Notes](102/lab_09.md)        |- [Class 9 Reading](201/read_09) __ - [Class 15 Reading](201/read_15)  |  
 
 | 301 - Intermediate Software development  | 401 - Advanced Software Development  |
 |------------------------------------------|--------------------------------------|
