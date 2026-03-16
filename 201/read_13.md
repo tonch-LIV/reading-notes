@@ -5,6 +5,7 @@
   - [Local Storage on HTML5 Browsers](#local-storage-on-html5-browsers)
   - [Amswers](#answers)
 - [Past, Present, and Future of Web App Local Storage](#past-present-and-future-of-web-app-local-storage)
+  - [HTML5 Storage](#html5-storage)
 - [Things I Want To Know More About](#things-i-want-to-know-more-about)
 
 This is important because...  
@@ -60,4 +61,20 @@ var taste = localStorage.getItem('favoritesport');
 
 ## Past, Present, and Future of Web App Local Storage
 
+(**\* Broken Link, had to search for elsewhere...**)
+
+Local storage triumphs due to being able to store information in the registry, INI files, XML files, embedded databases, and in the OS's own file format invention.  
+
+Whereas web apps can only store data in mainly cookies which are prone to slowing down the web app by constantly transmitting data, due to being included with HTTP requests. If requests are sent through standard HTTP rather than HTTPS (TLS/SSL), the data being sent is being sent unencrypted. Cookies are also limited in size (4KB).  
+
+Before HTML5, Flash objects were seen as an improvement over cookies functionality in both speed and data size, granting 100KB of storage per domain.  
+
+### HTML5 Storage
+
+Data stored in `key/value` pairs, which when the site/page is closed and or otherwise navigate away from it; will remain. Referred to as **Local Storage** or **DOM Storage** and seen as a much more secure alternative.  
+
 ## Things I Want To Know More About
+
+- `JSON.stringify()` and `JSON.parse()` methods.
+- Flash objects / plug-ins
+- Google Gears / web SQL / SQLite
