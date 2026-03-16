@@ -3,7 +3,7 @@
 - [Website Local Storage](#website-local-storage)
   - [Om nom nom! Cookies](#om-nom-nom-cookies)
   - [Local Storage on HTML5 Browsers](#local-storage-on-html5-browsers)
-  - [Amswers](#answers)
+  - [Answers](#answers)
 - [Past, Present, and Future of Web App Local Storage](#past-present-and-future-of-web-app-local-storage)
   - [HTML5 Storage](#html5-storage)
 - [Things I Want To Know More About](#things-i-want-to-know-more-about)
@@ -59,7 +59,7 @@ var taste = localStorage.getItem('favoritesport');
 3. Local storage can store what type of data? How would you convert it to that type before storing?
     - stored as strings; must be converted through the use of `JSON.stringify()` and `JSON.parse()`.
 
-## Past, Present, and Future of Web App Local Storage
+## [Past, Present, and Future of Web App Local Storage](https://clementbuchanan.github.io/reading-notes/code201Class13.html)
 
 (**\* Broken Link, had to search for elsewhere...**)
 
