@@ -54,10 +54,12 @@ var taste = localStorage.getItem('favoritesport');
 
 1. Why would a developer use local storage for a web application?
     - when pages are known to take a while to load; "store the state" as the user last left it; lessen the load on the network bandwidth / request & delivery of content.
+    - saves small pieces of data that will remain next time page is loaded
 2. What information should not be stored in local storage?
-    - personal identity information;
+    - personal identity information; credentials, bank account info
+    - convinience, not security
 3. Local storage can store what type of data? How would you convert it to that type before storing?
-    - stored as strings; must be converted through the use of `JSON.stringify()` and `JSON.parse()`.
+    - stored as strings; must be converted through the use of `JSON.stringify()` (converts to string; saving) and `JSON.parse()` (converts back to usable object; loading).
 
 ## [Past, Present, and Future of Web App Local Storage](https://clementbuchanan.github.io/reading-notes/code201Class13.html)
 
