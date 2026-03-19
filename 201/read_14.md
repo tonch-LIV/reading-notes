@@ -14,28 +14,37 @@
   - [CSS3 Animations: Keyframes](#css3-animations-keyframes)
   - [404](#404)
 
-## CSS Transforms
+## [CSS Transforms](http://learn.shayhowe.com/advanced-html-css/css-transforms/)
 
 ### Answers.1
 
-## CSS Transitions & Animations
+1. What does a CSS transform allow the developer to do to an element?
+2. Provide an example of a transform and how you could see that being used on a website.
+
+## [CSS Transitions & Animations](http://learn.shayhowe.com/advanced-html-css/transitions-animations/)
 
 ### Answers.2
 
-## Simple, Grand CSS3 Transitions
+1. What does a CSS transition allow the developer to do to an element?
+2. How does a CSS animation differ from a CSS transition?
+
+## [Simple, Grand CSS3 Transitions](http://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users)
 
 ### Answers.3
 
+1. What are some benefits to using CSS transitions on websites?
+2. How this topic fit in with your long-term goals?
+
 ## Psychological Safety
 
-### Lessons From Google
+### [Lessons From Google](https://web.archive.org/web/20221125192300/https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html)
 
 ## Bookmark/Skim
 
-### Pure CSS Bounce
+### [Pure CSS Bounce](http://codepen.io/dp_lewis/pen/gCfBv)
 
-### Buttons Animated
+### [Buttons Animated](http://codepen.io/retyui/pen/ByoaXV)
 
-### CSS3 Animations: Keyframes
+### [CSS3 Animations: Keyframes](http://codepen.io/akshaychauhan/pen/oAfae)
 
-### 404
+### [404](http://codepen.io/kieranfivestars/pen/MYdQxX)
