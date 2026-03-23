@@ -16,10 +16,104 @@
 
 ## [CSS Transforms](http://learn.shayhowe.com/advanced-html-css/css-transforms/)
 
+Allows new and different ways to size, position, and change elements in either 2D or 3D settings (with individual properties and values) thanks to CSS3 update.  
+
+Syntax is pretty straight forward; `transform` property keyword, followed by the transform type and then the amount in parenthesis, occasionally and to offer best support across browsers, one may include vendor prefixes.
+
+```css
+div {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+}
+```
+
+### 2D Transforms
+
+Works on the `x` (horizontal) and `y` (vertical) axes.  
+
+- `rotate` as a value for transform type allows movement within the 0 to 360 degree range, positive value = clockwise and negative = counterclockwise.
+
+```css
+.box-1 {
+  transform: rotate(20deg);
+}
+.box-2 {
+  transform: rotate(-55deg);
+}
+```
+
+- Through `scale`, we are able to change the size of an element. Default is `1` (100%); new syntax would have `scale(.75);`, or any other desired as the value.
+
+- `translate` shifts / pushes and or pulls an element without having an impact on its surroundings, very similar to relative positioning. By the same logic, `translateX` and `translateY` change an elements position on the horizontal and vertical axis, respectively.  
+
+As can be done with `scale` values, if you wish to set both at once in one rule rather than separately; the values must be separated with a comma within the parenthesis, with the value for `x` first, then `y`.  
+
+```css
+.box-3 {
+  transform: translate(-10px, 25%);
+}
+```
+
+- `skew` is used to distort elements on either or both axis. Syntax convention followed closely as to `scale` and `translate`. Distance is measured in units of degrees (`deg`); pixels and percentages not applicable.  
+
+```css
+.box-3 {
+  transform: skew(5deg, -20deg);
+}
+````
+
+### Combining Transforms
+
+Common occurrence for multiple transforms to be applied to a single element; in this situation, only one `transform` property is used for all applicable transform types (`scale`, `skew`, etc.), syntax example shown below.  
+
+```css
+.box-2 {
+  transform: skew(10deg, 20deg) translateX(20px);
+}
+```
+
+### Transform Origin
+
+The default transform origin position is the dead center of an element, halfway horizontally and vertically (50%).  
+We are able to change this using `transform-origin` property and by using up to two values (x and y axis), but if only one is used then its applied to both axes.  
+
+`0 0` is the same as `top left`; `100% 100%` is the same as `bottom right`.
+
+```css
+.box-1 {
+  transform: scale(.75) translate(-10px, -10px);
+  transform-origin: 20px 50px;
+}
+.box-2 {
+  transform: scale(.5);
+  transform-origin: 100% 100%;
+}
+```
+
+Issues may arise when used in conjunction with `translate` since they are both attempting to position the element.
+
+### 3D Transforms
+
+Perspective is needed when working with three dimensional transforms. Set as a value for the `transform` property, `transform: perspective(10px)` on either the individual element or the parent element.  
+The higher the `perspective` value, the further away its 'perceived' to be, and vice-versa.  
+`perspective-origin` is also a value that can be modified.
+
+- 3D `rotate` - adds `rotateZ`.
+- 3D `scale` - `scaleZ`. Works best in conjunction with other 3D transforms
+- 3D `translate` - `translateZ`
+
+- 3D `skew` can't be transformed on a three dimensional aspect.
+
+[Shorthand](https://developer.mozilla.org/en/CSS/transform-function) properties also exist; `rotate3d`, `scale3d`, `transition3d`, and `matrix3d`.
+
+Nested elements that are being transformed suffer the consequence of inheritance if the parent element is being transformed itself. To allow the nested elements to transform, the `transform-style` property is used with the `preserve-3d` value on the elements desired.  
+`transform-style: preserve-3d;`.
+
 ### Answers.1
 
 1. What does a CSS transform allow the developer to do to an element?
-    - change from one state to another;
+    - change from one state to another; either `rotate`, `scale`, `translate`, `skew`.
 2. Provide an example of a transform and how you could see that being used on a website.
     - change of color, shape, rotation; reaction to event. Buttons changing color, cursor pointer changing while hovering on an element.
 
