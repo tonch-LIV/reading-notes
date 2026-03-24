@@ -24,6 +24,9 @@
   - [CSS3 Animations: Keyframes](#css3-animations-keyframes)
   - [404](#404)
 
+This is important because...  
+Being able to add dynamic visuals to engage the users attention leads to a favorable experience to them. Done tastefully also... and when called for / where it fits.
+
 ## [CSS Transforms](http://learn.shayhowe.com/advanced-html-css/css-transforms/)
 
 Allows new and different ways to size, position, and change elements in either 2D or 3D settings (with individual properties and values) thanks to CSS3 update.  
@@ -254,14 +257,14 @@ The ability to play or pause an animation is done through the use of the `animat
     - Allows changes to the element's property values over time, rather than instantly.
 2. How does a CSS animation differ from a CSS transition?
     - Transition between two phases; animations over time, multiple steps.
-    - animation is more controlled and more complex (implemented), can repeat forever; keyframes
+    - animation is more controlled and more complex (implemented), can repeat forever; keyframes.
 
 ## [Simple, Grand CSS3 Transitions](http://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users)
 
 ### Answers.3
 
 1. What are some benefits to using CSS transitions on websites?
-    - Provides a natural feel to the user experience; gives visual feedabck to changes ahppeneing on screen in real time; emphasize certain pieces of content on a page; provide
+    - Provides a natural feel to the user experience; gives visual feedabck to changes happening on screen in real time; emphasize certain pieces of content on a page; provide
 2. How this topic fit in with your long-term goals?
     - This fits in by giving me more tools and expanding my knowledge to provide a better visual layout and elements in any HTML file I create.
 
@@ -290,4 +293,5 @@ The ability to play or pause an animation is done through the use of the `animat
 
 ## Things I Want To Know More About
 
-- transform, transition, and animation templates
+- transform, transition, and animation templates.
+- best methods to combine diferent properties.
