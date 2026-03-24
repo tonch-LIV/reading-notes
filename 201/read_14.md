@@ -1,8 +1,18 @@
 # 201_Read_14
 
 - [CSS Transforms](#css-transforms)
+  - [2D Transforms](#2d-transforms)
+  - [Combining Transforms](#combining-transforms)
+  - [Transform Origin](#transform-origin)
+  - [3D Transforms](#3d-transforms)
   - [Answers.1](#answers1)
 - [CSS Transitions & Animations](#css-transitions--animations)
+  - [Transitions](#transitions)
+    - [Properties](#properties)
+    - [Duration](#duration)
+    - [Timing](#timing)
+    - [Delay](#delay)
+  - [Animations](#animations)
   - [Answers.2](#answers2)
 - [Simple, Grand CSS3 Transitions](#simple-grand-css3-transitions)
   - [Answers.3](#answers3)
@@ -118,6 +128,125 @@ Nested elements that are being transformed suffer the consequence of inheritance
     - change of color, shape, rotation; reaction to event. Buttons changing color, cursor pointer changing while hovering on an element.
 
 ## [CSS Transitions & Animations](http://learn.shayhowe.com/advanced-html-css/transitions-animations/)
+
+Another update brought about with the rollout of CSS3. Transitions allow change between states, whereas animations set multiple points.  
+
+### Transitions
+
+Allows the alteration of appearance and behavior for an element whenever a state change happens. Different styles must be identified at each state, usually by using the `:hover`, `:focus`, `:active`, and `:target` pseudo-classes.  
+
+Popular transition related properties include `transition-property`, `transition-duration`, `transition-timing-function`, and `transition-delay`.  
+Example showing the two different states defined for a box changing `background` color;
+
+```css
+.box {
+  background: #2db34a; // starting color
+  transition-property: background; // property to change. may be mult; separated with comma
+  transition-duration: 1s;  // time change takes to occur
+  transition-timing-function: linear;
+}
+.box:hover {
+  background: #ff7b29; // new color
+}
+```
+
+#### Properties
+
+\* **Not all** properties may be transitional. Other common transitional properties include,  
+
+- `background-color`
+- `background-position`
+- `border-color`
+- `border-width`
+- `border-spacing`
+- `bottom`
+- `clip`
+- `color`
+- `crop`
+- `font-size`
+- `font-weight`
+- `height`
+- `left`
+- `letter-spacing`
+- `line-height`
+- `margin`
+- `max-height`
+- `max-width`
+- `min-height`
+- `min-width`
+- `opacity`
+- `outline-color`
+- `outline-offset`
+- `outline-width`
+- `padding`
+- `right`
+- `text-indent`
+- `text-shadow`
+- `top`
+- `vertical-align`
+- `visibility`
+- `width`
+- `word-spacing`
+- `z-index`
+
+#### Duration
+
+Set by the `transition-duration` property and values can be seconds (`s`), milliseconds (`ms`), and fractional seconds.  
+If multiple properties are defined in `transition-property`, different durations may be used for each individual, matching up with the order, first property to first duration.
+
+#### Timing
+
+To set the speed at which the property will transition between stages; `transition-timing-function` is used.
+
+- `linear` - moving from one state to another at a constant speed.
+- `ease-in` - starts slow then finishes fast.
+- `ease-out` - starts fast and finishes slow.
+- `ease-in-out` - starts slow, speeds up, then finishes fast.
+
+If transitioning multiple properties, same as duration; separate duration with comma.
+
+#### Delay
+
+Set with the use of `transition-delay` property and uses seconds or milliseconds.
+
+A **[shorthand](https://learn.shayhowe.com/advanced-html-css/transitions-animations/#shorthand-transitions)** that can be used with all transitions is, `transition`.
+
+### Animations
+
+In order to specify the order the and changes of state for an animation, `@keyframes` is used where at minimum 2-3 different states are defined to animate. `@keyframes` is followed by the name of the animation, then inside the rule set we line out the 'breakpoints'/linear progression steps and the properties that will change at said breakpoint.
+
+```css
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+```
+
+`@keyframes` is one of the new updates that **must** be prefixed.
+
+- @-moz-keyframes
+- @-o-keyframes
+- @-webkit-keyframes
+
+To apply created animations to elements, we use the `animation-name` property coupled with the name used after the `@keyframes` declaration, as a value.  
+`animation-name: slide;`  
+
+At minimum, an `animation-duration` property should also be declared so the browser knows how long to play the animation.  
+
+`duration`, `timing-function`, and `delay` all also apply to animations.  
+As well as the inclusion of `animation-iteration-count` to specify how many times one would like the animation to replay (number or `infinite`).  
+`animation-direction` allows declaration of direction/flow (`normal`, `reverse`, `alternate`, and `alternate-reverse`).  
+The ability to play or pause an animation is done through the use of the `animation-play-state` poperty and with `running` or `paused` values.  
 
 ### Answers.2
 
