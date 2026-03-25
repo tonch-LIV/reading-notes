@@ -271,9 +271,11 @@ The ability to play or pause an animation is done through the use of the `animat
 
 `transition: all 0.3s ease;` will be the initial state. `all` properties will be affected, the speed for the change will be `.3` seconds, and `ease` as the default acceleration the change will occur.  
 
+All of these style rule definitions will require two rulesets to take effect. The initial/default selector rule, the next rule (pseudo); the selector with the changed state (what triggers it).
+
 ### Fade In
 
-Used to emphasize functionality or draw attention to an object, action, etc. Required two steps to take effect; the initial/ default, then the changed state (what triggers it).
+Used to emphasize functionality or draw attention to an object, action, etc.
 
 ```css
 .fade { // initial state; class applied to element
