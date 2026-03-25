@@ -112,7 +112,7 @@ For `relative`, think opposite of the property you define. As in, if define `top
 
 #### Absolute
 
-Again defined as the value for the `position` property. `absolute` elements no loger exist within the normal flow, the space they once took is tken/filled in by the surrounfing elements and it sits within its own layer.  
+Again defined as the value for the `position` property. `absolute` elements no loger exist within the normal flow, the space they once took is then/filled in by the surrounding elements and it sits within its own layer.  
 Think in terms of pop-ups, dialogue boxes, etc.
 
 The way this value moves the element is the "opposite" of `relative`, in a way. The units of measurement dictate the distance the element should sit from the parent elements sides.  

@@ -74,7 +74,7 @@ As can be done with `scale` values, if you wish to set both at once in one rule 
 .box-3 {
   transform: skew(5deg, -20deg);
 }
-````
+```
 
 ### Combining Transforms
 
@@ -260,6 +260,169 @@ The ability to play or pause an animation is done through the use of the `animat
     - animation is more controlled and more complex (implemented), can repeat forever; keyframes.
 
 ## [Simple, Grand CSS3 Transitions](http://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users)
+
+`transition: all 0.3s ease;` will be the initial state. `all` properties will be affected, the speed for the change will be `.3` seconds, and `ease` as the default acceleration the change will occur.  
+
+### Fade In
+
+Used to emphasize functionality or draw attention to an object, action, etc. Required two steps to take effect; the initial/ default, then the changed state (what triggers it).
+
+```css
+.fade { // initial state; class applied to element
+ opacity:0.5;
+}
+
+.fade:hover { // change on hover, 
+ opacity:1;
+}
+```
+
+### Change Color
+
+```css
+.color:hover { // 'hover' is the action that will bring the change from the initial state
+ background:#53a7ea;
+}
+```
+
+### Grow & Shrink
+
+Old method involved having to specify dimensions, now we can use `transform: scale();`.
+
+```css
+.grow:hover { // action that bring about change
+ -webkit-transform: scale(1.3); // vendor / browser compatability
+ -ms-transform: scale(1.3); // ""
+ transform: scale(1.3); // 
+}
+```
+
+Inversely, shrinking is as simply. Growing involves a value greater than `1`, shrinking is less than `1`.
+
+```css
+.shrink:hover {
+ -webkit-transform: scale(0.8);
+ -ms-transform: scale(0.8);
+ transform: scale(0.8);
+}
+```
+
+### Rotate
+
+```css
+// pseudo class; hover
+.rotate:hover {
+ -webkit-transform: rotateZ(-30deg);
+ -ms-transform: rotateZ(-30deg);
+ transform: rotateZ(-30deg);
+}
+```
+
+### Square to Circle
+
+```css
+.circle:hover {
+ border-radius:50%;
+}
+```
+
+### 3D Shadow
+
+Done by adding a box shadow and using either `transform` or `translate` to move the element along the `x` axis. Work well to give users feedback on actions, events, or interaction.
+
+```css
+.threed:hover {
+ box-shadow:
+ 1px 1px #53a7ea,
+ 2px 2px #53a7ea,
+ 3px 3px #53a7ea;
+ -webkit-transform: translateX(-3px);
+ transform: translateX(-3px);
+}
+```
+
+### Swing
+
+Done through the use of `@keyframes`, `animation`, and/or `animation-iteration`.
+
+```css
+@-webkit-keyframes swing {
+ 15% {
+ -webkit-transform: translateX(5px);
+ transform: translateX(5px);
+ }
+ 30% {
+ -webkit-transform: translateX(-5px);
+ transform: translateX(-5px);
+ } 
+ 50% {
+ -webkit-transform: translateX(3px);
+ transform: translateX(3px);
+ }
+ 65% {
+ -webkit-transform: translateX(-3px);
+ transform: translateX(-3px);
+ }
+ 80% {
+ -webkit-transform: translateX(2px);
+ transform: translateX(2px);
+ }
+ 100% {
+ -webkit-transform: translateX(0);
+ transform: translateX(0);
+ }
+}
+```
+
+```css
+@keyframes swing {
+ 15% {
+ -webkit-transform: translateX(5px);
+ transform: translateX(5px);
+ }
+ 30% {
+ -webkit-transform: translateX(-5px);
+ transform: translateX(-5px);
+ }
+ 50% {
+ -webkit-transform: translateX(3px);
+ transform: translateX(3px);
+ }
+ 65% {
+ -webkit-transform: translateX(-3px);
+ transform: translateX(-3px);
+ }
+ 80% {
+ -webkit-transform: translateX(2px);
+ transform: translateX(2px);
+ }
+ 100% {
+ -webkit-transform: translateX(0);
+ transform: translateX(0);
+ }
+}
+```
+
+Use of both `@-webkit-keyframes` and `@keyframes` for compatibility sense.  
+
+```css
+.swing:hover {
+ -webkit-animation: swing 1s ease;
+ animation: swing 1s ease;
+ -webkit-animation-iteration-count: 1;
+ animation-iteration-count: 1;
+}
+```
+
+### Inset
+
+Can be used to style a 'ghost button'; a button that has a heavy border and no background in an easier manner then hard coding a border and box sizing.
+
+```css
+.border:hover {
+ box-shadow: inset 0 0 0 25px #53a7ea;
+}
+```
 
 ### Answers.3
 
