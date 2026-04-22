@@ -33,6 +33,20 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 |- [Class 8 Reading](102/read_08)      |- [Class 8 Reading](201/read_08)  ___  - [Class 14 Reading](201/read_14)  |
 |- [Lab 9 Notes](102/lab_09.md)        |- [Class 9 Reading](201/read_09)  ___  - [Class 15 Reading](201/read_15)  |  
 
-| 301 - Intermediate Software development  | 401 - Advanced Software Development  |
-|------------------------------------------|--------------------------------------|
-|- [Class 1 Reading](301/read_01)          |- [Class 1 Reading](401/read_01)      |
+| 301 - Intermediate Software development  | 401 - Advanced Software Development   |
+|------------------------------------------|---------------------------------------|
+|- [Class 1 Reading](301/read_01)          |- [Class 1 Reading](401/read_01)       |
+|- [Class 2 Reading](301/read_02)          |- [Class 2 Reading](401/read_02)       |
+|- [Class 3 Reading](301/read_03)          |- [Class 3 Reading](401/read_03)       |
+|- [Class 4 Reading](301/read_04)          |- [Class 4 Reading](401/read_04)       |
+|- [Class 5 Reading](301/read_05)          |- [Class 5 Reading](401/read_05)       |
+|- [Class 6 Reading](301/read_06)          |- [Class 6 Reading](401/read_06)       |
+|- [Class 7 Reading](301/read_07)          |- [Class 7 Reading](401/read_07)       |
+|- [Class 8 Reading](301/read_08)          |- [Class 8 Reading](401/read_08)       |
+|- [Class 9 Reading](301/read_09)          |- [Class 9 Reading](401/read_09)       |
+|- [Class 10 Reading](301/read_10)         |- [Class 10 Reading](401/read_10)      |
+|- [Class 11 Reading](301/read_11)         |- [Class 11 Reading](401/read_11)      |
+|- [Class 12 Reading](301/read_12)         |- [Class 12 Reading](401/read_12)      |
+|- [Class 13 Reading](301/read_13)         |- [Class 13 Reading](401/read_13)      |
+|- [Class 14 Reading](301/read_14)         |- [Class 14 Reading](401/read_14)      |
+|- [Class 15 Reading](301/read_15)         |- [Class 15 Reading](401/read_15)      |
