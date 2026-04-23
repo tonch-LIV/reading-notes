@@ -5,22 +5,25 @@
 ### Answers.1
 
 1. What is a “component”?
-  -
+    - a small piece of code (javascript, html) that is reusable that produces UI elements; accepts input;
 2. What are the characteristics of a component?
-  -
-3. What are the advantages of using component-based architecture
-  -
+    - Independent / Contained (works on it's own)
+    - Reusable
+    - Scalable / Composable
+    - Accepts input / manages state
+3. What are the advantages of using component-based architecture?
+    - cleaner code (maintanence), reusable (saves time, less errors, ), organization,
 
 ## [Props in React](https://www.freecodecamp.org/news/how-to-use-props-in-reactjs/)
 
 ### Answers.2
 
 1. What is “props” short for?
-  -
+    -
 2. How are props used in React?
-  -
+    -
 3. What is the flow of props?
-  -
+    -
 
 ## Bookmark / Review
 
