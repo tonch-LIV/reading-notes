@@ -12,7 +12,7 @@
     - Scalable / Composable
     - Accepts input / manages state
 3. What are the advantages of using component-based architecture?
-    - cleaner code (maintanence), reusable (saves time, less errors, ), organization,
+    - organization (cleaner code, maintanence), reusable (saves time, less errors, scalable).
 
 ## [Props in React](https://www.freecodecamp.org/news/how-to-use-props-in-reactjs/)
 
