@@ -85,16 +85,86 @@ Encapsulated - code block is contained within itself and rarely depend on other 
 
 ## [Props in React](https://www.freecodecamp.org/news/how-to-use-props-in-reactjs/)
 
-###
+Props are objects and are used to pass data and values between components that return dynamic and unique outputs.  
+When building with React, common occurrence for sites to have similar design patterns throughout their sections, only with different data, which is done through the use props, which build on the concept and use of components.
+
+### What are React Props?
+
+Props are inputs, methods of adding data into components, which they (components) can then use to expand upon the data they contain.  
+
+#### How to Use
+
+Data flow is one way, from parent component to child component. The child component also can not change or modify the data passed from the parent.  
+
+To send props into a component, the syntax looks very similar to how attributes (class, id, etc.) are integrated to HTML elements.
+The syntax to send props can look a little something like,  
+
+```js
+<Greeting name="you" age={1} />
+```
+
+and can have more than one property defined (name, age, etc.).  
+Within the component receiving, we can now integrate the prop like so,  
+
+```js
+function Greeting(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+```
+
+resulting in `Hello, you!`.
+
+### Destructuring
+
+A feature that allows the reassignment of data from objects or arrays to variables (think `Constructor` and how properties are defined in the initial parenthesis, only curly braces for this method). This method eliminates the need to use the `props.` prefix.
+
+two different examples (within body, within parameters), in relation to our earlier example of `<Product />` are as follows;
+
+```js
+function Product = (props) => {
+//First Step: Destructuring within the body of the function
+    const { img, name, desc, price} = props ;
+    return (
+      <div>
+          <img src={img} alt="products" />
+//Second Step: receive the properties where you need them by stating the names of the properties without attaching the prefix ‘props.’
+        <h4>{name}</h4>
+        <p>{description}</p>
+        <h4>{price}</h4>
+      </div>
+    );
+}
+
+export default Product
+```
+
+```js
+//First Step: Destructuring within function's parameter
+function Product = ({ img, name, desc, price}) => {
+    return (
+      <div>
+          <img src={img} alt="products" />
+//Second Step: receive the properties where you need them by stating the names of the properties without attaching the prefix ‘props.’
+        <h4>{name}</h4>
+        <p>{description}</p>
+        <h4>{price}</h4>
+      </div>
+    );
+}
+
+export default Product
+```
+
+All this with the goal of making code more readable.
 
 ### Answers.2
 
 1. What is “props” short for?
-        -
+        - Properties
 2. How are props used in React?
-        -
+        - to pass data through components; from parent to child.
 3. What is the flow of props?
-        -
+        - one way, parent to child.
 
 ## Bookmark / Review
 
