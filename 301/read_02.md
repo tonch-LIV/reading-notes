@@ -6,6 +6,11 @@
   - [Unmounting](#unmounting)
   - [Components and Methods](#components-and-methods)
   - [Answers.1](#answers1)
+- [React State vs. Props](#react-state-vs-props)
+  - [State](#state)
+  - [Props](#props)
+  - [Answers.2](#answers2)
+  - [Things I Want to know More About](#things-i-want-to-know-more-about)
 
 ## [React Lifecycle](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)
 
@@ -87,12 +92,29 @@ componentWillUpdate > **getSnapshotBeforeUpdate**
 
 ## [React State vs. Props](https://www.youtube.com/watch?v=IYvD9oBCuJI)
 
+React manages data and re-renders on changes.
+
+### State
+
+Data handled & updated inside component.
+
+### Props
+
+~ Arguments to function.  
+Data passed into component; updated outside.  
+What you want component to initialize/render to.
+
 ### Answers.2
 
 1. What types of things can you pass in the props?
+    - Changing counters, Titles.
 2. What is the big difference between props and state?
+  A component handles and updates data internally regarding state.
+    - props receive data(updated) from a parent component; don't update/modify data.
 3. When do we re-render our application?
+    - Whenever a change happens to state.
 4. What are some examples of things that we could store in state?
+    - Initial counter state, Forms (input elements).
 
 ## Bookmark and Review
 
@@ -104,3 +126,8 @@ componentWillUpdate > **getSnapshotBeforeUpdate**
 - [Boootstrap Cheatsheet](https://getbootstrap.com/docs/5.0/examples/cheatsheet/)
 - [Bootstrap Shuffle](https://bootstrapshuffle.com/classes)
 - [Netlify](https://www.netlify.com/)
+
+## Things I Want to Know More About
+
+- state vs props example.
+- bedsides errors; why some components are `UNSAFE`/deprecated.
