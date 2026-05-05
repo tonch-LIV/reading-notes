@@ -12,6 +12,9 @@
   - [Answers.2](#answers2)
   - [Things I Want to know More About](#things-i-want-to-know-more-about)
 
+This is important because..
+as a developer, it's vital to know how to be able to store data and handle changes. Learning the abstract layer process gives insight into the innerworkings.
+
 ## [React Lifecycle](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)
 
 Components can be defined as either `classes` or `functions`; lifecycle events are methods that are used within them and can allow you to update the UI and app states.  
