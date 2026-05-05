@@ -20,7 +20,7 @@ The three general phases of a lifecycle are **Mounting**, **Updating**, and **Un
 ### Mounting
 
 The stage for when instances of components are being created and inserted in the DOM.  
-Constructors and render happen here, as does ***componentDidMount***, ***static getDerivedStateFromProps***, and ***UNSAFE_componentWillMount***.
+`constructor` and `render` happen here, as does ***`componentDidMount`***, ***static getDerivedStateFromProps***, and ***UNSAFE_componentWillMount***.
 
 ### Updating
 
@@ -78,9 +78,13 @@ componentWillUpdate > **getSnapshotBeforeUpdate**
 ### Answers.1
 
 1. Based off the diagram, what happens first, the ‘render’ or the ‘componentDidMount’?
-    - render phase, before the commit phase; within Mounting.
+    - `render` phase, before the commit phase; within Mounting.
+      - UI is built.
+      - Mounted to DOM.
+      - componentDidMount is run.
 2. What is the very first thing to happen in the lifecycle of React?
     - `constructor()` is invoked.
+      - `state` initialized & bindings happen.
 3. Put the following things in the order that they happen: `componentDidMount`, `render`, `constructor`, `componentWillUnmount`, `React Updates`?
     - `constructor`
     - `render`
@@ -89,6 +93,7 @@ componentWillUpdate > **getSnapshotBeforeUpdate**
     - `componentWillUnmount`
 4. What does `componentDidMount` do?
     - components are created > network request made > inserted into DOM.
+      - APIcalls, timers, adding event listeners.
 
 ## [React State vs. Props](https://www.youtube.com/watch?v=IYvD9oBCuJI)
 
@@ -107,25 +112,52 @@ What you want component to initialize/render to.
 ### Answers.2
 
 1. What types of things can you pass in the props?
-    - Changing counters, Titles.
+    - almost anything.
+      - strings, numbers, booleans, arrays, objects, functions (event handlers).
 2. What is the big difference between props and state?
-  A component handles and updates data internally regarding state.
-    - props receive data(updated) from a parent component; don't update/modify data.
+    - State is handled and updates data internally (in component)(for dynamic data).
+      - props receive data(updated) from a parent component(read-only); don't update/modify data.
 3. When do we re-render our application?
-    - Whenever a change happens to state.
+    - Whenever a change happens to state (or props).
 4. What are some examples of things that we could store in state?
-    - Initial counter state, Forms (input elements).
+    - counter state, Forms (input elements), API data, UI state.
 
 ## Bookmark and Review
 
 - React Docs
   - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+    - data that changes over time and changes what is displayed, is state.
+    - setting state
+      - `this.state = { count: 0 };`
+    - updating state
+      - `this.setState({ count: this.state.count + 1 });`
+    - avoid 'hardcoding'
+      - `this.state.count = 5;`
   - [handling events](https://reactjs.org/docs/handling-events.html)
+    - events trigger updates.
+    - user action > event > state change > re-render
   - [‘Developer Tools’ Tutorial](https://reactjs.org/tutorial/tutorial.html)
+    - a shared parent should be used to manage all states instead of individually.
+    - Components are kept in sync and keeps logic together.
 - [React Bootstrap Documentation](https://react-bootstrap.github.io/)
+  - Bootstrap components for React.
+  - keeps focus on logic rather than styling from scratch.
+    - Prebuilt UI components.
+    - Responsive design.
+    - Faster development.
 - [Boootstrap Cheatsheet](https://getbootstrap.com/docs/5.0/examples/cheatsheet/)
+  - speeds up styling
+    - Layout → `container`, `row`, `col`
+    - Spacing → `mt-3`, `p-2`
+    - Colors → `bg-dark`, `text-light`
 - [Bootstrap Shuffle](https://bootstrapshuffle.com/classes)
+  - used to search and discover Bootstrap classes and use correct classes.
 - [Netlify](https://www.netlify.com/)
+  - deploys frontend apps on web.
+  - useful for simple deployment, continuous integration, and free hosting tier.
+    - push to GitHub
+    - netlify builds
+    - app goes live
 
 ## Things I Want to Know More About
 
