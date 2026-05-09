@@ -9,9 +9,40 @@
 - [Bookmark / Review](#bookmark--review)
 - [Things Id Like To Know More About](#things-id-like-to-know-more-about)
 
-This is important because..
+This is important because...
+knowing different things you can do within react components allows for a better user interface and ultimately a better experience.
 
 ## [list and keys](https://react.dev/learn#rendering-lists)
+
+We rely on `for` loops and `.map()` in order to render lists.  
+`key` attributes gives the array set some structure by identifying and tagging the data with a unique identifiers.  
+
+**example:** an array of vehicles
+
+```js
+const vehicles = [
+  { title: 'Car', id: 1 },
+  { title: 'Bus', id: 2 },
+  { title: 'Truck', id: 3 },
+];
+```
+
+The `map()` function is then used within the component to transform the array into usable list items.
+
+```js
+const listItems = vehicles.map(product =>
+  <li key={vehicles.id}> // key tied to and pulling from the id value
+    {vehicles.title}
+  </li>
+);
+
+return (
+  <ul>{listItems}</ul>
+);
+```
+
+`key` is used as an attribute for `<li>`; unique identifier for item within the array.  
+*'React uses your keys to know what happened if you later insert, delete, or reorder the items.'*
 
 ### Answers.1
 
@@ -26,6 +57,12 @@ This is important because..
     - Used to update / re-render efficiently based on identifying which items changed, rather than everything.
 
 ## [The (money) Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+Allows expansion (or copying) of elements (for arrays), arguments (for function calls), and/or strings.  
+Properties of an object are enumerated (contents returned) in an object literal; adds key value pairs to created object; Not all objects are iterable.  
+
+Spread is used when created a new array or object and would like to include original elements from original array/object.  
+Also able to be used in function arguments.
 
 ### Answers.2
 
@@ -66,6 +103,8 @@ const combined = { ...obj1, ...obj2 };
 
 ## [Passing Functions to Children Components](https://www.youtube.com/watch?v=tqjn3DGbnT0) - video
 
+Functions are passed down as props, within Components to share behavior 'down the ladder'.
+
 ### Answers.3
 
 1. How do parent and child components share behavior in React?
@@ -73,11 +112,15 @@ const combined = { ...obj1, ...obj2 };
 2. How are functions passed from a parent component to a child component?
     - through `.props`, like any other data.
 3. How does a child component trigger a function that comes from its parent?
-    - 
+    - through an eventlistener or some other capturable action registered through the child.
 
 ## Bookmark / Review
 
-- ['Declaring Winner' tutorial](https://reactjs.org/tutorial/tutorial.html)
+- ['Declaring Winner' tutorial](https://react.dev/learn/tutorial-tic-tac-toe)
 - [Lifting State up](https://react.dev/learn/sharing-state-between-components#lifting-state-up-by-example)
+  - When multiple Components need the same data, allocate state to the common parent.
 
 ## Things Id Like To Know More About
+
+- practice with passing fucntions as props.
+  - creation of lists thrpugh map() and getting familiar with keys.
