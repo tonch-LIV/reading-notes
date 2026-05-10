@@ -1,5 +1,25 @@
 # 301_Read_04
 
+- [How to use Forms in React](#how-to-use-forms-in-react)
+  - [Examples of forms and varying form elements](#examples-of-forms-and-varying-form-elements)
+    - [login form](#a-simple-login-form-username-and-password)
+    - [`onSubmit`](#use-of-onsubmit-to-tie-an-event-handler-to-button)
+    - [uncontrolled form (`useRef()`)](#uncontrolled-forms-useref)
+    - [Form Submission](#form-submission)
+    - [Reset](#reset)
+    - [Controlled Forms](#controlled-forms)
+    - [Controlled vs Uncontrolled](#controlled-vs-uncontrolled)
+    - [Dirty](#dirty)
+    - [Validation](#validation)
+    - [React Hook](#react-hook)
+  - [Answers.1](#answers1)
+- [The Conditional (Ternary) Operator Explained](#the-conditional-ternary-operator-explained)
+  - [if ?](#if-)
+  - [Ternary](#ternary)
+  - [Answers.2](#answers2)
+- [Bookmark and Review](#bookmark-and-review)
+- [Things I'd Like to Know More About](#things-id-like-to-know-more-about)
+
 This is important because...  
 Forms produce state; state which can become a driver for UI. Ternary operators are a simplified way to express conditionals, but should be used in the right situations to avoid loss of legibility and other logic errors. Together, ternary operators can seamingly be implemented to dictate the output after a form is submitted.
 
@@ -45,10 +65,10 @@ import * as React from 'react';
 
 const LoginForm = () => {
   const handleSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault(); // function for action to occur when submitting
   };
 
-  return (
+  return ( // attribute for attaching eventhandler
     <form onSubmit={handleSubmit}>
 
       <div>
@@ -61,7 +81,8 @@ const LoginForm = () => {
         <input id="password" type="password" />
       </div>
 
-      <button type="submit">Submit</button>
+      <!--`type=submit` tells the form to initiate the forms event handler-->
+      <button type="submit">Submit</button> 
     </form>
   );
 };
@@ -69,16 +90,16 @@ const LoginForm = () => {
 export { LoginForm };
 ```
 
-#### **uncontrolled forms** (`useRef()`)
+#### **uncontrolled forms**
 
-form values stored by browser, accessed only when needed
+form values stored by browser, accessed only when needed through the use of references; `useRef()`.
 
 ```js
-const emailRef = React.useRef();
+const emailRef = React.useRef(); // reference / save-state
 // later on:
-<input ref={emailRef} />
+<input ref={emailRef} /> // input field that ties to the reference
 // then to be read:
-const email = emailRef.current.value;
+const email = emailRef.current.value; // variable in eventhandler function that updates save state
 ```
 
 - `emailRef` is the object being referenced
@@ -102,9 +123,22 @@ const handleSubmit = (event) => {
 #### Reset
 
 React controls evrything centrally.  
-No need to manually clear the DOM, target selectors for their value, or manipulate HTML.
+No need to manually clear the DOM, target selectors for their value, or manipulate HTML.  
 
-#### **Controlled Forms**, the preferred method when using React and forms
+```js
+const handleSubmit = (event) => {
+  event.preventDefault();
+
+  setForm({
+    email: '',
+    password: '',
+  });
+};
+```
+
+#### **Controlled Forms**
+
+the preferred method when using React and forms
 
 React state controls form values.  
 
@@ -125,7 +159,7 @@ Making controlled components the React standard.
 
 #### Controlled vs Uncontrolled
 
-Simple forms = uncontrolled; more intricate (use of state) -> controlled.
+Simple forms = uncontrolled; more intricate (use of state, multiple handlers) -> controlled.
 
 #### Dirty
 
@@ -136,7 +170,9 @@ A change from the initial/pre-entered value.
 A check on whether inputs are acceptable.  
 (i.e. required inputs, password length, email or phone number format).
 
-#### React Hook
+#### [React Hook](https://react-hook-form.com/)
+
+Does not come with any form components, instead with custom React Hooks that allow for access to form, dirty, validation state and many others.
 
 ### Answers.1
 
@@ -191,3 +227,7 @@ x === y ? console.log(true) : console.log(false);
   - Use of Ternary is ideal when the logic is short, expecting a return, JSX render is conditional.
   - `if... else` is better for when logic is drawn out and extensive.
   - nested conditions are in play.
+
+## Things I'd Like to Know More About
+
+- 
