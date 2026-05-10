@@ -194,11 +194,16 @@ Essentially shorthand for `if... else` statements.
 
 `let message = age >= 18 ? 'Adult' : 'Minor';`  
 
-`:` separates the '`if`' (true) and '`else`' (false/otherwise), `?` after the condition.
+`condition ? 'value if true' : 'value if false'`  
 
-### if ?
+`:` separates the '`if`' (true) and '`else`' (false/otherwise), `?` after the condition.  
 
-### Ternary
+### Nested Ternary & Multiple Operations
+
+Nesting is done when testing multiple conditions.  
+(\*CAUTION\*)  
+
+Multiple operations are separated with commas.
 
 ### Answers.2
 
@@ -230,4 +235,7 @@ x === y ? console.log(true) : console.log(false);
 
 ## Things I'd Like to Know More About
 
-- 
+- nesting ternary
+  - multiple operations
+- React hooks
+- form reset
