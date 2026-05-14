@@ -76,30 +76,30 @@ Also able to be used in function arguments.
     - Merge Objects.
 3. Give an example of using the spread operator to combine two arrays.
 
-```js
-const a = [1, 2];
-const b = [3, 4];
+    ```js
+    const a = [1, 2];
+    const b = [3, 4];
 
-const combined = [...a, ...b];
-// [1, 2, 3, 4]
-```
+    const combined = [...a, ...b];
+    // [1, 2, 3, 4]
+    ```
 
 4. Give an example of using the spread operator to add a new item to an array.
 
-```js
-const b = [3, 4];
-const b2 = [...b, 5, 6];
-```
+    ```js
+    const b = [3, 4];
+    const b2 = [...b, 5, 6];
+    ```
 
 5. Give an example of using the spread operator to combine two objects into one.
 
-```js
-const obj1 = { name: "Antonio" };
-const obj2 = { age: 25 };
+    ```js
+    const obj1 = { name: "Antonio" };
+    const obj2 = { age: 25 };
 
-const combined = { ...obj1, ...obj2 };
-// { name: "Antonio", age: 25 }
-```
+    const combined = { ...obj1, ...obj2 };
+    // { name: "Antonio", age: 25 }
+    ```
 
 ## [Passing Functions to Children Components](https://www.youtube.com/watch?v=tqjn3DGbnT0) - video
 
