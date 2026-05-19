@@ -8,10 +8,13 @@
   - [Inverse data flow](#inverse-flow)
   - [Answers.1](#answers1)
 - [Higher-Order Functions](#higher-order-functions)
+  - [Abstraction](#abstraction)
+    - [Higher-Order Functions](#the-higher-order)
   - [Answers.2](#answers2)
 
 This is important because...  
 knowing the thought process behind building React apps with the use of components further solidifies the understanding when actually building them.
+It can be easy to get lost in asking and trying to find out the 'why?', that you lose sight of the scope.
 
 ## [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
@@ -89,13 +92,31 @@ Child input to received props from parent, updates the State, even though it is 
 5. How can you identify where state needs to live?
     - State needs to live in the closest common parent component of the child that needs to use it.
 
-### Answers.2
-
 ## [Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html#h_xxCc98lOBK)
 
+The bigger the program, the more complex and more prone to lead others to confusion, and potentially introduce bugs and errors.  
+Conversely, the smaller / less lines of code a program has; the more likely it is to be correct.  
+
+### Abstraction
+
+The ability to talk / think about problems at a higher (abstract level) and in turn, interpret them better by hiding intricate and complex details, with the insinuation that you posses the knowledge for certain terms.  
+
+Functions are a good representation of abstraction; we hide the actual code to be processed behind a (hopefully semantic) name that implies an order of operations.
+
+#### The Higher-Order
+
+When functions operate based on other functions (as arguments or returns), they are known as *Higher-order functions*. Allow abstraction over actions and values.
+
+### Answers.2
+
 1. What is a "higher-order function"?
-    - y
+    - a function the invokes a function as an argumnet or returns another function
 2. Explore the `greaterThan` function as defined in the reading. In your own words, what is line 2 of this function doing?
-    - 1
+    - returning an arrow function `m()` which depicts `m` being rather than `n`.
 3. Explain how either `map` or `reduce` operates, with regards to higher-order functions.
-    - 2
+    - `.map()` is accepting the contents of an array/function, going through each item in said array/function, completes function dictated, and returns a new array/function. and returning a new list without.
+
+## Things I'd Like to Know More About
+
+- The actual application of breaking down the building phase for components.
+- How much abstraction is too much?
