@@ -90,7 +90,7 @@ Child input to received props from parent, updates the State, even though it is 
     - is something being passed through props from a parent?
     - Can it be computed in the current props/state?
 5. How can you identify where state needs to live?
-    - State needs to live in the closest common parent component of the child that needs to use it.
+    - State needs to live in the closest common parent component of the child that needs to use it. (lifting state, up)
 
 ## [Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html#h_xxCc98lOBK)
 
@@ -111,7 +111,7 @@ When functions operate based on other functions (as arguments or returns), they 
 
 1. What is a "higher-order function"?
     - a function the invokes a function as an argumnet or returns another function
-2. Explore the `greaterThan` function as defined in the reading. In your own words, what is line 2 of this function doing?
+2. Explore the `greaterThan` function as defined in the [reading](https://eloquentjavascript.net/3rd_edition/05_higher_order.html#h_xxCc98lOBK:~:text=line%2E-,Higher%2Dorder%20functions). In your own words, what is line 2 of this function doing?
     - returning an arrow function `m()` which depicts `m` being rather than `n`.
 3. Explain how either `map` or `reduce` operates, with regards to higher-order functions.
     - `.map()` is accepting the contents of an array/function, going through each item in said array/function, completes function dictated, and returns a new array/function. and returning a new list without.
