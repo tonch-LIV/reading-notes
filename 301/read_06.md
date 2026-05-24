@@ -21,11 +21,21 @@ This is important because...
 ### Answers.2
 
 1. Who is Roy Fielding?
+    - A researcher that helped build the first web servers; allowing delivery of documents over the internet.
 2. Why don't the techniques that we use in this class work well when we need to be able to talk to all of the machines in the world?
+    - a live / locally hosted deployment vs a service hosted and routed through the internet.
 3. What is the HTTP protocol that Fielding and his friends created?
+    - HTTP
 4. What does a `GET` do?
+    - Reaches out and retrieves / request data from a resource (server).
 5. What does a `POST` do?
+    - Adds information to a system; create.
 6. What does `PUT` do?
+    - replaces info on system.
 7. What does `PATCH` do?
+    - partial update to information on system.
 
 ## Things I Want to Know More About
+
+- SOAP
+- visual of REST
