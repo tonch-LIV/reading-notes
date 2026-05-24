@@ -12,7 +12,9 @@ This is important because...
 ### Answers.1
 
 1. To what extent did psychological safety impact your previous work experience?
+    - To the extent that, depending on power dynamics or energy invested in an environment; there could be a vacuum of voices and opinions, as well as a clear direction for the group to follow.
 2. How does this article inform your approach to working with others moving forward?
+    - to find yorself, not only with like minded individuals that share past experiencws, but with people you feel comfortable around.
 
 ## [How I explained REST to my brother](https://gist.github.com/brookr/5977550)
 
