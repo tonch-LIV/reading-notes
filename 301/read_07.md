@@ -5,6 +5,9 @@
 - [Bookmarks to Review](#bookmark-and-review)
 - [Things I want to Know More About](#things-i-want-to-know-more-about)
 
+This is important because...  
+knowing how things opeate in the back half of a deployed live web service can lead one to better results, by creating a more polished product.  
+
 ## [Introduction to Node.js](https://www.sitepoint.com/an-introduction-to-node-js)
 
 A JavaScript runtime environment (built on Chrome
@@ -12,7 +15,15 @@ s V8 engine) that allows for the execution of JavaScript on the server(remote), 
 
 Node is a standalone program, equipped with various enhanced features (file system API, HTTP library, and other OS related utility methods) and does not run in the browser.  
 
- There is benefit from using and interchanging between different versions. npm (node package manager) manages and handles intallation of packaged necessary for javascript development.
+ There is benefit from using and interchanging between different [versions](https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/). npm (node package manager) manages and handles installation of packages necessary for javascript development.  
+Modern javascript (ES6) is very well supported by node, allowing you to use modern syntax and avoid compatability issues.  
+
+`package.json` lists dependencies (among other contents) used within a project / directory from the libraries found on `node_modules`.  
+`node_modules` should not be added to version control, but `package.json` should, as it'll allow other developers who'd like to clone your project down, to know what dependencies are needed to run.
+
+Example of what can be installed with node/npm are build tools that'll bundle JS files and assets as static assets, run test, lint code, check styling, and many more.
+
+More on the relationship between Node and modern JavaScript and their [anatomy](https://www.sitepoint.com/anatomy-of-a-modern-javascript-application/).
 
 ### Answers.1
 
@@ -57,8 +68,10 @@ Node is a standalone program, equipped with various enhanced features (file syst
 
 ## Bookmark and Review
 
-- [Geocoding API Docs](https://locationiq.com/){:target="_blank"}
-- [Axios docs](https://www.npmjs.com/package/axios){:target="_blank"}
-- [MDN async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await){:target="_blank"}
+- [Geocoding API Docs](https://locationiq.com/)
+- [Axios docs](https://www.npmjs.com/package/axios)
+- [MDN async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
 
 ## Things I Want to Know More About
+
+- more on npm and its companions (Ruby, PHP, etc.)
