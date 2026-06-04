@@ -1,6 +1,9 @@
 # 301_Read_08
 
 - [API Design](#api-design-best-practices)
+  - [HTTP Methods](#http-methods)
+  - [URI's](#uris)
+  - [Methods and Status Codes](#methods-and-status-codes)
   - [Answers.1](#answers1)
 - [Bookmark / Review](#bookmark-and-review)
 - [Things I Want to Know](#things-i-want-to-know-more-about)
