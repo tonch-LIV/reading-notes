@@ -5,6 +5,9 @@
 - [Bookmark / Review](#bookmark-and-review)
 - [Things I Want to Know](#things-i-want-to-know-more-about)
 
+This is important because...  
+REST APIs teach us how systems expose data, clients request data, How APIs organize resources, and work with data efficiently. Regex can be used to process and validate data once received.
+
 ## [API Design Best Practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 
 REST API's are built around resources and can be anything a client would need to access (user, service, products, etc.). They aim to be stateless in interfacing between client and service. They also perform operations on resources through HTTP and return representations that may be hyperlinks and/or HTTP status codes; meaning they allow clients to communicate with servers using standard HTTP methods.  
@@ -15,24 +18,50 @@ scalable,
 simple,  
 and more.  
 
-## HTTP Methods
+"Chatty" API's require multiple small requests to retrieve data. Not a good or desirable method as this will increase impact performance negatively and resources used by increasing server load.  
+
+APIs communicate using JSON and XML. Clients can specify the format through the HTTP Accept header.  
+
+### HTTP Methods
 
 Verbs that notify the server of what action to perform.
 
-- **GET** - Retrieves
+- **GET** - Retrieves / Read
 - **POST** - Creates
 - **PUT** - Replaces / Updates
 - **PATCH** - Partial Update
 - **DELETE** - Removes
 
-Request must have all information needed to complete and fufill. The server should not deopend on memory of prior requests.  
+Request must have all information needed to complete and fufill. The server should not depend on memory of prior requests.  
 
-Responses can and may contain links to related resources; which in turn, should allow clients to dynamically discover available actions.
+Responses can and may contain links to related resources; which in turn, should allow clients to dynamically discover available actions.  
 
-## URI's
+Some operations may take time; rather than having to wait for it to be fufilled, we rely on asynchronous operations return a `202 Accepted` and let the client check a status endpoint later.  
+
+### URI's
 
 URI's (Uniform Resource Identifiers) are a variant of URL's, where its unique to each resource. Resource are represented as key/value pairs in JSON.  
 these should be nouns rather than verbs; identifying what the resource group is, because later they will be appended to the corresponding HTTP method.  
+
+### Methods and Status Codes
+
+**GET**  
+200 OK - Success  
+204 No Content - Nothing to return
+404 Not Found - No Resource  
+
+**POST**  
+201 Created - Resource Created  
+200 OK - Processing Succeeded  
+204 No Content - Success, No Content  
+400 Bad Request - Invalid data  
+
+**PUT**  
+Sending a request multiple times produces the same result. - idempotent.  
+
+**DELETE**  
+204 No Content - Deleted Successfully  
+404 Not Found - Resource does not exist  
 
 ### Answers.1
 
@@ -62,7 +91,15 @@ these should be nouns rather than verbs; identifying what the resource group is,
 ## Bookmark and Review
 
 - [RegExr](https://regexr.com/) - [cheatsheet]
+  - A testing and learning environment for interactive regular expression.  
+    - Allows for writing regex, highlighting matches, read explanations, see a built-in cheatsheet.  
+  - Regex is notoriously difficult to learn, but RegExr makes it easier to learn through visual feedback, explaining the patterns in plain english, providing references.  
 - [Regex Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
+  - Characters match character classes. Examples and common use cases.  
 - [Regex 101](https://regex101.com/)
+  - Also a regex testing environment. 
 
 ## Things I Want to Know More About
+
+- status codes (expected, troubleshooting, etc.).
+- RegEx.
