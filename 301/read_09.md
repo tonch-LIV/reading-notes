@@ -11,6 +11,10 @@
 - [Bookmark / Review](#bookmark--review)
 - [Things To Learn More About](#things-to-learn-more-about)
 
+This is important because...  
+As projects become larger; the easier one makes it to manage and maintain, the easier it'll be to troubleshoot if something should occur.  
+Small pure functions grouped into modules, can then be combined into larger projects.  
+
 ## [Functional Programming Concepts](https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa)
 
 Complex software gets in the way of functional programming. Functional programming must be easy to understand and modify, if called for. Concepts such as Pure Functions, Immutability, and Referential Transparency are the backbone to creating code (programs) that are easier to understand, test, and maintain in the long run.  
@@ -96,17 +100,44 @@ together, they make behavior predictable and transparent.
 
 ## [[Video] - Modules and require() - Node JS Beginner Tutorial #6](https://www.youtube.com/watch?v=xHLd36QoS4k)
 
+Modules are pieces of code found in one file, that can be re-used in other files. Modules help organize code and keep responsibilities separated.  
+Very similar, (often?) interchangeable with Components.  
+
+### `require()`
+
+Used to load (import) a module and its functionality into another module where you'd like to use it.  
+
+```js
+const add = require('./add');
+```
+
+To make a module available, it must first be exported in its file of origin.  
+
+```js
+function add(a, b) {
+  return a + b;
+}
+
+module.exports = add;
+```
+
 ### Answers.2
 
 1. What is a module?
-    - 
+    - a reusable, self-contained file containing code that can be imported into other files.  
+    - Modules help organize and separate application functionality.  
 2. What does the word 'require' do?
-    - 
+    - loads another module and returns whatever that module exports so it can be used in the current file.  
 3. How do we bring another module into the file the we are working in?
-    - 
+    - the `require()` function.  
 4. What do we have to do to make a module available?
-    - 
+    - export it using `module.exports = ...`.  
 
 ## Bookmark / Review
 
 ## Things To Learn More About
+
+- Hidden dependencies / state.  
+- Referential Transparency vs hard coding.  
+- functional programming array methods (`.map()`, `.filter()`, `.reduce()`).  
+- cases  of when to use `require()` vs `import`.  
