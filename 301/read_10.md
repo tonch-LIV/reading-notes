@@ -39,11 +39,17 @@ Stack overflow is something that can occur when the stack has grown too large to
 ### Answers.2
 
 1. What is a 'reference error'?
+    - an attempt to access a variable or 'reference' that does not exist / has not been declared.
 2. What is a 'syntax error'?
+    - happens when code goes against JavaScripts rules of grammar and punctuation. Prevents execution even if everything else is defined and referenced correctly.
 3. What is a 'range error'?
+    - when a value falls outside the acceptable range for an operation.
 4. What is a 'type error'?
+    - the use of a value in a manner that does not accord with its data type.
 5. What is a breakpoint?
+    - a tool that pauses execution at specific points of execution of the program so a developer can inspect its current state.
 6. What does the word 'debugger' do in your code?
+    - it tells DevTools to pause execution at the point it is added to the program; a built in breakpoint.
 
 ## Bookmark / Review
 
