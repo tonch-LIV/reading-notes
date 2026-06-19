@@ -15,7 +15,16 @@ The JavaScript engine operates as a single-threaded interpreter through the use 
 
 Being a single call stack means that functions are managed one at a time through a structure called **LIFO**; Last In, First Out; from 'top to bottom'. This is also referred to as Synchronous programming; tasks must be completed before moving on to the next task.  
 
-Stack overflow is something that can occur when the stack has grown too large to effectively manage the execution of function invocations; could be caused by infinite loops.  
+Stack overflow is something that can occur when the stack has grown too large to effectively manage the execution of function invocations; could be caused by infinite recursions (repeatedly calling themselves).  
+
+### Summary
+
+The Call Stack tracks function execution.  
+Function calls are pushed onto sack and go bottom-to-top, LIFO.  
+As functions are executed, they are removed from the stack.  
+Functions are executed one at a time.  
+Inifnite recursionn causes stack overflow errors.  
+Stack traces are useful when troubleshooting errors as they will show the sequence of calls that lead to the problem.  
 
 ### Answers.1
 
@@ -32,7 +41,7 @@ Stack overflow is something that can occur when the stack has grown too large to
           - two invokes three;
             - three console.logs "Done".
 5. What causes a Stack Overflow?
-    - to many function calls added to call stack, depleting memory (infinite loops)
+    - to many function calls added to call stack, depleting memory (infinite recursion)
 
 ## [JavaScript Error Messages + Debugging](https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c)
 
