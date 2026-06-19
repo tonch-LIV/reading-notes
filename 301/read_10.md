@@ -45,6 +45,16 @@ Stack traces are useful when troubleshooting errors as they will show the sequen
 
 ## [JavaScript Error Messages + Debugging](https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c)
 
+Error messages are important as they will include context as to how or what caused it to fail.  
+
+### Reference Errors
+
+Occurs when the JS engine cannot find something that is beinjg referenced, invoked, or called.  
+
+### Syntax Errors
+
+Code structure is not understood by JS, therefore cannot execute the code. Either due to missing a comma, parenthesis, semi-colon, or the like.
+
 ### Answers.2
 
 1. What is a 'reference error'?
