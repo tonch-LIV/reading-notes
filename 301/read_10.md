@@ -8,6 +8,7 @@
 - [Things to Learn More About](#things-to-learn-more-about)
 
 This is important because...  
+Its important to know the Call Stack is how functions are executed, Debugging is to investigate when a problem occurs during execution, and resouyrces to use (MDN) to learn what specific error messages mean.  
 
 ## [Understanding the JavaScript Call Stack](https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4)
 
@@ -17,7 +18,7 @@ Being a single call stack means that functions are managed one at a time through
 
 Stack overflow is something that can occur when the stack has grown too large to effectively manage the execution of function invocations; could be caused by infinite recursions (repeatedly calling themselves).  
 
-### Summary
+### Summary.1
 
 The Call Stack tracks function execution.  
 Function calls are pushed onto sack and go bottom-to-top, LIFO.  
@@ -47,20 +48,65 @@ Stack traces are useful when troubleshooting errors as they will show the sequen
 
 Error messages are important as they will include context as to how or what caused it to fail.  
 
-### Reference Errors
+**Reference Errors**  
 
-Occurs when the JS engine cannot find something that is beinjg referenced, invoked, or called.  
+Occurs when the JS engine cannot find something that is being referenced, invoked, or called.  
 
-### Syntax Errors
+**Syntax Errors**  
 
 Code structure is not understood by JS, therefore cannot execute the code. Either due to missing a comma, parenthesis, semi-colon, or the like.
+
+**Range Errors**  
+
+When a value falls outside the allowed range;  
+i.e. invalid array length,  
+invalid numeric values,  
+invalid recursion depth.  
+
+**Type Errors**  
+
+When a value is used in a way its type does not support.
+
+### Debugging  
+
+**Stack Trace**  
+
+A Stack Trace shows,
+What failed,  
+Where it failed,  
+What function caused the fail / called it,  
+The function that called that one.  
+
+**Breakpoint**  
+A breakpoint pauses the execution of a program at a specific line, so that code can be inspected.  
+
+**Debugger**  
+A keyword available for use when DevTools are open. Essentially, similar top a breakpoint.  
+
+**`try... catch`**  
+
+an `if... else` statement is for functions that account for the original desired output and what to do in case it cannot be met.
+
+### Summary.2  
+
+Debugging / troubleshooting revolves around;  
+understanding error messages,  
+reading stack traces,  
+using breakpoints,  
+inspecting code during its runtime.  
+
+The most common JS errors are;  
+Reference,  
+Syntax,  
+Range,  
+Type.  
 
 ### Answers.2
 
 1. What is a 'reference error'?
     - an attempt to access a variable or 'reference' that does not exist / has not been declared.
 2. What is a 'syntax error'?
-    - happens when code goes against JavaScripts rules of grammar and punctuation. Prevents execution even if everything else is defined and referenced correctly.
+    - happens when code goes against JavaScript's rules of grammar and punctuation. Prevents execution even if everything else is defined and referenced correctly.
 3. What is a 'range error'?
     - when a value falls outside the acceptable range for an operation.
 4. What is a 'type error'?
@@ -68,11 +114,12 @@ Code structure is not understood by JS, therefore cannot execute the code. Eithe
 5. What is a breakpoint?
     - a tool that pauses execution at specific points of execution of the program so a developer can inspect its current state.
 6. What does the word 'debugger' do in your code?
-    - it tells DevTools to pause execution at the point it is added to the program; a built in breakpoint.
+    - it tells DevTools to pause execution at the point it is added to the program; a built-in breakpoint.
 
 ## Bookmark / Review
 
 - [JavaScript errors reference on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
+  - Errors consist of name, message, and documentation explaining causesand solutions.  
 
 ## Things to Learn More About
 
