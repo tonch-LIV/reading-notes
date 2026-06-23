@@ -8,7 +8,7 @@
 - [Things to Learn More About](#things-to-learn-more-about)
 
 This is important because...  
-Its important to know the Call Stack is how functions are executed, Debugging is to investigate when a problem occurs during execution, and resouyrces to use (MDN) to learn what specific error messages mean.  
+Its important to know the Call Stack is how functions are executed, Debugging is to investigate when a problem occurs during execution, and resources to use (MDN) to learn what specific error messages mean.  
 
 ## [Understanding the JavaScript Call Stack](https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4)
 
@@ -85,7 +85,32 @@ A keyword available for use when DevTools are open. Essentially, similar top a b
 
 **`try... catch`**  
 
-an `if... else` statement is for functions that account for the original desired output and what to do in case it cannot be met.
+an `if... else` statement is for functions that account for the original desired output and what to do in case it cannot be met. It is not meant to replace bad code, nor should you try to fit in more or findong the error become just as difficult as if there were no `try... catch` implemented.
+
+```js
+try {
+  // code that might fail
+} catch (error) {
+  // code that runs if it fails
+}
+```
+
+`error` allows JS yo provide ypu with an object containing information on what happened when triggered, resulting with an output along the lines of, `TypeError: Cannot read properties of undefined`.  
+
+Through the use of,  
+
+```js
+console.log(error.name);
+console.log(error.message);
+```
+
+We then are able to learn a bit more on its make-up through a quick and friendly message to the user.  
+
+A good place to implement is for anything outside your control.  
+APIs,  
+User input,  
+File uploads,  
+Browser Storage, etc.
 
 ### Summary.2  
 
