@@ -6,7 +6,7 @@
   - [Immutability](#immutability)
   - [Referential Transparency](#referential-transparency)
   - [Answers.1](#answers1)
-- [Modules and require()](#video---modules-and-require---node-js-beginner-tutorial-6)
+- [[Video] - Modules and require()](#video---modules-and-require---node-js-beginner-tutorial-6)
   - [`require()`](#require)
   - [Answers.2](#answers2)
 - [Bookmark / Review](#bookmark--review)
