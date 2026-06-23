@@ -1,4 +1,4 @@
-# 301_Read_01
+# 301_Read_01 - Intro to React & Components
 
 - [Component-Based Architecture](#component-based-architecture)
   - [Components](#components)

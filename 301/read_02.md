@@ -1,4 +1,4 @@
-# 301_Read_02
+# 301_Read_02 - State & Props
 
 - [React Lifecycle](#react-lifecycle)
   - [Mounting](#mounting)
