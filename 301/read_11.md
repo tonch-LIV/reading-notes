@@ -1,8 +1,45 @@
 # 301_Read_11 - MongoDB and Mongoose
 
 This is important because...  
+Databases solve the problem of data disappearing when the application stops running, by adding the functionality of persistent data. SQL and NoSQL are two approaches to data are two database approaches; each with their individual strengths, weaknesses, and uses cases for different type of applications.
 
 ## [NoSQL vs SQL](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool)
+
+Not competitors or a matter of one being better than the other. The choice of which type of database one uses and makes, ultimately comes down to the type of application one is making and the data that will nedd to be stored, since each solve a different type of problem.  
+
+### Relational Databases (SQL)  
+
+SQL databases are made up of data organized into tables consisting of rows and columns.  
+Relationships between tables are established through keys, which allow data to be connected across multiple tables.  
+SQL databases are highly organized and excel at maintaining data consistency, because the structure is predefined.  
+
+SQL could be considered a collection of interconnected spreadsheets where every sheet follows strict rules about what data belongs in each column.  
+
+### NoSQL Databases  
+
+NoSQL databases are non-relational and generally store data as documents, key-value pairs, graphs, or column families rather than tables.  
+The schemas used are much more flexible and allow records to have different structures even within the same collection.  
+This flexibility makes them useful when data changes frequently or isn't easily represented in rows and columns.  
+
+MongoDB is a document database that stores information in JSON-like documents.  
+
+### Features
+
+**Structured vs Unstructured Data**  
+
+- **SQL** databases are best suited for structured data where the format is clearly defined ahead of time and followed throughout the database; every record follows the same schema.
+
+- **NoSQL** databases are somewhat more flexible; they can handle structured, semi-structured, and unstructured data. `Documents` can contain different fields without following the same structure as the rest of the database.  
+
+**Scalability**  
+
+- **SQL** traditionally scales vertically, which means upgrading components like CPU, RAM, and/storage per server.
+
+- **NoSQL** databases scale horizontally; meaning that rather than components, they add more servers and in turn grow easier when handling largw amounts of data.  
+
+**Flexibility / Consistency**  
+
+Wheras **SQL** values consistency, and reliable data through strict schemas and inter-relationships; **NoSQL** has the benefit of being flexible, allowing rapid development and scalability; traits that make it the attractive choice for *web development* and *applications* with evolving requirements.  
 
 ### Answers.1
 

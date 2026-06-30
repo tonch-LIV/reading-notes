@@ -23,7 +23,6 @@ All HTTP communications include a status code; the beginning digit of said code,
       - Wrong URL; missing data; bad request format; missing authentication and/or permissions; resolved by client.  
    - 500's = Server errors;  
       - request succesfully reached server, but error occured while processing.
-        - hj
 
 2. What is a status code 202?
    - Accepted.  
@@ -40,13 +39,26 @@ All HTTP communications include a status code; the beginning digit of said code,
 
 ### Answers.2
 
-1. Why do we need to pull our MongoDB database string out of our server and put it into our .env?
+1. Why do we need to pull our MongoDB database string out of our server and put it into our `.env`?
+   - contains sensitive info; keep it secure so it is ot shared during ACP process to version control (Git).
 2. What is middleware?
+   - `cors`; the middle-man that allows communication between the front-end and backend.
+   - can modify requests, validate data, parse JSON, authrnticate users, or handle errors.  
 3. What does `app.use(express.json())` do?
+   - middleware that parses incoming JSON requests automatically; makes data available through `req.body`.  
 4. What does the `/:id` mean in a route?
+   - a dynamic route *parameter*; placeholder value for whatever content will live in that location.  
 5. What is the difference between `PUT` and `PATCH`?
+   - PUT - replaces an entire resource.  
+   - PATCH - updates specified fields / values.
 6. How do you make a default value in a schema?
+   - through the use of the `default` property inside the fields definition:
+      - `default: "Unknown"`  
+   - if no `default` is specified, Mongoose assumes true.
 7. What does a `500` error status code mean?
+   - internal server error occured while processing the request; something failed on the server end.
 8. What is the difference between a status `200` and a status `201`?
+   - 200 OK - request was succesful.
+   - 201 Created - request succeeded **and** a new resource was created.
 
 ## Things to Learn More About
