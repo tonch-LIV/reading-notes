@@ -8,7 +8,9 @@
 - [SQL vs NoSQL - [Video]](#video---sql-vs-nosql)
 
 This is important because...  
-Databases solve the problem of data disappearing when the application stops running, by adding the functionality of persistent data. SQL and NoSQL are two approaches to data are two database approaches; each with their individual strengths, weaknesses, and uses cases for different type of applications.
+Databases solve the problem of data disappearing when the application stops running, by adding the functionality of persistent data. SQL and NoSQL are two approaches to data are two database approaches; each with their individual strengths, weaknesses, and uses cases for different type of applications.  
+
+MongoDB stores data in a format very simiar to JS objects.
 
 ## [NoSQL vs SQL](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool)
 
@@ -125,6 +127,14 @@ Enter Mongoose. Mongoose adds a layer of structure and validation over MongoDB.
 ## Bookmark and Review
 
 - [mongoose api](https://mongoosejs.com/docs/api.html#Model)
+  - Object Data Modeling (ODM) library etween node.js apps and MongoDB.
+    - defines schemas,  
+    - validates data,  
+    - creates models,  
+    - interacts with collections.
+  - brings SQL-like structure and validation to MongoDB's flexibility
 - [React Router](https://reactrouter.com/en/6.20.1/router-components/browser-router)
 
 ## Things to Learn More About
+
+- different version of SQL (No..., My...(3306), ...Net(1521), MS(1433)..., etc.)
