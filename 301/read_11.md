@@ -1,5 +1,12 @@
 # 301_Read_11 - MongoDB and Mongoose
 
+- [NoSQL vs SQL](#nosql-vs-sql)
+  - [SQL](#sql-relational-databases)
+  - [NoSQL](#nosql-databases)
+  - [Features](#features)
+  - [Answers.1](#answers1)
+- [SQL vs NoSQL - [Video]](#video---sql-vs-nosql)
+
 This is important because...  
 Databases solve the problem of data disappearing when the application stops running, by adding the functionality of persistent data. SQL and NoSQL are two approaches to data are two database approaches; each with their individual strengths, weaknesses, and uses cases for different type of applications.
 
@@ -7,7 +14,7 @@ Databases solve the problem of data disappearing when the application stops runn
 
 Not competitors or a matter of one being better than the other. The choice of which type of database one uses and makes, ultimately comes down to the type of application one is making and the data that will nedd to be stored, since each solve a different type of problem.  
 
-### Relational Databases (SQL)  
+### SQL (Relational Databases)  
 
 SQL databases are made up of data organized into tables consisting of rows and columns.  
 Relationships between tables are established through keys, which allow data to be connected across multiple tables.  
@@ -70,6 +77,30 @@ Wheras **SQL** values consistency, and reliable data through strict schemas and 
 
 ## [[Video] - SQL vs NoSQL](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
 
+**SQL is** used to communicate with relational databases, which store information in tables and establish relationships between said tables.  
+    - A major characteristics of SQL databases is their use of schemas; a defined structure for what the data each tables contains and how it's organized; made before any data is stored; creates consistency, but reduces flexibility.
+
+**NoSQL** stores data as `documents` (similar to JS objects and resembles JSON), rather than in tables with strict relationships that SQL uses (MongoDB). This offers the flexibility for documents to have different fields / content.
+
+```js
+{
+    name: "yoink_B",
+    certs: ["ITF+", "A+", "Network+", "GICW JS Web Development"]
+},
+{
+    name: "tonch'Opp",
+    age: 54,
+    city: "Portland"
+}
+```
+
+The flexibility comes at a cost though; without strict schemas:
+data can become too inconsistent.  
+validating the integrity of the data becomes more important,  
+relationships between data can be harder to manage.  
+
+Enter Mongoose. Mongoose adds a layer of structure and validation over MongoDB.
+
 ### Answers.2
 
   1. What does SQL stand for?  
@@ -83,11 +114,11 @@ Wheras **SQL** values consistency, and reliable data through strict schemas and 
   5. What is a NoSQL database?  
       - Not Only SQL; non-relational database that uses flexible structures to store data.
   6. How does it work?  
-      - no tables; flexible structures such as documents, ley:value pairs, graphs, etc. are used to store data.
+      - no tables; flexible structures such as documents, Key:value pairs, graphs, etc. are used to store data.
   7. What is inside of a MongoDB database?  
       - collections containing documents.
   8. Which is more flexible - SQL or MongoDB? and why?  
-      - MongoDB; uses flexibla schema that allows documents to contain different fields and structures w/o having to re-design the database.
+      - MongoDB; uses flexible schema that allows documents to contain different fields and structures w/o having to re-design the database.
   9. What is the disadvantage of a NoSQL database?  
       - lack of strict or 'rigid' structure can lead to inconsistent data; relationships between data can become difficult to manage.
 
