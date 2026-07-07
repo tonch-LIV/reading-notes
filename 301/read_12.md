@@ -21,8 +21,6 @@ indicates request was received and was succesful.
 202 Accepted  
 205 No Content  
 
-
-
 ### Answers.1
 
 1. In your own words, describe what each group of status code represents:
