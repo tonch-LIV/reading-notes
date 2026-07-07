@@ -2,16 +2,30 @@
 
 This is important because...  
 if we are to build web applications, it stands to reason that we should know how they communicate.
-We will be learning how to tie the front-end and backend with tools such as REST APIs and HTTP Requsts.
+We will be learning how to tie the front-end and backend with tools such as REST APIs and HTTP Requests.
+
+Clients request data from servers, in turn the server responds with the data (if any) and a status code that tells the client much useful information.
 
 ## [Status Codes Based On REST Methods](https://www.moesif.com/blog/technical/api-design/Which-HTTP-Status-Code-To-Use-For-Every-CRUD-App/)
 
 All HTTP communications include a status code; the beginning digit of said code, categorizes the response.  
 
+**100 - Informational**  
+Uncommon in everyday development; indicate that the srever has received the request and will continue the process.  
+Used for communications between clients and servers during transmission.  
+
+**200 - Success**
+indicates request was received and was succesful.  
+200 OK  
+201 Created  
+202 Accepted  
+205 No Content  
+
+
+
 ### Answers.1
 
 1. In your own words, describe what each group of status code represents:
-
    - 100's = Informational;  
       - uncommon, but still found in the wild; gives feedback that request was received and is being processed.  
    - 200's = Success;  
