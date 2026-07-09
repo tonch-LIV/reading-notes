@@ -2,7 +2,7 @@
 
 ## [The Time When Women Stopped Coding](https://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding)
 
-### Questions.1  
+### Answers.1  
 
 1. What occurred during the same time as the beginning of the decline of women in computer science?
 2. Why does it matter that males had been playing on computers growing up?
@@ -13,7 +13,7 @@ Take a few minutes to examine the charts and trends. Be prepared to discuss what
 
 ## [Why Diversity Matters to Your Tech Company](https://www.usatoday.com/story/tech/columnist/2015/07/21/why-diversity-matters-your-tech-company/30419871/)
 
-## Questions.2  
+## Answers.2  
 
 1. When are diversity efforts most successful?
 2. Why do diverse companies perform better?
