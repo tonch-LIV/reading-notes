@@ -3,7 +3,8 @@
 - [REST Methods Status Codes](#status-codes-based-on-rest-methods)
   - [Answers.1](#answers1)
 - [Building a REST API](#video---build-a-rest-api-with-nodejs-express--mongodb---quick---first-20-minutes)
-  - []
+  - [Answers.2](#answers2)
+- [Things to Learn More About](#things-to-learn-more-about)
 
 This is important because...  
 if we are to build web applications, it stands to reason that we should know how they communicate.
