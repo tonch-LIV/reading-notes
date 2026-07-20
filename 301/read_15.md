@@ -2,8 +2,6 @@
 
 Below you will find some reading material, code samples, and some additional resources that support the topic for this class and the upcoming lecture.
 
-Review the Submission Instructions for guidance on completing and submitting this assignment.
-
 ## [What is OAuth](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html)
 
 ### Answers.1
