@@ -22,10 +22,6 @@ Used for communications between clients and servers during transmission.
 
 **200 - Success**  
 indicates request was received and was succesful.  
-200 OK (GET, PUT/PATCH, DELETE)  
-201 Created  (POST)  
-202 Accepted  (POST)  
-205 No Content
 
 **300 - Redirection**  
 The requested resource is real, but is not at the location queried.  
@@ -39,6 +35,38 @@ Client must resolve before attempting again.
 **500 - Server-side Errors**  
 Request correctly reached server, but error / failure occured while processing it.  
 (server crashed, external service connection failure, etc.)  
+
+### Code for action  
+
+CRUD cleanly maps to HTTP methods.  
+
+**CREATE**  
+`POST`  
+200 OK  
+201 Created  
+202 Accepted  
+303 See Other  
+
+**READ**  
+`GET`  
+200 OK  
+206 Partial Content  
+300 Multiple Choices  
+304 Not Modified  
+307 Temporary Redirect  
+308 Permanent Redirect  
+
+**UPDATE**  
+`PUT` / `PATCH`  
+200 OK  
+204 No Content  
+202 Accepted
+
+**DELETE**  
+`DELETE`  
+204 No Content  
+200 OK  
+202 Accepted  
 
 ### Answers.1
 
