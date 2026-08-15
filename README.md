@@ -51,6 +51,9 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 | - [Class 14 Reading - Animations, Tranformations, and Transitions](201/read_14)           | - [Class 14 Reading - Diversity in Tech](301/read_14)           |
 |                                                                                           | - [Class 15 Reading - Authentication](301/read_15)              |
 
+**Prep**  
+[terminalPractice](401/Prep/terminalPractice)
+
 |                  401                    |                 Advanced                  |         Software Development           |
 |-----------------------------------------|-------------------------------------------|----------------------------------------|
 | - [Class 1 Reading](401/read_01)        | - [Class 16 Reading](401/read_16)         | - [Class 31 Reading](401/read_31)      |
