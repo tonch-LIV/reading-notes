@@ -1,4 +1,4 @@
-# 201_Read_02
+# 201_Read_02 - HTML, CSS, and JS Basics
 
 - [These Topics Matter Because...](#these-topics-matters-because)
 - [Intro to HTML](#intro-to-html)

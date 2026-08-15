@@ -1,4 +1,4 @@
-# 201_Read_06
+# 201_Read_06 - DOM, Domain Modeling, and Intro to Objects
 
 - [JavaScript Object Basics](#javascript-object-basics)
   - [Object Basics](#object-basics)

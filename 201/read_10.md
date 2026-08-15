@@ -1,4 +1,4 @@
-# 201_Read_10
+# 201_Read_10 - Debugging & CSS Layouts
 
 - [Where Did We Go Wrong](#where-did-we-go-wrong-w-javascript)
   - [Syntax](#syntax-errors)

@@ -1,4 +1,4 @@
-# 201_Read_05
+# 201_Read_05 - Images, Color, and Text
 
 - [HTML](#html-media)
   - [Using Images](#using-images)

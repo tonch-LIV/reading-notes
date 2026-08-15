@@ -1,4 +1,4 @@
-# 201_Read_12
+# 201_Read_12 - Charts
 
 - [JavaScript Canvas](#javascript-canvas)
   - [Rendering Content](#rendering-content)
