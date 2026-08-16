@@ -52,7 +52,7 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 |                                                                                           | - [Class 15 Reading - Authentication](301/read_15)              |
 
 **Prep**  
-[terminalPractice](401/Prep/terminalPractice)
+[terminalPractice](401/Prep/terminalPractice)  
 [SQL.Practice](401/Prep/introToSQL.md)
 
 |                  401                    |                 Advanced                  |         Software Development           |
