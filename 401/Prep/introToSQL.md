@@ -25,4 +25,4 @@ Free cross-platform client / editor integration for hands-on practice;
 
 `JOIN` combines related rows *across* tables.  
 
-![SQL practice result](401/Prep/img/SQL_practice.png)
+![SQL practice result](/401/Prep/img/SQL_practice.png)
