@@ -53,6 +53,7 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 
 **Prep**  
 [terminalPractice](401/Prep/terminalPractice)
+[SQL.Practice](401/Prep/introToSQL.md)
 
 |                  401                    |                 Advanced                  |         Software Development           |
 |-----------------------------------------|-------------------------------------------|----------------------------------------|
