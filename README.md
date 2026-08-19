@@ -57,18 +57,18 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 
 |                  401                    |                 Advanced                  |         Software Development           |
 |-----------------------------------------|-------------------------------------------|----------------------------------------|
-| - [Class 1 Reading](401/read_01)        | - [Class 16 Reading](401/read_16)         | - [Class 31 Reading](401/read_31)      |
-| - [Class 2 Reading](401/read_02)        | - [Class 17 Reading](401/read_17)         | - [Class 32 Reading](401/read_32)      |
-| - [Class 3 Reading](401/read_03)        | - [Class 18 Reading](401/read_18)         | - [Class 33 Reading](401/read_33)      |
-| - [Class 4 Reading](401/read_04)        | - [Class 19 Reading](401/read_19)         | - [Class 34 Reading](401/read_34)      |
-| - [Class 5 Reading](401/read_05)        | - [Class 20 Reading](401/read_20)         | - [Class 35 Reading](401/read_35)      |
-| - [Class 6 Reading](401/read_06)        | - [Class 21 Reading](401/read_21)         | - [Class 36 Reading](401/read_36)      |
-| - [Class 7 Reading](401/read_07)        | - [Class 22 Reading](401/read_22)         | - [Class 37 Reading](401/read_37)      |
-| - [Class 8 Reading](401/read_08)        | - [Class 23 Reading](401/read_23)         | - [Class 38 Reading](401/read_38)      |
-| - [Class 9 Reading](401/read_09)        | - [Class 24 Reading](401/read_24)         | - [Class 39 Reading](401/read_39)      |
-| - [Class 10 Reading](401/read_10)       | - [Class 25 Reading](401/read_25)         | - [Class 40 Reading](401/read_40)      |
-| - [Class 11 Reading](401/read_11)       | - [Class 26 Reading](401/read_26)         | - [Class 41 Reading](401/read_41)      |
-| - [Class 12 Reading](401/read_12)       | - [Class 27 Reading](401/read_27)         | - [Class 42 Reading](401/read_42)      |
-| - [Class 13 Reading](401/read_13)       | - [Class 28 Reading](401/read_28)         | - [Class 43 Reading](401/read_43)      |
-| - [Class 14 Reading](401/read_14)       | - [Class 29 Reading](401/read_29)         | - [Class 44 Reading](401/read_44)      |
-| - [Class 15 Reading](401/read_15)       | - [Class 30 Reading](401/read_30)         | - [Class 45 Reading](401/read_45)      |
+| - [Class 1 Reading - Node.js](401/read_01)        | - [Class 16 Reading -](401/read_16)         | - [Class 31 Reading -](401/read_31)      |
+| - [Class 2 Reading -](401/read_02)        | - [Class 17 Reading -](401/read_17)         | - [Class 32 Reading -](401/read_32)      |
+| - [Class 3 Reading -](401/read_03)        | - [Class 18 Reading -](401/read_18)         | - [Class 33 Reading -](401/read_33)      |
+| - [Class 4 Reading -](401/read_04)        | - [Class 19 Reading -](401/read_19)         | - [Class 34 Reading -](401/read_34)      |
+| - [Class 5 Reading -](401/read_05)        | - [Class 20 Reading -](401/read_20)         | - [Class 35 Reading -](401/read_35)      |
+| - [Class 6 Reading -](401/read_06)        | - [Class 21 Reading -](401/read_21)         | - [Class 36 Reading -](401/read_36)      |
+| - [Class 7 Reading -](401/read_07)        | - [Class 22 Reading -](401/read_22)         | - [Class 37 Reading -](401/read_37)      |
+| - [Class 8 Reading -](401/read_08)        | - [Class 23 Reading -](401/read_23)         | - [Class 38 Reading -](401/read_38)      |
+| - [Class 9 Reading -](401/read_09)        | - [Class 24 Reading -](401/read_24)         | - [Class 39 Reading -](401/read_39)      |
+| - [Class 10 Reading -](401/read_10)       | - [Class 25 Reading -](401/read_25)         | - [Class 40 Reading -](401/read_40)      |
+| - [Class 11 Reading -](401/read_11)       | - [Class 26 Reading -](401/read_26)         | - [Class 41 Reading -](401/read_41)      |
+| - [Class 12 Reading -](401/read_12)       | - [Class 27 Reading -](401/read_27)         | - [Class 42 Reading -](401/read_42)      |
+| - [Class 13 Reading -](401/read_13)       | - [Class 28 Reading -](401/read_28)         | - [Class 43 Reading -](401/read_43)      |
+| - [Class 14 Reading -](401/read_14)       | - [Class 29 Reading -](401/read_29)         | - [Class 44 Reading -](401/read_44)      |
+| - [Class 15 Reading -](401/read_15)       | - [Class 30 Reading -](401/read_30)         | - [Class 45 Reading -](401/read_45)      |
