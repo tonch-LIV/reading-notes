@@ -1,10 +1,17 @@
-# 401_Read_02 - Intro to Node.js
+# 401_Read_02 - Express, NPM, TDD, CI/CD
 
-## [Intro to NodeJS and Express](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction) 
+## [Intro to NodeJS and Express](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)  
+
+Node.js provides the environment on which execute JS; Express is the framewrok that makes building servers with Node much easier.
+
+Through the use of Express and its various tools for routing, HTTP methods, middleware, error handling, and more; the burden of building a server is lessend, by unloading said tasks that would've had to been built with Node only.
+
+Express processes middleware in the order that is registered
 
 ### Answers.1  
 
 1. Explain middleware, answer as though I were a non-technical recruiter.
+    - a series of checkpoints between information and where it needs to go; the checkpoint(s) completes its criteria check, then passes to the next checkpoint(?)
 2. Express the most popular ___.
     - [node web framework]
 3. Express is “unopinionated.” What does that mean?
@@ -23,6 +30,8 @@
     - `npm install --save -dev jshint`
 
 ## [What is TDD?](https://www.agilealliance.org/glossary/tdd/)
+
+All about improving efficiency regarding the 'default' workflow of writing code, then testing; However, by implementing `TDD`, we can write an automated test first, and even configure a `push` / deploy-type of magic.
 
 ### Answers.3
 
@@ -59,8 +68,8 @@
 
 ## Bookmark and Review
 
-[nodeJS docs](https://nodejs.org/en/docs/)
-[npm docs](https://docs.npmjs.com/)
-[express docs](https://expressjs.com/en/4x/api.html)
-[http status codes](https://www.restapitutorial.com/httpstatuscodes.html)
-[supertest](https://github.com/visionmedia/supertest)
+- [nodeJS docs](https://nodejs.org/en/docs/) - nodeGalore
+- [npm docs](https://docs.npmjs.com/) - install and manage packages
+- [express docs](https://expressjs.com/en/4x/api.html) - routes, middleware. req / res methods, etc.
+- [http status codes](https://www.restapitutorial.com/httpstatuscodes.html) - GET, UPDATE, etc.
+- [supertest](https://github.com/visionmedia/supertest) - testing HTTP server.
