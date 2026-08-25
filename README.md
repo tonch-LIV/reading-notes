@@ -59,7 +59,7 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 |-----------------------------------------|-------------------------------------------|----------------------------------------|
 | - [Class 1 Reading - Node.js](401/read_01)        | - [Class 16 Reading -](401/read_16)         | - [Class 31 Reading -](401/read_31)      |
 | - [Class 2 Reading - Express, NPM, TDD, CI/CD](401/read_02)        | - [Class 17 Reading -](401/read_17)         | - [Class 32 Reading -](401/read_32)      |
-| - [Class 3 Reading -](401/read_03)        | - [Class 18 Reading -](401/read_18)         | - [Class 33 Reading -](401/read_33)      |
+| - [Class 3 Reading - Express REST API](401/read_03)        | - [Class 18 Reading -](401/read_18)         | - [Class 33 Reading -](401/read_33)      |
 | - [Class 4 Reading -](401/read_04)        | - [Class 19 Reading -](401/read_19)         | - [Class 34 Reading -](401/read_34)      |
 | - [Class 5 Reading -](401/read_05)        | - [Class 20 Reading -](401/read_20)         | - [Class 35 Reading -](401/read_35)      |
 | - [Class 6 Reading -](401/read_06)        | - [Class 21 Reading -](401/read_21)         | - [Class 36 Reading -](401/read_36)      |
