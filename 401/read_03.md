@@ -1,5 +1,13 @@
 # 401_Read_03 - Express REST API
 
+- [ES6 Classes](#review-es6-classes)
+  - [Answers.1](#answers1)
+- [Express Routing - express.js](#express-routing---expressjs)
+  - [Answers.2](#answers2)
+- [Express Routing - scotch.io](#express-routing---scotchio)
+  - [Answers.3](#answers3)
+- [Things to Learn More About](#things-to-learn-more-about)
+
 ## [Review: ES6 Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 ### Answers.1
@@ -12,7 +20,7 @@
 3. How would you describe a constructor and contextual “this” to a non-technical friend?
     - a blueprint for building new objects from a class; defines the criteria / parameters of what the new instance will fill in with, with actual data. think IDs (hair color, weight, height), think car features across manufacturers (model, color, transmission, seats, fuel), etc. `this` simply referes to the particular object worked on at the moment.
 
-## [Using Express Routing](https://expressjs.com/en/guide/routing.html)
+## [Express Routing - express.js](https://expressjs.com/en/guide/routing.html)
 
 ## Answers.2
 
@@ -25,9 +33,9 @@
     - `next` is added when the current handler isn't or shouldn't be the end of the request-processing chain; when middleware is not finished and another middleware or route handler should run after it;
       - `next()` must be called inside if used as parameter.
 
-## [Express Routing](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4)
+## [Express Routing - scotch.io](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4)
 
-### Answer.3
+### Answers.3
 
 1. What is an Express Router?
     - a modular routing system that allows routes and middleware to be grouped and routed to, rather than putting every route inside the main server file. Easier to separate responsibilities per endpoint.
@@ -37,7 +45,7 @@
 3. What do we use route middleware for?
     - performs an action on a request (CRUD) before it reaches the final route handler; frees up the amount of work the route handler has to do alone.
 
-## Things I Want to Know More About
+## Things to Learn More About
 
 - more practice with `class`, `constructor`, `protoypes`.
 - hoisting functions

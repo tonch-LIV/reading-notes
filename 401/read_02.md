@@ -1,5 +1,16 @@
 # 401_Read_02 - Express, NPM, TDD, CI/CD
 
+- [Intro to NodeJS and Express](#intro-to-nodejs-and-express)
+  - [Answers.1](#answers1)
+- [What is NPM?](#what-is-npm)
+  - [Answers.2](#answers2)
+- [What is TDD?](#what-is-tdd)
+  - [Answers.3](#answers3)
+- [CI/CD](#cicd)
+  - [Answers.4](#answers4)
+- [Bookmark & Review](#bookmark--review)
+- [Things to Learn More About](#things-to-learn-more-about)
+
 ## [Intro to NodeJS and Express](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)  
 
 Node.js provides the environment on which execute JS; Express is the framewrok that makes building servers with Node much easier.
@@ -66,7 +77,7 @@ All about improving efficiency regarding the 'default' workflow of writing code,
     - Github is the central location where teams store, chare, and manage code, tests can be implemented, and they can be triggered to run when changes are made.
       - A librarian / teacher are good examples; teachers check the contents of assignments to make sure you did the assignmnet and meet the criteria to receive a passing score; if not, then fail the check, fail the assignment. Librarians lend and receive books and expect them to be returned to a similar state it was lent out.
 
-## Bookmark and Review
+## Bookmark & Review
 
 - [nodeJS docs](https://nodejs.org/en/docs/) - nodeGalore
 - [npm docs](https://docs.npmjs.com/) - install and manage packages
@@ -74,4 +85,4 @@ All about improving efficiency regarding the 'default' workflow of writing code,
 - [http status codes](https://www.restapitutorial.com/httpstatuscodes.html) - GET, UPDATE, etc.
 - [supertest](https://github.com/visionmedia/supertest) - testing HTTP server.
 
-## Things I Want to Know More About
+## Things to Learn More About
