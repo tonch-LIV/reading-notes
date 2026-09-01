@@ -1,15 +1,15 @@
 # 401_Read_04 - Data Modeling
 
-- [noSQL vs SQL](#nosql-vs-sqltarget_blank)
+- [noSQL vs SQL](#nosql-vs-sql)
   - [Answers.1](#answers1)
-- [SQL Modeling Techniques](#sql-modeling-techniquestarget_blank)
+- [SQL Modeling Techniques](#sql-modeling-techniques)
   - [Answers.2](#answers2)
-- [SQL vs noSQL - (Video)](#sql-vs-nosql---videotarget_blank)
+- [SQL vs noSQL - (Video)](#sql-vs-nosql---video)
   - [Answers.3](#answers3)
 - [Bookmark and Review](#bookmark-and-review)
 - [Things to Learn More About](#things-to-learn-more-about)
 
-## [noSQL vs SQL](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool){:target="_blank"}
+## [noSQL vs SQL](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool)
 
 Two ways to organize and store information, albeit differenty than one other.  
 
@@ -28,7 +28,7 @@ Whichever one chooses to use depends on the structure and complexity of the data
     - SQL grows *vertically*; as if improve and strengthen the one master baker by upgrading his internal resources (oven, racks, mixer, trays, tables, delivery system, etc.)
       - (*\*NOTE: modern SQL DBs can support horizontal scaling; See [The Geek Stuff](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=chatgpt.com) for more info.*)
 
-## [SQL Modeling Techniques](https://www.essentialsql.com/get-ready-to-learn-sql-7-simplified-data-modeling/){:target="_blank"}
+## [SQL Modeling Techniques](https://www.essentialsql.com/get-ready-to-learn-sql-7-simplified-data-modeling/)
 
 Before even making tables; one must plan how the information will be divided between the tables and the relationshiop between those tables, this process is known as **Data Modeling**.  
 
@@ -44,7 +44,7 @@ Tools such as diagrams can help illustrate the goal of what a developer(s) are t
     - A primary key is a unique identifier for each record inside the table it resides in.
     - A foreign key, refrences a primary key in another table.
 
-## [SQL vs noSQL - (Video)](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y){:target="_blank"}
+## [SQL vs noSQL - (Video)](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
 
 SQL syntax,  
 Relation DB schema,  
@@ -55,7 +55,7 @@ Information divided across tables, but still connected...
 ### Answers.3
 
 1. How do we treat **keywords** and **parameters** differently in SQL syntax?
-    - KEYWORDS (***SELECT***, ***FROM***, ***WHERE***...) written in all caps.
+    - KEYWORDS (***SELECT***, ***FROM***, ***WHERE***, **INSERT**, **UPDATE**, ETC.) written in all caps.
     - *parameters* (*table names*, *column names*, etc.) written in lowercase.
 2. Define **normalization** within the context of schemas and data.
     - Data organized into focuses and related tables; with the goal to reduce duplicate information and maintain consistency.
@@ -63,11 +63,11 @@ Information divided across tables, but still connected...
 3. Explain the difference between one-to-one, one-to-many, and many-to-many relationships to a non-technical recruiter.
     - one-to-one: unique identifiers. not shared between other records; like ID numbers, DNA, *bread recipes*
     - one-to-many: a single record shared among many; a company to many employees; bread orders from many clients of a specific bread
-    - many-to-many: no exclusivity; a record connects to many others, and vice-versa, many are connected to it; 
+    - many-to-many: no exclusivity; a record connects to many others, and vice-versa, many are connected to it;
 
 ## Bookmark and Review
 
-- [Sequalize API](https://sequelize.org/master/){:target="_blank"}
+- [Sequalize API](https://sequelize.org/master/)
   - An ORM, Object-Relational Mapper for Node.js; allowing an application to work with an SQL DB, through JS methods and models, w/o the need to write every DB operation to be written in SQL syntax.
 
 ## Things to Learn More About
@@ -79,4 +79,3 @@ Information divided across tables, but still connected...
   - KEYWORDS,
     - how extensive a query can be, and how to build it, piece-by-piece.
   - Sequalize
-  
