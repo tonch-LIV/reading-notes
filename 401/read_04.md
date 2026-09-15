@@ -44,7 +44,7 @@ Tools such as diagrams can help illustrate the goal of what a developer(s) are t
     - A primary key is a unique identifier for each record inside the table it resides in.
     - A foreign key, refrences a primary key in another table.
 
-## [SQL vs noSQL - (Video)](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
+## [SQL vs noSQL - [Video]](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
 
 SQL syntax,  
 Relation DB schema,  
