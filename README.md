@@ -63,7 +63,7 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 | - [Class 4 Reading - Data Modeling](401/read_04)            | - [Class 19 Reading -](401/read_19)         | - [Class 34 Reading -](401/read_34)      |
 | - [Class 5 Reading - Linked List](401/read_05)              | - [Class 20 Reading -](401/read_20)         | - [Class 35 Reading -](401/read_35)      |
 | - [Class 6 Reading - Authentication](401/read_06)           | - [Class 21 Reading -](401/read_21)         | - [Class 36 Reading -](401/read_36)      |
-| - [Class 7 Reading -](401/read_07)        | - [Class 22 Reading -](401/read_22)         | - [Class 37 Reading -](401/read_37)      |
+| - [Class 7 Reading - JWTs](401/read_07)                     | - [Class 22 Reading -](401/read_22)         | - [Class 37 Reading -](401/read_37)      |
 | - [Class 8 Reading -](401/read_08)        | - [Class 23 Reading -](401/read_23)         | - [Class 38 Reading -](401/read_38)      |
 | - [Class 9 Reading -](401/read_09)        | - [Class 24 Reading -](401/read_24)         | - [Class 39 Reading -](401/read_39)      |
 | - [Class 10 Reading -](401/read_10)       | - [Class 25 Reading -](401/read_25)         | - [Class 40 Reading -](401/read_40)      |
