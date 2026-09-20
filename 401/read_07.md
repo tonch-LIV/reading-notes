@@ -47,7 +47,7 @@ Authorization: Bearer <token>
 ### Answers.3
 
 1. Why use JWT?
-    - They allow an application to verify authentication and authorization for protected resources. 
+    - They allow an application to verify authentication and authorization for protected resources.
     - Useful in APIs, because the client can send tokens with request rather than the server storing different session records for each logged-in users.
 2. JWT is Compact and self-contained. Describe how this is useful to a non-technical friend.
     - ID badges; small, compact, and has (can) include useful details (who? when? what?). Servers are able to check and decide wether the pass is valid.
