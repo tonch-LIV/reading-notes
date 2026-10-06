@@ -1,5 +1,11 @@
 # 401_Read_05 - Linked List
 
+- [Big O](#big-o-analysis-of-algorithm-efficiency-up-through-the-section-titled-linear-complexity-growth)
+  - [Questions.1](#questions1)
+- [Linked Lists](#linked-lists--whats-a-linked-list-anyway-pt1--pt2)
+  -[Questions.2](#questions2)
+- [Things to Learn More About](#things-to-learn-more-about)
+
 ## [Big O: Analysis of Algorithm Efficiency](https://gicw.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html) (Up through the section titled “Linear Complexity Growth”)
 
 This reading centers around analyzing the efficiency of code / program execution through the size of the inputs, the measurements used, keeping the best and worst case situations in mind, and the differences between constant and linear growth.  
