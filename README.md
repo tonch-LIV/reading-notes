@@ -67,7 +67,7 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 | - [Class 8 Reading - Access Control List](401/read_08)      | - [Class 23 Reading -](401/read_23)         | - [Class 38 Reading -](401/read_38)      |
 | - [Class 9 Reading - Authen/Authoriz Server](401/read_09)   | - [Class 24 Reading -](401/read_24)         | - [Class 39 Reading -](401/read_39)      |
 | - [Class 10 Reading - Stacks & Queues](401/read_10)       | - [Class 25 Reading -](401/read_25)         | - [Class 40 Reading -](401/read_40)      |
-| - [Class 11 Reading -](401/read_11)       | - [Class 26 Reading -](401/read_26)         | - [Class 41 Reading -](401/read_41)      |
+| - [Class 11 Reading - Event-Driven Apps](401/read_11)       | - [Class 26 Reading -](401/read_26)         | - [Class 41 Reading -](401/read_41)      |
 | - [Class 12 Reading -](401/read_12)       | - [Class 27 Reading -](401/read_27)         | - [Class 42 Reading -](401/read_42)      |
 | - [Class 13 Reading -](401/read_13)       | - [Class 28 Reading -](401/read_28)         | - [Class 43 Reading -](401/read_43)      |
 | - [Class 14 Reading -](401/read_14)       | - [Class 29 Reading -](401/read_29)         | - [Class 44 Reading -](401/read_44)      |
