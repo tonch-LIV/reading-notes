@@ -1,5 +1,14 @@
 # 401_Read_13 - Rooms & Namespaces
 
+- [Socket.io Chat](#socketio-chat)
+  - [Answers.1](#answers1)
+- [Rooms](#rooms)
+  -[Answers.2](#answers2)
+- [Namespaces](#namespaces)
+  - [Answers.3](#answers3)
+- [Bookmark and Review](#bookmark-and-review)\
+- [Things to Learn More About](#things-to-learn-more-about)
+
 ## [Socket.io Chat](https://socket.io/get-started/chat/)
 
 The socket.io chat example demonstrates how a basic real-time messaging app would work.  
