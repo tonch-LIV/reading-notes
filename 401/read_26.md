@@ -1,4 +1,4 @@
-# 401_Read_26 - Component Based UI
+# 401_Read_26 - Component Based UI / React Refresh
 
 - [React Quick Start](#react-quick-start)
   - [Answers.1](#answers1)
