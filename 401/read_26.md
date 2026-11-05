@@ -45,7 +45,7 @@ Rather than manually updating *individual* DOM elements; React updates the UI wh
 ## [Render and Commit](https://react.dev/learn/render-and-commit)
 
 To update the UI, React follows three main steps:  
-`Trigger -> Render -> Commit`  
+`Trigger -> Render -> Commit` *(... and finish w/ paint)*  
 Otherwise known as 'painting' the updated screen.  
 
 During the **Initial rendering**, React creates the necessary DOM nodes.  
