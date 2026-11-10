@@ -25,7 +25,7 @@ In five steps the thinking in react;
 
 1. Break UI into hierarchy - Divide interface into smaller, reusable, components; organize according to relationship.
 2. Build static version - Integrate components that render info as planned; no interactivity or state yet.
-3. Build minimal & complete representation of UI state - ID what info will change over time, store in state; 
+3. Build minimal & complete representation of UI state - ID what info will change over time, store in state;
 4. ID where state will live - ID which components need access to state; locate closest common parent, when appropriate.
 5. Add inverse data flow - allows child components to comm. user interactions back to parent through use of callback functions, state updates, and UI changes.
 
@@ -55,12 +55,12 @@ Two seperate instances of the same component can each maintain their own indepen
 
 1. What is one reason a local variable isn’t sufficient for managing a React component?
     - Local variables don't persist through renders.
-    - Updating the value of a variable, does not trugger React to re-render the componenent.
+    - Updating the value of a variable, does not trigger React to re-render the componenent.
     - State variables do both
 2. What is the argument to the `useState` hook, and what are the two parts of its return array?
     - argument is the **initial state value**.
     - returns an array with two elements,
-      - curent state variable stored.
+      - current state variable stored.
       - setter function
 3. How can Component A access state from Component B?
     - through lifting state up to the closest common parent
