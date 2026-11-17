@@ -27,7 +27,7 @@ Aim to keep state simple with necessary info only, and reduce opportunities for 
 
 ## [Passing State Deeply with Context](https://react.dev/learn/passing-data-deeply-with-context)
 
-Through the use of React's Context API, information is able to be shared across multiple components without the need to pass props through every level from pent to child. Enter `useContext`, alongside `createContext`, `eventHandlers`. Props are not going anywhere and should still be used. Reserve `useContext` for when data structure become too complicated for a did 
+Through the use of React's Context API, information is able to be shared across multiple components without the need to pass props through every level from pent to child. Enter `useContext`, alongside `createContext`, `eventHandlers`. Props are not going anywhere and should still be used. Reserve `useContext` for when data structure become too complicated.
 
 ### Answers.2
 

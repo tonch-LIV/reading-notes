@@ -38,7 +38,7 @@ Hash tables provide **O(1) lookup time**. but this varies on the accumulation of
 4. What is the purpose of linked-list in regards to this reading and what we learned about buckets?
     <!-- - A linked-list is a way to circumvent the creation of collisions by allowing multiple pairs to be stored and searched inside one bucket. -->
 5. What is the average Big(O) time lookup complexity?
-    - O(1), constant
+    <!-- - O(1), constant -->
 
 ## Resources
 
