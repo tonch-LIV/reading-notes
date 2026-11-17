@@ -71,4 +71,4 @@ All this to allow oneself to learn and grow from obstacles and challenges that w
 | - [Class 12 Reading - Sockets & OSI](401/read_12)           | - [Class 27 Reading - useState()](401/read_27)  | - [Class 42 Reading -](401/read_42)      |
 | - [Class 13 Reading - Rooms and Namespaces](401/read_13)    | - [Class 28 Reading - useEffect()](401/read_28) | - [Class 43 Reading -](401/read_43)      |
 | - [Class 14 Reading - EXCUSED](401/read_14)                 | - [Class 29 Reading - useReducer()](401/read_29)| - [Class 44 Reading -](401/read_44)      |
-| - [Class 15 Reading - binaryTrees](401/read_15)             | - [Class 30 Reading -](401/read_30)             | - [Class 45 Reading -](401/read_45)      |
+| - [Class 15 Reading - binaryTrees](401/read_15)             | - [Class 30 Reading - Hash Tables](401/read_30) | - [Class 45 Reading -](401/read_45)      |
